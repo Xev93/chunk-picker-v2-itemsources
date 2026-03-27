@@ -6363,7 +6363,7 @@ input#searchHighest3 {
 .highest3-item-source {
     padding-left: 15px;
     font-size: 0.9em;
-    color: var(--color6);
+    color: var(--colorTextAlt);
 }
 
 .highest3-item.searchhide {
