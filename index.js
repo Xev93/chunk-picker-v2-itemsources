@@ -1331,6 +1331,7 @@ let searchDetailsModalOpen = false;
 let highestModalOpen = false;
 let bisUpgradesModalOpen = false;
 let highest2ModalOpen = false;
+let highest3ModalOpen = false; // item sources
 let methodsModalOpen = false;
 let completeModalOpen = false;
 let addEquipmentModalOpen = false;
@@ -1451,6 +1452,7 @@ let starRegions = {
 let pickedNum;
 let highestTab;
 let highestTab2;
+let highestTab3; // item sources
 let dropRatesGlobal = {};
 let dropTablesGlobal = {};
 let bestEquipmentAltsGlobal = {};
@@ -10269,6 +10271,104 @@ let closeHighest2 = function() {
     $('#highest2Modal').remove();
     editingSlayerLock = false;
 }
+
+// --- Item Sources ---
+let closeHighest3 = function() {
+    highest3ModalOpen = false;
+    modalOutsideTime = Date.now();
+    $('#highest3Modal').remove();
+}
+
+let switchHighest3Tab = function(tab) {
+    highestTab3 = tab;
+    $('#highest3-data .h3-style-body').hide();
+    $('#highest3-title .h3-style-button').removeClass('h3-active-tab');
+    $('#highest3-title .h3-' + tab + '-button').addClass('h3-active-tab');
+    $('#highest3-data .h3-' + tab + '-body').show();
+    document.getElementById('highest3-data').scrollTop = 0;
+}
+
+let searchHighest3 = function() {
+    let searchTemp = ($('#searchHighest3').val() || '').toLowerCase();
+    $('#highest3-data .highest3-item').each(function() {
+        if ($(this).text().toLowerCase().includes(searchTemp)) {
+            $(this).removeClass('searchhide').show();
+        } else {
+            $(this).addClass('searchhide').hide();
+        }
+    });
+}
+
+let formatSourceType = function(type) {
+    if (type === 'primary-drop') return 'Drop';
+    if (type === 'secondary-drop') return 'Drop (rare)';
+    if (type === 'primary-spawn') return 'Spawn';
+    if (type === 'secondary-spawn') return 'Spawn (secondary)';
+    if (type === 'shop') return 'Shop';
+    if (type === 'primary-Nonskill') return 'Other';
+    if (type === 'secondary-Nonskill') return 'Other (secondary)';
+    if (type.startsWith('multi-')) return 'Processing (' + type.split('-')[1] + ')';
+    return type;
+}
+
+let openHighest3 = function() {
+    if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
+        modal.generate('highest3Modal', onMobile);
+        onMobile && hideMobileMenu();
+        highest3ModalOpen = true;
+        $('#searchHighest3').val('');
+        $('.highest3-title').empty();
+        $('.highest3-data').empty();
+
+        let categories = [
+            { name: 'All', match: function() { return true; } },
+            { name: 'Drops', match: function(t) { return t.includes('drop'); } },
+            { name: 'Spawns', match: function(t) { return t.includes('spawn'); } },
+            { name: 'Shops', match: function(t) { return t === 'shop'; } },
+            { name: 'Processing', match: function(t) { return t.startsWith('multi-'); } },
+            { name: 'Other', match: function(t) { return !t.includes('drop') && !t.includes('spawn') && t !== 'shop' && !t.startsWith('multi-'); } }
+        ];
+
+        categories.forEach((cat) => {
+            $('.highest3-title').append(`<div class='noscroll h3-style-button h3-${cat.name}-button' onclick='switchHighest3Tab("${cat.name}")'><span class='noscroll'>${cat.name}</span></div>`);
+            $('.highest3-data').append(`<div class='noscroll h3-style-body h3-${cat.name}-body'></div>`);
+        });
+
+        if (!baseChunkData || !baseChunkData['items'] || Object.keys(baseChunkData['items']).length === 0) {
+            categories.forEach((cat) => {
+                $(`.h3-${cat.name}-body`).append(`<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>No items available. Unlock chunks and calculate tasks first.</div></div>`);
+            });
+        } else {
+            Object.keys(baseChunkData['items']).filter((item) => !item.includes('^')).sort().forEach((itemName) => {
+                let sources = baseChunkData['items'][itemName];
+                let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
+                let sourceTypes = Object.values(sources);
+                let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
+                Object.keys(sources).forEach((sourceKey) => {
+                    let sourceType = sources[sourceKey];
+                    itemHtml += `<div class='noscroll highest3-item-source'>${sourceKey} — ${formatSourceType(sourceType)}</div>`;
+                });
+                itemHtml += `</div>`;
+                categories.forEach((cat) => {
+                    if (cat.name === 'All' || sourceTypes.some((t) => cat.match(t))) {
+                        $(`.h3-${cat.name}-body`).append(itemHtml);
+                    }
+                });
+            });
+        }
+
+        if (highestTab3 === undefined) {
+            highestTab3 = 'All';
+        }
+        $('#highest3-data .h3-style-body').hide();
+        $('.h3-' + highestTab3 + '-button').addClass('h3-active-tab');
+        $('.h3-' + highestTab3 + '-body').show();
+        $('#highest3Modal').show();
+        modalOutsideTime = Date.now();
+        document.getElementById('highest3-data').scrollTop = 0;
+    }
+}
+// --- End Item Sources ---
 
 // Closes the methods modal
 let closeMethods = function() {
