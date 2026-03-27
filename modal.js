@@ -178,6 +178,16 @@ const modalContents = {
         <div id="highest2-title" class="highest2-title noscroll"></div>
         <div id="highest2-data" class="highest2-data noscroll"></div>
     `,
+    // --- Item Sources ---
+    'highest3Modal': `
+        <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeHighest3()"></i>
+        <div id="highest3-searchcontainer" class="highest3-searchcontainer noscroll">
+            <input type="text" placeholder="Search items..." id="searchHighest3" class="noscrollhard"
+            oninput="searchHighest3()" autocomplete="off" />
+        </div>
+        <div id="highest3-title" class="highest3-title noscroll"></div>
+        <div id="highest3-data" class="highest3-data noscroll"></div>
+    `,
     'methodsModal': `
         <div class="methods-topbar topbar noscroll">
             <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeMethods()"></i>
