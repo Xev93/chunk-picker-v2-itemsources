@@ -10320,11 +10320,53 @@ let formatSourceType = function(type) {
     return type;
 }
 
+let getSourceChunks = function(sourceKey, sourceType) {
+    if (sourceType.includes('spawn')) {
+        let chunkId = sourceKey.split('-')[0];
+        return chunkId.match(/^[0-9]+$/) ? [chunkId] : [];
+    }
+    if (sourceType.includes('drop') && !!baseChunkData['monsters'] && !!baseChunkData['monsters'][sourceKey]) {
+        return Object.keys(baseChunkData['monsters'][sourceKey]);
+    }
+    if (sourceType === 'shop' && !!baseChunkData['shops'] && !!baseChunkData['shops'][sourceKey]) {
+        return Object.keys(baseChunkData['shops'][sourceKey]);
+    }
+    return [];
+}
+
+let getChunkLabel = function(chunkId) {
+    let id = chunkId.split('-')[0];
+    if (!!chunkInfo && !!chunkInfo['chunks'] && !!chunkInfo['chunks'][id] && !!chunkInfo['chunks'][id]['Nickname']) {
+        return chunkInfo['chunks'][id]['Nickname'] + '(' + id + ')';
+    }
+    return id;
+}
+
+let h3ChunkUid = 0;
+
+let buildChunkLinksHtml = function(chunks) {
+    if (chunks.length === 0) return '';
+    if (chunks.length === 1) {
+        let id = chunks[0].split('-')[0];
+        return ` <span class='noscroll link highest3-chunk-link' onclick='closeHighest3(); scrollToChunkCanvas(${id})'>${getChunkLabel(chunks[0])}</span>`;
+    }
+    let uid = h3ChunkUid++;
+    let html = ` <span class='noscroll highest3-chunk-toggle link' onclick='$(".h3-chunks-${uid}").toggle()'>${chunks.length} chunks ▾</span>`;
+    html += `<div class='noscroll highest3-chunk-list h3-chunks-${uid}' style='display:none'>`;
+    chunks.forEach((chunk) => {
+        let id = chunk.split('-')[0];
+        html += `<div class='noscroll highest3-chunk-entry'><span class='noscroll link' onclick='closeHighest3(); scrollToChunkCanvas(${id})'>${getChunkLabel(chunk)}</span></div>`;
+    });
+    html += `</div>`;
+    return html;
+}
+
 let openHighest3 = function() {
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
         modal.generate('highest3Modal', onMobile);
         onMobile && hideMobileMenu();
         highest3ModalOpen = true;
+        h3ChunkUid = 0;
         $('#searchHighest3').val('');
         $('.highest3-title').empty();
         $('.highest3-data').empty();
@@ -10355,7 +10397,9 @@ let openHighest3 = function() {
                 let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
                 Object.keys(sources).forEach((sourceKey) => {
                     let sourceType = sources[sourceKey];
-                    itemHtml += `<div class='noscroll highest3-item-source'>${sourceKey} — ${formatSourceType(sourceType)}</div>`;
+                    let chunks = getSourceChunks(sourceKey, sourceType);
+                    let chunkLinksHtml = buildChunkLinksHtml(chunks);
+                    itemHtml += `<div class='noscroll highest3-item-source'>${sourceKey} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
                 });
                 itemHtml += `</div>`;
                 categories.forEach((cat) => {

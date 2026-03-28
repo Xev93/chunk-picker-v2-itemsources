@@ -6370,6 +6370,23 @@ input#searchHighest3 {
     display: none;
 }
 
+.highest3-chunk-link {
+    margin-left: 5px;
+}
+
+.highest3-chunk-toggle {
+    margin-left: 5px;
+}
+
+.highest3-chunk-list {
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+.highest3-chunk-entry {
+    padding: 1px 0;
+}
+
 .highest2-subtitle {
     font-size: 32px;
     font-weight: bold;
