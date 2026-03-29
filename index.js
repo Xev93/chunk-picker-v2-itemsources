@@ -10314,9 +10314,9 @@ let formatSourceType = function(type) {
     if (type === 'primary-spawn') return 'Spawn';
     if (type === 'secondary-spawn') return 'Spawn (secondary)';
     if (type === 'shop') return 'Shop';
-    if (type === 'primary-Nonskill') return 'Other';
-    if (type === 'secondary-Nonskill') return 'Other (secondary)';
     if (type.startsWith('multi-')) return 'Processing (' + type.split('-')[1] + ')';
+    if (type.startsWith('primary-')) return type.split('-')[1];
+    if (type.startsWith('secondary-')) return type.split('-')[1] + ' (secondary)';
     return type;
 }
 
@@ -10376,8 +10376,8 @@ let openHighest3 = function() {
             { name: 'Drops', match: function(t) { return t.includes('drop'); } },
             { name: 'Spawns', match: function(t) { return t.includes('spawn'); } },
             { name: 'Shops', match: function(t) { return t === 'shop'; } },
-            { name: 'Processing', match: function(t) { return t.startsWith('multi-'); } },
-            { name: 'Other', match: function(t) { return !t.includes('drop') && !t.includes('spawn') && t !== 'shop' && !t.startsWith('multi-'); } }
+            { name: 'Processing', match: function(t) { return t.startsWith('multi-') || (t.startsWith('primary-') && !t.includes('drop') && !t.includes('spawn')) || (t.startsWith('secondary-') && !t.includes('drop') && !t.includes('spawn')); } },
+            { name: 'Other', match: function(t) { return !t.includes('drop') && !t.includes('spawn') && t !== 'shop' && !t.startsWith('multi-') && !t.startsWith('primary-') && !t.startsWith('secondary-'); } }
         ];
 
         categories.forEach((cat) => {
@@ -10397,9 +10397,10 @@ let openHighest3 = function() {
                 let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
                 Object.keys(sources).forEach((sourceKey) => {
                     let sourceType = sources[sourceKey];
+                    let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
-                    itemHtml += `<div class='noscroll highest3-item-source'>${sourceKey} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
+                    itemHtml += `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
                 });
                 itemHtml += `</div>`;
                 categories.forEach((cat) => {
