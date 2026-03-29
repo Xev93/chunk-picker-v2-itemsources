@@ -10400,7 +10400,11 @@ let openHighest3 = function() {
                     let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
-                    itemHtml += `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
+                    if (sourceType.includes('spawn')) {
+                        itemHtml += `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
+                    } else {
+                        itemHtml += `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
+                    }
                 });
                 itemHtml += `</div>`;
                 categories.forEach((cat) => {
