@@ -10400,7 +10400,8 @@ let openHighest3 = function() {
                     let sourceLink = sourceDisplay;
                     if (sourceType.includes('drop')) {
                         let wikiName = sourceKey.includes('#Level') ? sourceKey.split('#')[0] : sourceKey;
-                        let wikiAnchor = sourceKey.includes('#Level') ? '#Drops_(level_' + sourceKey.split('#Level ')[1] + ')' : '#Drops';
+                        let levelMatch = sourceKey.match(/#Level\s*(\d+)/);
+                        let wikiAnchor = levelMatch ? '#Drops_(level_' + levelMatch[1] + ')' : '#Drops';
                         sourceLink = `<a class='link' href="https://oldschool.runescape.wiki/w/${encodeForUrl(wikiName)}${wikiAnchor}" target="_blank">${sourceDisplay}</a>`;
                     } else if (sourceType === 'shop') {
                         sourceLink = `<a class='link' href="https://oldschool.runescape.wiki/w/${encodeForUrl(sourceKey)}" target="_blank">${sourceDisplay}</a>`;
