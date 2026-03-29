@@ -10310,7 +10310,7 @@ let searchHighest3 = function() {
 
 let formatSourceType = function(type) {
     if (type === 'primary-drop') return 'Drop';
-    if (type === 'secondary-drop') return 'Drop (rare)';
+    if (type === 'secondary-drop') return 'Drop';
     if (type === 'primary-spawn') return 'Spawn';
     if (type === 'secondary-spawn') return 'Spawn (secondary)';
     if (type === 'shop') return 'Shop';
@@ -10399,12 +10399,13 @@ let openHighest3 = function() {
                     let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
+                    let dropRate = sourceType.includes('drop') && !!dropRatesGlobal[sourceKey] && !!dropRatesGlobal[sourceKey][itemName] ? ' ' + dropRatesGlobal[sourceKey][itemName] : '';
                     let allHtml = sourceType.includes('spawn')
                         ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
-                        : `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
+                        : `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${dropRate}${chunkLinksHtml}</div>`;
                     let filteredHtml = sourceType.includes('spawn')
                         ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}</div>`
-                        : `<div class='noscroll highest3-item-source'>${sourceDisplay}${chunkLinksHtml}</div>`;
+                        : `<div class='noscroll highest3-item-source'>${sourceDisplay}${dropRate}${chunkLinksHtml}</div>`;
                     sourceEntries.push({ type: sourceType, allHtml: allHtml, filteredHtml: filteredHtml });
                 });
                 categories.forEach((cat) => {
