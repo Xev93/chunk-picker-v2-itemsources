@@ -173,7 +173,7 @@ let activeSubTabs = {
 let subCheckboxNames = {};
 let toggleSubCheckboxTime = 0;
 
-firebase.appCheck().activate('6LcL0owsAAAAACXiZo8-5vv3rW3qbaBeX-SHwBSv', true);
+// firebase.appCheck().activate('6LcL0owsAAAAACXiZo8-5vv3rW3qbaBeX-SHwBSv', true); // disabled for dev testing
 let databaseRef = firebase.database().ref();                                    // Firebase database reference
 let myRef;                                                                      // Firebase database reference for this map ID
 
@@ -10397,15 +10397,16 @@ let openHighest3 = function() {
                 Object.keys(sources).forEach((sourceKey) => {
                     let sourceType = sources[sourceKey];
                     let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
+                    let sourceLink = (sourceType.includes('drop') || sourceType === 'shop') ? `<a class='link' href="https://oldschool.runescape.wiki/w/${encodeForUrl(sourceKey)}" target="_blank">${sourceDisplay}</a>` : sourceDisplay;
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
                     let dropRate = sourceType.includes('drop') && !!dropRatesGlobal[sourceKey] && !!dropRatesGlobal[sourceKey][itemName] ? ' (' + dropRatesGlobal[sourceKey][itemName] + ')' : '';
                     let allHtml = sourceType.includes('spawn')
                         ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
-                        : `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${dropRate}${chunkLinksHtml}</div>`;
+                        : `<div class='noscroll highest3-item-source'>${sourceLink} — ${formatSourceType(sourceType)}${dropRate}${chunkLinksHtml}</div>`;
                     let filteredHtml = sourceType.includes('spawn')
                         ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}</div>`
-                        : `<div class='noscroll highest3-item-source'>${sourceDisplay}${dropRate}${chunkLinksHtml}</div>`;
+                        : `<div class='noscroll highest3-item-source'>${sourceLink}${dropRate}${chunkLinksHtml}</div>`;
                     sourceEntries.push({ type: sourceType, allHtml: allHtml, filteredHtml: filteredHtml });
                 });
                 categories.forEach((cat) => {
