@@ -3194,6 +3194,13 @@ label .tooltip-base-el:active {
     margin-top: -5%;
 }
 
+/* --- Item Sources --- */
+#highest3Modal > .modal-content {
+    height: 67%;
+    width: 45%;
+    margin-top: -5%;
+}
+
 #methodsModal > .modal-content {
     height: 55%;
     width: 35%;
