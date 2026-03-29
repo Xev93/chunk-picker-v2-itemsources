@@ -864,7 +864,7 @@ button.menu2 {
 /* --- Item Sources --- */
 .highest3 {
     background-color: rgb(50, 180, 100);
-    width: min(8vw, 125px);
+    width: min(10vw, 150px);
     height: 100%;
     font-size: min(1.2vw, 20px);
     white-space: nowrap;
