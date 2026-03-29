@@ -202,4 +202,11 @@ if (itemCount === 0) {
 // Bind search input via jQuery since inline oninput can't see window-scoped functions in console context
 $(document).on('input', '#searchHighest3', function() { searchHighest3(); });
 
+// Block clicks from passing through the modal to the canvas (console-test only — real deployment uses guard conditions)
+$(document).on('mousedown mouseup click touchstart touchend', '#highest3Modal', function(e) {
+    if (!$(e.target).hasClass('link') && !$(e.target).hasClass('h3-style-button') && !$(e.target).closest('.h3-style-button').length && !$(e.target).hasClass('manual-close')) {
+        e.stopPropagation();
+    }
+});
+
 console.log('[Item Sources] Run openHighest3() to open the modal.');
