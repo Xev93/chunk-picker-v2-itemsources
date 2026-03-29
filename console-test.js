@@ -199,4 +199,7 @@ console.log(`[Item Sources] Ready. ${itemCount} items, ${monsterCount} monsters,
 if (itemCount === 0) {
     console.warn('[Item Sources] baseChunkData is empty. Make sure tasks have been calculated first (click "Calculate Tasks" in the chunk panel if needed).');
 }
+// Bind search input via jQuery since inline oninput can't see window-scoped functions in console context
+$(document).on('input', '#searchHighest3', function() { searchHighest3(); });
+
 console.log('[Item Sources] Run openHighest3() to open the modal.');
