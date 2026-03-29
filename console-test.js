@@ -151,22 +151,23 @@ window.openHighest3 = function() {
             Object.keys(baseChunkData['items']).filter((item) => !item.includes('^')).sort().forEach((itemName) => {
                 let sources = baseChunkData['items'][itemName];
                 let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
-                let sourceTypes = Object.values(sources);
-                let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
+                let sourceEntries = [];
                 Object.keys(sources).forEach((sourceKey) => {
                     let sourceType = sources[sourceKey];
+                    let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
-                    let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
-                    if (sourceType.includes('spawn')) {
-                        itemHtml += `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
-                    } else {
-                        itemHtml += `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
-                    }
+                    let rowHtml = sourceType.includes('spawn')
+                        ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
+                        : `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
+                    sourceEntries.push({ type: sourceType, html: rowHtml });
                 });
-                itemHtml += `</div>`;
                 categories.forEach((cat) => {
-                    if (cat.name === 'All' || sourceTypes.some((t) => cat.match(t))) {
+                    let filtered = cat.name === 'All' ? sourceEntries : sourceEntries.filter((e) => cat.match(e.type));
+                    if (filtered.length > 0) {
+                        let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
+                        filtered.forEach((e) => { itemHtml += e.html; });
+                        itemHtml += `</div>`;
                         $(`.h3-${cat.name}-body`).append(itemHtml);
                     }
                 });
