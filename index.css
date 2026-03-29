@@ -867,6 +867,7 @@ button.menu2 {
     width: min(8vw, 125px);
     height: 100%;
     font-size: min(1.2vw, 20px);
+    white-space: nowrap;
     color: white;
     display: inline;
     border-width: 1px 1px 1px 1px;
