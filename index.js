@@ -10337,7 +10337,7 @@ let getSourceChunks = function(sourceKey, sourceType) {
 let getChunkLabel = function(chunkId) {
     let id = chunkId.split('-')[0];
     if (!!chunkInfo && !!chunkInfo['chunks'] && !!chunkInfo['chunks'][id] && !!chunkInfo['chunks'][id]['Nickname']) {
-        return chunkInfo['chunks'][id]['Nickname'] + '(' + id + ')';
+        return chunkInfo['chunks'][id]['Nickname'] + ' (' + id + ')';
     }
     return id;
 }
