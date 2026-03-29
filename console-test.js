@@ -8,8 +8,8 @@
     style.textContent = `
         .highest3-searchcontainer { padding: 5px 15px; font-size: 1.7vh; }
         input#searchHighest3 { font-size: 2.1vh; }
-        .highest3-title { font-size: 1.2vw; display: inline-flex; width: 100%; font-weight: bold; height: 7%; background-color: var(--color2); overflow-y: hidden; }
-        .highest3-data { overflow-y: auto; height: 84%; }
+        .highest3-title { font-size: 1.2vw; display: inline-flex; width: 100%; font-weight: bold; height: 8%; background-color: var(--color2); overflow-y: hidden; }
+        .highest3-data { overflow-y: auto; height: 83%; }
         .h3-style-button { padding: 10px 1vw; text-align: center; display: flex; align-items: center; cursor: pointer; -webkit-transition-duration: 0.4s; transition-duration: 0.4s; }
         .h3-style-button:hover { background-color: var(--color8); }
         .h3-style-button.h3-active-tab { background-color: var(--color9); }

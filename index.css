@@ -6322,14 +6322,14 @@ input#searchHighest3 {
     display: inline-flex;
     width: 100%;
     font-weight: bold;
-    height: 7%;
+    height: 8%;
     background-color: var(--color2);
     overflow-y: hidden;
 }
 
 .highest3-data {
     overflow-y: auto;
-    height: 84%;
+    height: 83%;
 }
 
 .h3-style-button {
