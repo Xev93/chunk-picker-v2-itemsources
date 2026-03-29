@@ -157,16 +157,19 @@ window.openHighest3 = function() {
                     let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
-                    let rowHtml = sourceType.includes('spawn')
+                    let allHtml = sourceType.includes('spawn')
                         ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
                         : `<div class='noscroll highest3-item-source'>${sourceDisplay} — ${formatSourceType(sourceType)}${chunkLinksHtml}</div>`;
-                    sourceEntries.push({ type: sourceType, html: rowHtml });
+                    let filteredHtml = sourceType.includes('spawn')
+                        ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}</div>`
+                        : `<div class='noscroll highest3-item-source'>${sourceDisplay}${chunkLinksHtml}</div>`;
+                    sourceEntries.push({ type: sourceType, allHtml: allHtml, filteredHtml: filteredHtml });
                 });
                 categories.forEach((cat) => {
                     let filtered = cat.name === 'All' ? sourceEntries : sourceEntries.filter((e) => cat.match(e.type));
                     if (filtered.length > 0) {
                         let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
-                        filtered.forEach((e) => { itemHtml += e.html; });
+                        filtered.forEach((e) => { itemHtml += cat.name === 'All' ? e.allHtml : e.filteredHtml; });
                         itemHtml += `</div>`;
                         $(`.h3-${cat.name}-body`).append(itemHtml);
                     }
