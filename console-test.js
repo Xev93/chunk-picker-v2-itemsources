@@ -6,10 +6,10 @@
 (function() {
     let style = document.createElement('style');
     style.textContent = `
-        .highest3-searchcontainer { padding: 5px 15px; font-size: 1.7vh; }
+        .highest3-searchcontainer { padding: 5px 15px; font-size: 1.7vh; flex-shrink: 0; }
         input#searchHighest3 { font-size: 2.1vh; }
-        .highest3-title { font-size: 1.2vw; display: inline-flex; width: 100%; font-weight: bold; height: 8%; background-color: var(--color2); overflow-y: hidden; }
-        .highest3-data { overflow-y: auto; height: 83%; }
+        .highest3-title { font-size: 1.2vw; display: inline-flex; width: 100%; font-weight: bold; background-color: var(--color2); flex-shrink: 0; }
+        .highest3-data { overflow-y: auto; flex: 1; }
         .h3-style-button { padding: 10px 1vw; text-align: center; display: flex; align-items: center; cursor: pointer; -webkit-transition-duration: 0.4s; transition-duration: 0.4s; }
         .h3-style-button:hover { background-color: var(--color8); }
         .h3-style-button.h3-active-tab { background-color: var(--color9); }
