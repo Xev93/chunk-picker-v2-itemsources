@@ -10393,6 +10393,7 @@ let openHighest3 = function() {
             Object.keys(baseChunkData['items']).filter((item) => !item.includes('^')).sort().forEach((itemName) => {
                 let sources = baseChunkData['items'][itemName];
                 let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
+                let itemLink = `<a class='link' href="https://oldschool.runescape.wiki/w/${encodeForUrl(displayName)}" target="_blank">${displayName}</a>`;
                 let sourceEntries = [];
                 Object.keys(sources).forEach((sourceKey) => {
                     let sourceType = sources[sourceKey];
@@ -10420,7 +10421,7 @@ let openHighest3 = function() {
                 categories.forEach((cat) => {
                     let filtered = cat.name === 'All' ? sourceEntries : sourceEntries.filter((e) => cat.match(e.type));
                     if (filtered.length > 0) {
-                        let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
+                        let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${itemLink}</div>`;
                         filtered.forEach((e) => { itemHtml += cat.name === 'All' ? e.allHtml : e.filteredHtml; });
                         itemHtml += `</div>`;
                         $(`#highest3-data .${cat.name}-body`).append(itemHtml);
