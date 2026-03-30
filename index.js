@@ -10290,10 +10290,10 @@ let closeHighest3 = function() {
 
 let switchHighest3Tab = function(tab) {
     highestTab3 = tab;
-    $('#highest3-data .h3-style-body').hide();
-    $('#highest3-title .h3-style-button').removeClass('h3-active-tab');
-    $('#highest3-title .h3-' + tab + '-button').addClass('h3-active-tab');
-    $('#highest3-data .h3-' + tab + '-body').show();
+    $('#highest3-data .style-body').hide();
+    $('#highest3-title .style-button').removeClass('active-tab');
+    $('#highest3-title .' + tab + '-button').addClass('active-tab');
+    $('#highest3-data .' + tab + '-body').show();
     document.getElementById('highest3-data').scrollTop = 0;
 }
 
@@ -10381,13 +10381,13 @@ let openHighest3 = function() {
         ];
 
         categories.forEach((cat) => {
-            $('.highest3-title').append(`<div class='noscroll h3-style-button h3-${cat.name}-button' onclick='switchHighest3Tab("${cat.name}")'><span class='noscroll'>${cat.name}</span></div>`);
-            $('.highest3-data').append(`<div class='noscroll h3-style-body h3-${cat.name}-body'></div>`);
+            $('.highest3-title').append(`<div class='noscroll style-button ${cat.name}-button' onclick='switchHighest3Tab("${cat.name}")'><span class='noscroll'>${cat.name}</span></div>`);
+            $('.highest3-data').append(`<div class='noscroll style-body ${cat.name}-body'></div>`);
         });
 
         if (!baseChunkData || !baseChunkData['items'] || Object.keys(baseChunkData['items']).length === 0) {
             categories.forEach((cat) => {
-                $(`.h3-${cat.name}-body`).append(`<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>No items available. Unlock chunks and calculate tasks first.</div></div>`);
+                $(`#highest3-data .${cat.name}-body`).append(`<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>No items available. Unlock chunks and calculate tasks first.</div></div>`);
             });
         } else {
             Object.keys(baseChunkData['items']).filter((item) => !item.includes('^')).sort().forEach((itemName) => {
@@ -10423,7 +10423,7 @@ let openHighest3 = function() {
                         let itemHtml = `<div class='noscroll highest3-item'><div class='noscroll highest3-item-name'>${displayName}</div>`;
                         filtered.forEach((e) => { itemHtml += cat.name === 'All' ? e.allHtml : e.filteredHtml; });
                         itemHtml += `</div>`;
-                        $(`.h3-${cat.name}-body`).append(itemHtml);
+                        $(`#highest3-data .${cat.name}-body`).append(itemHtml);
                     }
                 });
             });
@@ -10432,9 +10432,9 @@ let openHighest3 = function() {
         if (highestTab3 === undefined) {
             highestTab3 = 'All';
         }
-        $('#highest3-data .h3-style-body').hide();
-        $('.h3-' + highestTab3 + '-button').addClass('h3-active-tab');
-        $('.h3-' + highestTab3 + '-body').show();
+        $('#highest3-data .style-body').hide();
+        $('#highest3-title .' + highestTab3 + '-button').addClass('active-tab');
+        $('#highest3-data .' + highestTab3 + '-body').show();
         $('#highest3Modal').show();
         modalOutsideTime = Date.now();
         document.getElementById('highest3-data').scrollTop = 0;

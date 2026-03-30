@@ -6340,27 +6340,6 @@ input#searchHighest3 {
     flex: 1;
 }
 
-.h3-style-button {
-    padding: 10px 1vw;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-}
-
-.h3-style-button:hover {
-    background-color: var(--color8);
-}
-
-.h3-style-button.h3-active-tab {
-    background-color: var(--color9);
-}
-
-.modal-content.mobile .h3-style-button {
-    padding: 10px 3vw;
-}
 
 .highest3-item {
     padding: 8px 15px;
