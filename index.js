@@ -10393,7 +10393,8 @@ let openHighest3 = function() {
             Object.keys(baseChunkData['items']).filter((item) => !item.includes('^')).sort().forEach((itemName) => {
                 let sources = baseChunkData['items'][itemName];
                 let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
-                let itemIcon = `<img class='noscroll highest3-item-icon' src="https://oldschool.runescape.wiki/images/${encodeForUrl(displayName).replaceAll('%20', '_')}.png" onerror="this.style.display='none'" />`;
+                let itemWikiImg = encodeForUrl(displayName).replaceAll('%20', '_');
+                let itemIcon = `<img class='noscroll highest3-item-icon' src="https://oldschool.runescape.wiki/images/${itemWikiImg}.png" onerror="this.onerror=function(){this.style.display='none'};this.src='https://oldschool.runescape.wiki/images/${itemWikiImg}_10000.png'" />`;
                 let itemLink = `${itemIcon}<a class='link' href="https://oldschool.runescape.wiki/w/${encodeForUrl(displayName)}" target="_blank">${displayName}</a>`;
                 let sourceEntries = [];
                 Object.keys(sources).forEach((sourceKey) => {
