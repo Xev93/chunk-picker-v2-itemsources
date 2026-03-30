@@ -10308,6 +10308,29 @@ let searchHighest3 = function() {
     });
 }
 
+let loadItemIcons = function() {
+    let icons = $('#highest3-data .highest3-item-icon[data-item]');
+    let items = [];
+    icons.each(function() { items.push($(this).attr('data-item')); });
+    let unique = [...new Set(items)];
+    let batches = [];
+    for (let i = 0; i < unique.length; i += 50) {
+        batches.push(unique.slice(i, i + 50));
+    }
+    batches.forEach((batch) => {
+        let titles = batch.map((name) => 'File:' + name + '.png').join('|');
+        $.getJSON('https://oldschool.runescape.wiki/api.php?action=query&prop=imageinfo&iiprop=url&format=json&origin=*&titles=' + encodeURIComponent(titles), function(data) {
+            !!data && !!data.query && !!data.query.pages && Object.values(data.query.pages).forEach((page) => {
+                if (!!page.imageinfo && page.imageinfo.length > 0) {
+                    let url = page.imageinfo[0].url;
+                    let fileName = page.title.replace('File:', '').replace('.png', '').replaceAll(' ', '_');
+                    $(`#highest3-data .highest3-item-icon[data-item="${fileName}"]`).attr('src', url).show();
+                }
+            });
+        });
+    });
+}
+
 let formatSourceType = function(type) {
     if (type === 'primary-drop') return 'Drop';
     if (type === 'secondary-drop') return 'Drop';
@@ -10394,7 +10417,7 @@ let openHighest3 = function() {
                 let sources = baseChunkData['items'][itemName];
                 let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '').trim();
                 let itemWikiImg = encodeForUrl(displayName).replaceAll('%20', '_');
-                let itemIcon = `<img class='noscroll highest3-item-icon' src="https://oldschool.runescape.wiki/images/${itemWikiImg}.png" data-sizes="10000,1000,250,100,25,10,5,4,3,2,1" data-img="${itemWikiImg}" onerror="var s=this.dataset.sizes.split(',');if(s.length>1){this.dataset.sizes=s.slice(1).join(',');this.src='https://oldschool.runescape.wiki/images/'+this.dataset.img+'_'+s[0]+'.png'}else if(s[0]){this.dataset.sizes='';this.src='https://oldschool.runescape.wiki/images/'+this.dataset.img+'_'+s[0]+'.png'}else{this.style.display='none'}" />`;
+                let itemIcon = `<img class='noscroll highest3-item-icon' data-item="${itemWikiImg}" style="display:none" />`;
                 let itemWikiUrl = `https://oldschool.runescape.wiki/w/${encodeForUrl(displayName)}`;
                 let itemLink = `<a class='link' href="${itemWikiUrl}" target="_blank">${itemIcon}${displayName}</a>`;
                 let sourceEntries = [];
@@ -10432,6 +10455,8 @@ let openHighest3 = function() {
                 });
             });
         }
+
+        loadItemIcons();
 
         if (highestTab3 === undefined) {
             highestTab3 = 'All';
