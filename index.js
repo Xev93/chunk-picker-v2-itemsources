@@ -10396,7 +10396,7 @@ let openHighest3 = function() {
                 let sourceEntries = [];
                 Object.keys(sources).forEach((sourceKey) => {
                     let sourceType = sources[sourceKey];
-                    let sourceDisplay = sourceKey.replaceAll(/~\|/g, '').replaceAll(/\|~/g, '').replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
+                    let sourceDisplay = sourceKey.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '');
                     let sourceLink = sourceDisplay;
                     if (sourceType.includes('drop')) {
                         let wikiName = sourceKey.includes('#Level') ? sourceKey.split('#')[0] : sourceKey;
