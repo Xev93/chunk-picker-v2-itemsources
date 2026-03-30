@@ -10329,7 +10329,7 @@ let loadItemIcons = function() {
                 if (!!page.imageinfo && page.imageinfo.length > 0) {
                     let dataItem = titleMap[page.title];
                     if (!!dataItem) {
-                        $(`#highest3-data .highest3-item-icon[data-item="${dataItem}"]`).attr('src', page.imageinfo[0].url).show();
+                        $(`#highest3-data .highest3-item-icon[data-item="${dataItem}"]`).attr('src', page.imageinfo[0].url).css('visibility', 'visible');
                     }
                 }
             });
@@ -10423,7 +10423,7 @@ let openHighest3 = function() {
                 let sources = baseChunkData['items'][itemName];
                 let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '').trim();
                 let itemWikiImg = displayName.replaceAll(/ /g, '_');
-                let itemIcon = `<img class='noscroll highest3-item-icon' data-item="${itemWikiImg}" style="display:none" />`;
+                let itemIcon = `<img class='noscroll highest3-item-icon' data-item="${itemWikiImg}" />`;
                 let itemWikiUrl = `https://oldschool.runescape.wiki/w/${encodeForUrl(displayName)}`;
                 let itemLink = `<a class='link' href="${itemWikiUrl}" target="_blank">${itemIcon}${displayName}</a>`;
                 let sourceEntries = [];
