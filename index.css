@@ -6327,7 +6327,7 @@ input#searchHighest3 {
 }
 
 .highest3-title {
-    font-size: 1.2vw;
+    font-size: min(3vw, 14px);
     display: inline-flex;
     width: 100%;
     font-weight: bold;
