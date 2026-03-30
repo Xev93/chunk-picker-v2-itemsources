@@ -6349,6 +6349,15 @@ input#searchHighest3 {
 .highest3-item-name {
     font-weight: bold;
     padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.highest3-item-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    object-fit: contain;
 }
 
 .highest3-item-source {
