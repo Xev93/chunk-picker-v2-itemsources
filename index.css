@@ -6359,6 +6359,7 @@ input#searchHighest3 {
     margin-right: 5px;
     object-fit: contain;
     visibility: hidden;
+    vertical-align: middle;
 }
 
 .highest3-item-source {
