@@ -10318,19 +10318,12 @@ let loadItemIcons = function() {
         batches.push(unique.slice(i, i + 50));
     }
     batches.forEach((batch) => {
-        let titleMap = {};
-        batch.forEach((name) => { titleMap['File:' + name.replaceAll('_', ' ') + '.png'] = name; });
-        let titles = Object.keys(titleMap).join('|');
+        let titles = batch.map((name) => 'File:' + name.replaceAll('_', ' ') + '.png').join('|');
         $.getJSON('https://oldschool.runescape.wiki/api.php?action=query&prop=imageinfo&iiprop=url&format=json&origin=*&titles=' + encodeURIComponent(titles), function(data) {
-            !!data && !!data.query && !!data.query.normalized && data.query.normalized.forEach((n) => {
-                if (!!titleMap[n.from]) { titleMap[n.to] = titleMap[n.from]; }
-            });
             !!data && !!data.query && !!data.query.pages && Object.values(data.query.pages).forEach((page) => {
                 if (!!page.imageinfo && page.imageinfo.length > 0) {
-                    let dataItem = titleMap[page.title];
-                    if (!!dataItem) {
-                        $(`#highest3-data .highest3-item-icon[data-item="${dataItem}"]`).attr('src', page.imageinfo[0].url).css('visibility', 'visible');
-                    }
+                    let dataItem = page.title.replace('File:', '').replace('.png', '').replaceAll(' ', '_');
+                    $(`#highest3-data .highest3-item-icon[data-item="${dataItem}"]`).attr('src', page.imageinfo[0].url).css('visibility', 'visible');
                 }
             });
         });
