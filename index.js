@@ -10394,7 +10394,7 @@ let openHighest3 = function() {
                 let sources = baseChunkData['items'][itemName];
                 let displayName = itemName.replaceAll(/~/g, '').replaceAll(/\|/g, '').replaceAll(/\*/g, '').trim();
                 let itemWikiImg = encodeForUrl(displayName).replaceAll('%20', '_');
-                let itemIcon = `<img class='noscroll highest3-item-icon' src="https://oldschool.runescape.wiki/images/${itemWikiImg}.png" onerror="this.onerror=function(){this.style.display='none'};this.src='https://oldschool.runescape.wiki/images/${itemWikiImg}_10000.png'" />`;
+                let itemIcon = `<img class='noscroll highest3-item-icon' src="https://oldschool.runescape.wiki/images/${itemWikiImg}.png" data-sizes="10000,1000,250,100,25,10,5,4,3,2,1" data-img="${itemWikiImg}" onerror="var s=this.dataset.sizes.split(',');if(s.length>1){this.dataset.sizes=s.slice(1).join(',');this.src='https://oldschool.runescape.wiki/images/'+this.dataset.img+'_'+s[0]+'.png'}else if(s[0]){this.dataset.sizes='';this.src='https://oldschool.runescape.wiki/images/'+this.dataset.img+'_'+s[0]+'.png'}else{this.style.display='none'}" />`;
                 let itemWikiUrl = `https://oldschool.runescape.wiki/w/${encodeForUrl(displayName)}`;
                 let itemLink = `<a class='link' href="${itemWikiUrl}" target="_blank">${itemIcon}${displayName}</a>`;
                 let sourceEntries = [];
