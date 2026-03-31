@@ -10328,7 +10328,13 @@ let searchHighest3 = function() {
     });
 }
 
-let itemIconCache = {}; // item sources
+let itemIconCache = (function() { // item sources
+    try { return JSON.parse(sessionStorage.getItem('itemIconCache')) || {}; } catch(e) { return {}; }
+})();
+
+let saveIconCache = function() {
+    try { sessionStorage.setItem('itemIconCache', JSON.stringify(itemIconCache)); } catch(e) {}
+}
 
 let cacheIconBlob = function(dataItem, url) {
     let img = new Image();
@@ -10339,6 +10345,7 @@ let cacheIconBlob = function(dataItem, url) {
         canvas.height = img.height;
         canvas.getContext('2d').drawImage(img, 0, 0);
         itemIconCache[dataItem] = canvas.toDataURL('image/png');
+        saveIconCache();
     };
     img.src = url;
 }
@@ -10370,6 +10377,7 @@ let loadItemIcons = function() {
                 } else {
                     let dataItem = page.title.replace('File:', '').replace('.png', '').replaceAll(' ', '_');
                     itemIconCache[dataItem] = '';
+                    saveIconCache();
                 }
             });
         });
