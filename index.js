@@ -10308,14 +10308,35 @@ let searchHighest3 = function() {
     });
 }
 
+let itemIconCache = {}; // item sources
+
+let cacheIconBlob = function(dataItem, url) {
+    let img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = function() {
+        let canvas = document.createElement('canvas');
+        canvas.width = img.width;
+        canvas.height = img.height;
+        canvas.getContext('2d').drawImage(img, 0, 0);
+        itemIconCache[dataItem] = canvas.toDataURL('image/png');
+    };
+    img.src = url;
+}
+
 let loadItemIcons = function() {
     let icons = $('#highest3-data .highest3-item-icon[data-item]');
     let items = [];
     icons.each(function() { items.push($(this).attr('data-item')); });
     let unique = [...new Set(items)];
+    let cached = unique.filter((name) => !!itemIconCache[name]);
+    cached.forEach((name) => {
+        $(`#highest3-data .highest3-item-icon[data-item="${name}"]`).attr('src', itemIconCache[name]).css('visibility', 'visible');
+    });
+    let uncached = unique.filter((name) => !itemIconCache.hasOwnProperty(name));
+    if (uncached.length === 0) return;
     let batches = [];
-    for (let i = 0; i < unique.length; i += 50) {
-        batches.push(unique.slice(i, i + 50));
+    for (let i = 0; i < uncached.length; i += 50) {
+        batches.push(uncached.slice(i, i + 50));
     }
     batches.forEach((batch) => {
         let titles = batch.map((name) => 'File:' + name.replaceAll('_', ' ') + '.png').join('|');
@@ -10323,7 +10344,12 @@ let loadItemIcons = function() {
             !!data && !!data.query && !!data.query.pages && Object.values(data.query.pages).forEach((page) => {
                 if (!!page.imageinfo && page.imageinfo.length > 0) {
                     let dataItem = page.title.replace('File:', '').replace('.png', '').replaceAll(' ', '_');
-                    $(`#highest3-data .highest3-item-icon[data-item="${dataItem}"]`).attr('src', page.imageinfo[0].url).css('visibility', 'visible');
+                    let url = page.imageinfo[0].url;
+                    $(`#highest3-data .highest3-item-icon[data-item="${dataItem}"]`).attr('src', url).css('visibility', 'visible');
+                    cacheIconBlob(dataItem, url);
+                } else {
+                    let dataItem = page.title.replace('File:', '').replace('.png', '').replaceAll(' ', '_');
+                    itemIconCache[dataItem] = '';
                 }
             });
         });
