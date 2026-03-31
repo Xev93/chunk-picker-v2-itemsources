@@ -1484,6 +1484,7 @@ let onlyInitialData = true;
 let hasUpdate = false;
 let recentlyTestMode = false;
 let selectedOverlay = 'None';
+let spawnPins = []; // item sources
 let imagesPreloaded = {};
 let isPreloading = false;
 let sectionChunkId;
@@ -2285,6 +2286,23 @@ let drawCanvas = function(ctxIn = ctx) {
     }
     ctxIn.restore();
 
+    // --- Item Sources spawn pins ---
+    ctxIn.save();
+    spawnPins.forEach((pin) => {
+        ctxIn.textAlign = 'center';
+        ctxIn.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
+        ctxIn.fillStyle = 'white';
+        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((pin.x / 64) - 15) * imgW / rowSize))), dragTotalY + (totalZoom * ((66 - (pin.y / 64)) * imgH / (fullSize / rowSize))) - 4);
+        ctxIn.font = '900 ' + 32 + 'px "Font Awesome 6 Free"';
+        ctxIn.fillStyle = '#e63946';
+        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((pin.x / 64) - 15) * imgW / rowSize))), dragTotalY + (totalZoom * ((66 - (pin.y / 64)) * imgH / (fullSize / rowSize))) - 6);
+        ctxIn.beginPath();
+        ctxIn.arc((dragTotalX + (totalZoom * (((pin.x / 64) - 15) * imgW / rowSize))), dragTotalY + (totalZoom * ((66 - (pin.y / 64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
+        ctxIn.fillStyle = 'white';
+        ctxIn.fill();
+    });
+    ctxIn.restore();
+
     if (selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task') {
         $('#canvas').css('cursor', (hoveredOverlayIds.length !== 0 && !isHoveringOverlayMenu) || isHoveringClose || isHoveringLeft || isHoveringRight || ((isHoveringBlacklist || isHoveringSticker || isHoveringPaint) && (!locked || testMode)) ? 'pointer' : 'auto');
     }
@@ -2587,6 +2605,7 @@ let handleMouseDown = function(e) {
     }
     mouseDown = true;
     movedNum = 0;
+    spawnPins = []; // item sources
     if (e.type === 'touchstart') {
         touchTime = Date.now();
     }
@@ -10392,18 +10411,40 @@ let getChunkLabel = function(chunkId) {
 
 let h3ChunkUid = 0;
 
-let buildChunkLinksHtml = function(chunks) {
+let showSpawnPins = function(encodedItemName, chunkId) {
+    let itemName = decodeQueryParam(encodedItemName);
+    spawnPins = [];
+    if (!!chunkInfo && !!chunkInfo['spawnCoordinates'] && !!chunkInfo['spawnCoordinates'][itemName]) {
+        chunkInfo['spawnCoordinates'][itemName].forEach((coord) => {
+            let coordChunk = convertToChunkNum(Math.floor((coord.x - 960) / 64), (fullSize / rowSize) - Math.floor((coord.y - 2048) / 64) - 1);
+            if (coordChunk.toString() === chunkId.toString()) {
+                spawnPins.push({ x: coord.x, y: coord.y });
+            }
+        });
+    }
+    drawCanvas();
+}
+
+let buildChunkLinksHtml = function(chunks, itemName, sourceType) {
     if (chunks.length === 0) return '';
+    let isSpawn = !!sourceType && sourceType.includes('spawn');
+    let encodedItem = isSpawn ? encodeRFC5987ValueChars(itemName) : '';
     if (chunks.length === 1) {
         let id = chunks[0].split('-')[0];
-        return ` <span class='noscroll link highest3-chunk-link' onclick='closeHighest3(); scrollToChunkCanvas(${id})'>${getChunkLabel(chunks[0])}</span>`;
+        let onclick = isSpawn
+            ? `closeHighest3(); showSpawnPins('${encodedItem}', '${id}'); scrollToChunkCanvas(${id})`
+            : `closeHighest3(); scrollToChunkCanvas(${id})`;
+        return ` <span class='noscroll link highest3-chunk-link' onclick='${onclick}'>${getChunkLabel(chunks[0])}</span>`;
     }
     let uid = h3ChunkUid++;
     let html = ` <span class='noscroll highest3-chunk-toggle link' onclick='$(".h3-chunks-${uid}").toggle()'>${chunks.length} chunks ▾</span>`;
     html += `<div class='noscroll highest3-chunk-list h3-chunks-${uid}' style='display:none'>`;
     chunks.forEach((chunk) => {
         let id = chunk.split('-')[0];
-        html += `<div class='noscroll highest3-chunk-entry'><span class='noscroll link' onclick='closeHighest3(); scrollToChunkCanvas(${id})'>${getChunkLabel(chunk)}</span></div>`;
+        let onclick = isSpawn
+            ? `closeHighest3(); showSpawnPins('${encodedItem}', '${id}'); scrollToChunkCanvas(${id})`
+            : `closeHighest3(); scrollToChunkCanvas(${id})`;
+        html += `<div class='noscroll highest3-chunk-entry'><span class='noscroll link' onclick='${onclick}'>${getChunkLabel(chunk)}</span></div>`;
     });
     html += `</div>`;
     return html;
@@ -10459,7 +10500,7 @@ let openHighest3 = function() {
                         sourceLink = `<a class='link' href="https://oldschool.runescape.wiki/w/${encodeForUrl(sourceKey)}" target="_blank">${sourceDisplay}</a>`;
                     }
                     let chunks = getSourceChunks(sourceKey, sourceType);
-                    let chunkLinksHtml = buildChunkLinksHtml(chunks);
+                    let chunkLinksHtml = buildChunkLinksHtml(chunks, itemName, sourceType);
                     let dropRate = sourceType.includes('drop') && !!dropRatesGlobal[sourceKey] && !!dropRatesGlobal[sourceKey][itemName] ? ' (' + dropRatesGlobal[sourceKey][itemName] + ')' : '';
                     let allHtml = sourceType.includes('spawn')
                         ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
