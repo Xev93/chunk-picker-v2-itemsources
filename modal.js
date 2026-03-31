@@ -320,7 +320,7 @@ const modalContents = {
         <div id="patch-notes-title" class="patch-notes-title noscroll">Patch Notes</div>
         <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">January 14, 2026 (6.9.12)</div>
         <div id="patch-notes-data" class="patch-notes-data noscroll">
-            <div><i>Note that not every update to the Chunk Picker has a corresponding Patch Notes entry. Check out the <a class='noscroll link' href='https://github.com/source-chunk/chunk-picker-v2/commits/gh-pages/' target='_blank'>Github Repository</a> to see when the Chunk Picker was last updated.</i></div>
+            <div><i>Note that not every update to the Chunk Picker has a corresponding Patch Notes entry. Check out the <a class='noscroll link' href='https://github.com/Xev93/chunk-picker/commits/gh-pages/' target='_blank'>Github Repository</a> to see when the Chunk Picker was last updated.</i></div>
             <br />
             <h2 class='noscroll'>Major Changes & New Features</h2>
             <ul class='noscroll'>
@@ -470,7 +470,7 @@ const modalContents = {
             <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Don't worry too much about your decisions, you can always change these settings via the settings menu in the top-right of the screen.</div>
             </div>
             <div id="intro-data-2" class="intro-data-2 noscroll">
-            <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Feeling overwhelmed, or not quite sure how to set up your map? <b>Check out the <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Getting-Started' target='_blank'>Getting Started Guide!</a></b></div>
+            <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Feeling overwhelmed, or not quite sure how to set up your map? <b>Check out the <a href='https://github.com/Xev93/chunk-picker/wiki/Getting-Started' target='_blank'>Getting Started Guide!</a></b></div>
             <hr />
             <div id="intro-data-title" class="intro-data-title noscroll">Starting Chunk</div>
             <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">

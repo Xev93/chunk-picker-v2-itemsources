@@ -173,7 +173,7 @@ let activeSubTabs = {
 let subCheckboxNames = {};
 let toggleSubCheckboxTime = 0;
 
-// firebase.appCheck().activate('6LcL0owsAAAAACXiZo8-5vv3rW3qbaBeX-SHwBSv', true); // disabled for dev testing
+firebase.appCheck().activate('6LfoWZ8sAAAAAAGMN5TEgiMPCvQinJovtyOuTN2r', true);
 let databaseRef = firebase.database().ref();                                    // Firebase database reference
 let myRef;                                                                      // Firebase database reference for this map ID
 
@@ -5023,7 +5023,7 @@ let unlockEntry = function() {
     savedPin = $('.pin.entry').val();
     $('#unlock-entry').prop('disabled', true).html('<i class="spin fa-solid fa-spinner"></i>');
     firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
-    firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
+    firebase.auth().fetchSignInMethodsForEmail('chunkpicker+' + mid + '@xev93.dev').then((methods) => {
         if (signInAttempts > 15) {
             setTimeout(function() {
                 $('.pin.entry').addClass('animated shake wrong').select();
@@ -5035,7 +5035,7 @@ let unlockEntry = function() {
             }, (1500 + signInAttempts * 10));
         } else if (!!methods && methods.length > 0) {
             setTimeout(function() {
-                firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                     signedIn = true;
                     $('.center').css('margin-top', '15px');
                     $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .toggleNeighbors, .toggleRemove, .roll2toggle, .unpicktoggle, .recenttoggle, .highscoretoggle, .settingstoggle, .friendslist, .blacklist-mobile, .open-sticker-mobile, .open-paint-mobile, .taskstoggle').css('opacity', 0).show();
@@ -5083,7 +5083,7 @@ let unlockEntry = function() {
             myRef.child('pin').once('value', function(snap) {
                 if ((snap.val() && snap.val() === savedPin)) {
                     setTimeout(function() {
-                        firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                        firebase.auth().createUserWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                             signedIn = true;
                             setSnap['uid'] = userCredential.user.uid;
                             myRef.child('uid').set(userCredential.user.uid, function(error) {
@@ -5230,11 +5230,11 @@ let accessMap = function() {
         }
         if ($('.pin.old').val()) {
             firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
-            firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
+            firebase.auth().fetchSignInMethodsForEmail('chunkpicker+' + mid + '@xev93.dev').then((methods) => {
                 myRef = firebase.database().ref('maps/' + mid);
                 if (!!methods && methods.length > 0) {
                     setTimeout(function() {
-                        firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                        firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                             signedIn = true;
                             window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker V2', '?' + mid);
                             document.title = mid.split('-')[0].toUpperCase() + ' - Chunk Picker V2';
@@ -5280,7 +5280,7 @@ let accessMap = function() {
                     myRef.child('pin').once('value', function(snap) {
                         if ((snap.val() && snap.val() === savedPin)) {
                             setTimeout(function() {
-                                firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                                firebase.auth().createUserWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                                     signedIn = true;
                                     setSnap['uid'] = userCredential.user.uid;
                                     myRef.child('uid').set(userCredential.user.uid, function(error) {
@@ -5383,7 +5383,7 @@ let changePin = function() {
             }, (1500 + signInAttempts * 10));
         } else {
             setTimeout(function() {
-                firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', pinOld + mid).then((userCredential) => {
+                firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', pinOld + mid).then((userCredential) => {
                     if (onTestServer || testMode) {
                         return;
                     }
@@ -8058,7 +8058,7 @@ let openFriendsList = function() {
     $('.friends-list-data').empty();
     $('.friends-list-data').append(`<div class='addEntry noscroll' onclick='openFriendsListAdd()'>Add Map Entry</div>`);
     Object.keys(friends).sort((a, b) => { return friends[a].toLowerCase().localeCompare(friends[b].toLowerCase()) }).forEach((friendMid) => {
-        $('.friends-list-data').append(`<div class='noscroll friend-item'><a class='noscroll link' href='https://source-chunk.github.io/chunk-picker-v2/?${friendMid.toLowerCase()}-view' target='_blank'>${DOMPurify.sanitize(friends[friendMid], { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })} (${friendMid})</a><i class="friend-item-x fa-solid fa-times noscrollhard" onclick="removeFriend('${friendMid}', '${friends[friendMid]}')"></i></div>`);
+        $('.friends-list-data').append(`<div class='noscroll friend-item'><a class='noscroll link' href='https://xev93.github.io/chunk-picker/?${friendMid.toLowerCase()}-view' target='_blank'>${DOMPurify.sanitize(friends[friendMid], { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })} (${friendMid})</a><i class="friend-item-x fa-solid fa-times noscrollhard" onclick="removeFriend('${friendMid}', '${friends[friendMid]}')"></i></div>`);
     });
     Object.keys(friendsAlt).sort((a, b) => { return friendsAlt[a].toLowerCase().localeCompare(friendsAlt[b].toLowerCase()) }).forEach((friendMid) => {
         $('.friends-list-data').append(`<div class='noscroll friend-item'><a class='noscroll link' href='https://source-chunk.github.io/chunk-picker-rs3/?${friendMid.toLowerCase()}-view' target='_blank'>${DOMPurify.sanitize(friendsAlt[friendMid], { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })} (${friendMid})</a><i class="friend-item-x fa-solid fa-times noscrollhard" onclick="removeFriend('${friendMid}', '${friendsAlt[friendMid]}')"></i></div>`);
@@ -8532,7 +8532,7 @@ let searchMaps = function() {
     if (!!mapsData) {
         $('.maps-list-number').html(Object.keys(mapsData).filter((username) => username.toLowerCase().includes(searchTemp) || mapsData[username].mapcode.toLowerCase().includes(searchTemp)).length + ' users');
         Object.keys(mapsData).filter((username) => username.toLowerCase().includes(searchTemp) || mapsData[username].mapcode.toLowerCase().includes(searchTemp)).forEach((username) => {
-            tableData += `<tr><td>${username}</td><td><a href="https://source-chunk.github.io/chunk-picker-v2/?${mapsData[username].mapcode}" target="_blank">${mapsData[username].mapcode.toUpperCase()}</a></td><td>${mapsData[username].isInClan ? `<a href="https://wiseoldman.net/players/${username}" target="_blank">Stats (WOM)</a>` : '-'}</td><td><a href="https://secure.runescape.com/m=hiscore_oldschool/a=13/hiscorepersonal?user1=${username}" target="_blank">Stats (Hiscores)</a></td></tr>`;
+            tableData += `<tr><td>${username}</td><td><a href="https://xev93.github.io/chunk-picker/?${mapsData[username].mapcode}" target="_blank">${mapsData[username].mapcode.toUpperCase()}</a></td><td>${mapsData[username].isInClan ? `<a href="https://wiseoldman.net/players/${username}" target="_blank">Stats (WOM)</a>` : '-'}</td><td><a href="https://secure.runescape.com/m=hiscore_oldschool/a=13/hiscorepersonal?user1=${username}" target="_blank">Stats (Hiscores)</a></td></tr>`;
         });
         if (tableData.length === 0) {
             $('.maps-list').append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No results found (0)</span></span></div>`);
@@ -8575,7 +8575,7 @@ let loadPoolsData = function() {
         $('.pools-list').empty();
         let tableData = '';
         Object.keys(formattedData['priority']).sort((uA, uB) => formattedData['priority'][uB].daysWaiting - formattedData['priority'][uA].daysWaiting).forEach((username) => {
-            tableData += `<tr><td>${username}</td><td><a href="https://source-chunk.github.io/chunk-picker-v2/?${formattedData['priority'][username].mapcode}" target="_blank">${formattedData['priority'][username].mapcode.toUpperCase()}</a></td><td>${formattedData['priority'][username].date}</td><td>${formattedData['priority'][username].daysWaiting}</td></tr>`;
+            tableData += `<tr><td>${username}</td><td><a href="https://xev93.github.io/chunk-picker/?${formattedData['priority'][username].mapcode}" target="_blank">${formattedData['priority'][username].mapcode.toUpperCase()}</a></td><td>${formattedData['priority'][username].date}</td><td>${formattedData['priority'][username].daysWaiting}</td></tr>`;
         });
         if (Object.keys(formattedData['priority']).length === 0) {
             $('.pools-list-a').append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No names currently in Priority Pool</span></span></div>`);
@@ -8584,7 +8584,7 @@ let loadPoolsData = function() {
         }
         tableData = '';
         Object.keys(formattedData['new']).sort((uA, uB) => formattedData['new'][uB].daysWaiting - formattedData['new'][uA].daysWaiting).forEach((username) => {
-            tableData += `<tr><td>${username}</td><td><a href="https://source-chunk.github.io/chunk-picker-v2/?${formattedData['new'][username].mapcode}" target="_blank">${formattedData['new'][username].mapcode.toUpperCase()}</a></td><td>${formattedData['new'][username].date}</td><td>${formattedData['new'][username].daysWaiting}</td></tr>`;
+            tableData += `<tr><td>${username}</td><td><a href="https://xev93.github.io/chunk-picker/?${formattedData['new'][username].mapcode}" target="_blank">${formattedData['new'][username].mapcode.toUpperCase()}</a></td><td>${formattedData['new'][username].date}</td><td>${formattedData['new'][username].daysWaiting}</td></tr>`;
         });
         if (Object.keys(formattedData['new']).length === 0) {
             $('.pools-list-b').append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No names currently in Waiting Pool</span></span></div>`);
@@ -12728,7 +12728,7 @@ let regainConnectivity = function(_callback) {
     if (Date.now() > lastRegain + 1000) {
         lastRegain = Date.now();
         firebase.auth().signOut();
-        firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then(() => {
+        firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then(() => {
             _callback();
         });
     }
@@ -13368,7 +13368,7 @@ let setRecentLogin = function() {
         return;
     }
     let timeNow = new Date().getTime();
-    signedIn && firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then(function() {
+    signedIn && firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then(function() {
         setSnap['recentLoginTime'] = timeNow;
         myRef.child('recentLoginTime').set(timeNow);
     }).catch(function(error) {
@@ -13384,7 +13384,7 @@ let setUsername = function(old) {
     if (onTestServer || testMode) {
         return;
     }
-    signedIn && firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then(function() {
+    signedIn && firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then(function() {
         setSnap['userName'] = userName.toLowerCase();
         myRef.child('userName').set(userName.toLowerCase());
         if (!!old && old !== '') {
@@ -13610,7 +13610,7 @@ let setData = function() {
             }
         });
     } else {
-        firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then(function() {
+        firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then(function() {
             myRef.update({...databaseObject});
         }).catch(function(error) { console.error(error) });
     }
@@ -13641,9 +13641,9 @@ let rollMID = function(count) {
         }
         mid = charSet;
         firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
-        firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then(providers => {
+        firebase.auth().fetchSignInMethodsForEmail('chunkpicker+' + mid + '@xev93.dev').then(providers => {
             if (providers.length === 0) {
-                firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                firebase.auth().createUserWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                     signedIn = true;
                     userCredential.user.updateProfile({
                         displayName: mid
@@ -13655,7 +13655,7 @@ let rollMID = function(count) {
                             databaseRef.child('mapids/' + charSet).set(true);
                             databaseRef.child('mapCreationTimes/' + charSet).set(new Date(userCredential.user.metadata.creationTime).getTime());
                             $('#newmid').text(charSet.toUpperCase());
-                            $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-v2/?' + charSet).text('https://source-chunk.github.io/chunk-picker-v2/?' + charSet);
+                            $('.link').prop('href', 'https://xev93.github.io/chunk-picker/?' + charSet).text('https://xev93.github.io/chunk-picker/?' + charSet);
                         });
                     });
                 }).catch((error) => { console.error(error) });
@@ -13706,10 +13706,10 @@ let checkIfGoodFriend = function() {
 let changeLocked = function() {
     $('#lock-unlock').prop('disabled', true).html('<i class="spin fa-solid fa-spinner"></i>');
     firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
-    firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
+    firebase.auth().fetchSignInMethodsForEmail('chunkpicker+' + mid + '@xev93.dev').then((methods) => {
         if (!!methods && methods.length > 0) {
             setTimeout(function() {
-                firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                firebase.auth().signInWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                     signedIn = true;
                     $('.center').css('margin-top', '15px');
                     $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .toggleNeighbors, .toggleRemove, .roll2toggle, .unpicktoggle, .recenttoggle, .taskstoggle, .highscoretoggle, .settingstoggle, .friendslist, .blacklist-mobile, .open-sticker-mobile, .open-paint-mobile').css('opacity', 0).show();
@@ -13754,7 +13754,7 @@ let changeLocked = function() {
             myRef.child('pin').once('value', function(snap) {
                 if ((snap.val() && snap.val() === savedPin)) {
                     setTimeout(function() {
-                        firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                        firebase.auth().createUserWithEmailAndPassword('chunkpicker+' + mid + '@xev93.dev', savedPin + mid).then((userCredential) => {
                             signedIn = true;
                             signedIn && (setSnap['uid'] = userCredential.user.uid);
                             signedIn && myRef.child('uid').set(userCredential.user.uid, function(error) {

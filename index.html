@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <head>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N76CGCCD4N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJN1PT7TVM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-N76CGCCD4N');
+    gtag('config', 'G-VJN1PT7TVM');
   </script>
   <link rel="stylesheet" href="./index.css?v=6.9.39.1" />
   <meta charset="UTF-8">
   <meta name="description" content="The Chunk Picker V2 is an all-in-one companion tool to the Oldschool Runescape unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
   <meta name="author" content="Source Chunk">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta property="og:url" content="https://source-chunk.github.io/chunk-picker-v2/">
+  <meta property="og:url" content="https://xev93.github.io/chunk-picker/">
   <meta property="og:image" content="./source-chunk-avatar.png">
   <meta property="og:description" content="The Chunk Picker V2 is an all-in-one companion tool to the Oldschool Runescape unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
   <meta property="og:title" content="Chunk Picker V2">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://source-chunk.github.io/chunk-picker-v2/">
+  <meta name="twitter:url" content="https://xev93.github.io/chunk-picker/">
   <meta name="twitter:title" content="Chunk Picker V2">
   <meta name="twitter:description" content="The Chunk Picker V2 is an all-in-one companion tool to the Oldschool Runescape unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
   <meta name="twitter:image" content="./source-chunk-avatar.png">
@@ -35,13 +35,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.3/purify.min.js"></script>
   <script>
     var firebaseConfig = {
-      apiKey: "AIzaSyDr94cgRwmo3glVTirQ9LPAA4HI9cyYUCg",
-      authDomain: "chunkpicker.firebaseapp.com",
-      databaseURL: "https://chunkpicker.firebaseio.com",
-      projectId: "chunkpicker",
-      storageBucket: "chunkpicker.appspot.com",
-      messagingSenderId: "149349257281",
-      appId: "1:149349257281:web:eb9aa70aec5e8ad6e7b6c0"
+      apiKey: "AIzaSyDuyF74OzkqKdvayyJGZFYEwTlSFlVrOQs",
+      authDomain: "chunk-picker-1d14e.firebaseapp.com",
+      databaseURL: "https://chunk-picker-1d14e-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "chunk-picker-1d14e",
+      storageBucket: "chunk-picker-1d14e.firebasestorage.app",
+      messagingSenderId: "365838860026",
+      appId: "1:365838860026:web:29436e2922b14f99165343",
+      measurementId: "G-VJN1PT7TVM"
     };
     firebase.initializeApp(firebaseConfig);
   </script>
@@ -109,16 +110,20 @@
     <span class='topbar-item'><div><i class="settings fa-solid fa-cog" onclick='settingsMenu()' title='Settings'></i></div></span>
     <span class='topbar-item topbar-item-6'></span>
     <span class='topbar-item topbar-item-5'></span>
+    <!-- hidden for fork deployment
     <span class='topbar-item'><div><a
       href='https://discord.gg/kXRgpxnBxu'
       target='_blank'><i class="godiscord fa-brands fa-discord" title='Join the Discord'></i></a></div></span>
+    -->
     <span class='topbar-item topbar-item-3'></span>
     <span class='topbar-item topbar-item-2'></span>
+    <!-- hidden for fork deployment
     <span class='topbar-item'><div><a
       href='https://www.patreon.com/bePatron?u=56906793'
       target='_blank'><i class="gopatreon fa-brands fa-patreon" title='Support me on Patreon'></i></a></div></span>
+    -->
     <span class='topbar-item'><div><a
-      href='https://github.com/source-chunk/chunk-picker-v2/wiki/Help'
+      href='https://github.com/Xev93/chunk-picker/wiki/Help'
       target='_blank'><i class="gohelp fa-solid fa-circle-question" title='Help'></i></a></div></span>
     <div><span onclick='openSearch()'><i class="gosearch fa-solid fa-search" title='Search My Chunks'></i></span></div>
     <div><span
@@ -142,7 +147,7 @@
         <button id='proceed' class='button' onclick='proceed()'>Proceed to view-only map</button>
       </div>
       <div class='entry-content-2'>
-        <div><b>Check out the <a href='https://github.com/source-chunk/chunk-picker-v2/wiki' target='_blank'>Chunk Picker V2 Wiki</a></b> for a ton of info, including a <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Getting-Started' target='_blank'>Getting Started Guide</a>, an <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/FAQ' target='_blank'>FAQ</a>, and a growing <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Features' target='_blank'>Feature Documentation</a> list!</div>
+        <div><b>Check out the <a href='https://github.com/Xev93/chunk-picker/wiki' target='_blank'>Chunk Picker V2 Wiki</a></b> for a ton of info, including a <a href='https://github.com/Xev93/chunk-picker/wiki/Getting-Started' target='_blank'>Getting Started Guide</a>, an <a href='https://github.com/Xev93/chunk-picker/wiki/FAQ' target='_blank'>FAQ</a>, and a growing <a href='https://github.com/Xev93/chunk-picker/wiki/Features' target='_blank'>Feature Documentation</a> list!</div>
       </div>
     </div>
   </div>
@@ -324,9 +329,11 @@
       <div class='mobile-item noscroll' onclick="openChunkNotesModal()">Notes</div>
       <div class='mobile-item noscroll patchnotes-mobile' onclick="openPatchNotesModal(true)">Patch Notes</div>
       <a href='?change-password'><div class='mobile-item noscroll'>Change Password</div></a>
-      <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Help' target='_blank'><div class='mobile-item noscroll'>Help<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
+      <a href='https://github.com/Xev93/chunk-picker/wiki/Help' target='_blank'><div class='mobile-item noscroll'>Help<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
+      <!-- hidden for fork deployment
       <a href='https://www.patreon.com/bePatron?u=56906793' target='_blank'><div class='mobile-item noscroll'>Support me on Patreon<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
       <a href='https://discord.gg/kXRgpxnBxu' target='_blank'><div class='mobile-item noscroll'>Join the Discord<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
+      -->
       <a href='https://docs.google.com/forms/d/e/1FAIpQLSdmSyeMPMjuDxPrDKQHbCjJe0bXQOUwPYvyTeY_mrF-UrtmCQ/viewform?usp=sf_link' target='_blank'><div class='mobile-item noscroll'>Report a Bug<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
       <a href='https://wiseoldman.net/groups/5841' target='_blank'><div class='mobile-item noscroll'>WiseOldMan<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
       <div class='mobile-item noscroll settingstoggle' onclick="showSettings()">Settings</div>
@@ -490,6 +497,7 @@
         <h2>Contact</h2>
       </u>
       <p><b>Need to contact me about something?</b></p>
+      <!-- hidden for fork deployment
       <p>Message me on <b>Discord</b> at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fa-solid fa-copy noscroll"></i></i> (preferred).</p>
       <div>Don't have a Discord? You should get one and join the <b><a href="https://discord.gg/dg6wubYS8e"
             target='_blank'>OneChunkMan Discord Server</a></b> and talk to everyone there!</div>
@@ -503,6 +511,7 @@
       <div class='patreon-link'>
         <a href='https://www.patreon.com/sourcechunk' target='_blank'>Visit My Patreon</a>
       </div>
+      -->
     </div>
   </div>
 </div>
@@ -635,7 +644,7 @@
         <h2 class='noscroll'>Major Changes & New Features</h2>
         <ul class='noscroll'>
           <li class='noscroll'><b>Group Map Support</b> - Ever try to watch your friend roll their next chunk on their chunk picker map, but it doesn't update until you reload the page? Playing a group-ironman chunk account with others and using the same map? With today's update, the chunk picker map will now stay updated in realtime with any changes happening on the map, including what others are doing!</li>
-          <li class='noscroll'><b>Patch Notes Archive</b> - There now exists an archive of all previous patch notes! They'll always be linked at the bottom of the current patch notes, or you can find it at <a href='?patch-notes' target="_blank">https://source-chunk.github.io/chunk-picker-v2/?patch-notes</a></li>
+          <li class='noscroll'><b>Patch Notes Archive</b> - There now exists an archive of all previous patch notes! They'll always be linked at the bottom of the current patch notes, or you can find it at <a href='?patch-notes' target="_blank">https://xev93.github.io/chunk-picker/?patch-notes</a></li>
           <li class='noscroll'><b>Mobile Chunk Info</b> - Support has now been added for checking chunk info, blacklisting chunks, and adding stickers to chunks on mobile! Just load up the site on your mobile device, open the mobile-menu, tap the 'Select Chunk for Action' button, and tap the chunk you want to interact with!</li>
           <li class='noscroll'><b>Customizable Topbar</b> - The topbar (that toolbar-looking-thing at the top of every map) now has support for customizing which actions are displayed on it! Open the settings dropdown and click on the 'Customize Topbar' option to get started!</li>
         </ul>
@@ -1288,7 +1297,7 @@
         <h2 class='noscroll'>New update to Chunk Picker! Features include:</h2>
         <ul class='noscroll'>
           <li class='noscroll'>Case-sensitive alphanumeric pins (your old pins will still work, no need to panic)</li>
-          <li class='noscroll'>View-only map urls. Just put -view on the end of your url to use! Perfect for content creators! (Example with my map https://source-chunk.github.io/chunk-picker-v2/?src-view )</li>
+          <li class='noscroll'>View-only map urls. Just put -view on the end of your url to use! Perfect for content creators! (Example with my map https://xev93.github.io/chunk-picker/?src-view )</li>
           <li class='noscroll'>Updated the map with some features outside Prifddinas that weren't there before</li>
           <li class='noscroll'>Fixed some bugs with browser cookies</li>
         </ul>
@@ -1308,19 +1317,19 @@
       </div>
       <div class='patch-notes-section'>
         <h3>October 24, 2019</h3>
-        New version of https://source-chunk.github.io/chunk-picker-v2/ (been a while). Now with a change pin feature, and other small changes, including the title being replaced by your map id for ease of visibility (thanks @ChunkFrozen(FZN, GFZN) ) and thinner chunk borders on high visibility mode
+        New version of https://xev93.github.io/chunk-picker/ (been a while). Now with a change pin feature, and other small changes, including the title being replaced by your map id for ease of visibility (thanks @ChunkFrozen(FZN, GFZN) ) and thinner chunk borders on high visibility mode
       </div>
       <div class='patch-notes-section'>
         <h3>September 24, 2019</h3>
-        New version of https://source-chunk.github.io/chunk-picker-v2/ now has vastly improved scroll-zooming (when chunk ids are turned OFF) ( @Pelipper aka ChunkManOnly let me know how your laptop handles it now). Also, @Grow to Glow 's Firefox bug should be fixed as well. @Tech Goblins
+        New version of https://xev93.github.io/chunk-picker/ now has vastly improved scroll-zooming (when chunk ids are turned OFF) ( @Pelipper aka ChunkManOnly let me know how your laptop handles it now). Also, @Grow to Glow 's Firefox bug should be fixed as well. @Tech Goblins
       </div>
       <div class='patch-notes-section'>
         <h3>September 21, 2019</h3>
-        New version of https://source-chunk.github.io/chunk-picker-v2/ , now with screenshot mode (shout-out content creators), an unpick chunk button ( @Skitty ), and slightly less laggy zooming ( @Pelipper aka ChunkManOnly ). Screenshot mode and a toggle for Roll2/Unpick buttons all exist in the setting menu (top-right)
+        New version of https://xev93.github.io/chunk-picker/ , now with screenshot mode (shout-out content creators), an unpick chunk button ( @Skitty ), and slightly less laggy zooming ( @Pelipper aka ChunkManOnly ). Screenshot mode and a toggle for Roll2/Unpick buttons all exist in the setting menu (top-right)
       </div>
       <div class='patch-notes-section'>
         <h3>September 14, 2019</h3>
-        The BETA of the brand new Chunk Picker website is up and running, please give it a go and let me know what I can fix or improve/change to make things better before release. Website: https://source-chunk.github.io/chunk-picker-v2/
+        The BETA of the brand new Chunk Picker website is up and running, please give it a go and let me know what I can fix or improve/change to make things better before release. Website: https://xev93.github.io/chunk-picker/
       </div>
     </div>
   </div>
@@ -1365,7 +1374,7 @@
 <div id='pools-menu' style="display:none">
   <div id='page12' class='content12a'>
     <div>
-      <div class='title'>Priority Pool <a href="https://github.com/source-chunk/chunk-picker-v2/wiki/OneChunkClan#joining" target="_blank" ><i class="fa-solid fa-info-circle" title="Info on how the Joining Pools work"></i></a></div>
+      <div class='title'>Priority Pool <a href="https://github.com/Xev93/chunk-picker/wiki/OneChunkClan#joining" target="_blank" ><i class="fa-solid fa-info-circle" title="Info on how the Joining Pools work"></i></a></div>
       <div class='subtitle'>Names in the Priority Pool can join at any time there is an open slot in the clan.</div>
       <div class='subtitle'>Any names in this pool have until <b class='pools-period pools-period-c'></b> to join before losing their spot in the pools.</div>
     </div>
@@ -1375,7 +1384,7 @@
   </div>
   <div id='page12' class='content12b'>
     <div>
-      <div class='title'>Waiting Pool <a href="https://github.com/source-chunk/chunk-picker-v2/wiki/OneChunkClan#joining" target="_blank" ><i class="fa-solid fa-info-circle" title="Info on how the Joining Pools work"></i></a></div>
+      <div class='title'>Waiting Pool <a href="https://github.com/Xev93/chunk-picker/wiki/OneChunkClan#joining" target="_blank" ><i class="fa-solid fa-info-circle" title="Info on how the Joining Pools work"></i></a></div>
       <div class='subtitle'>The top portion of names in the Waiting Pool get upgraded to the Priority Pool every 2 weeks.</div>
       <div class='subtitle'>Upgrading happens on the next Inactivity Kick, and the next Inactivty Kick is <b class='pools-period pools-period-c'></b>.</div>
     </div>
