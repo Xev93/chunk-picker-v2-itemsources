@@ -1,0 +1,111 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Daily at 06:00 UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: git remote add upstream https://github.com/source-chunk/chunk-picker-v2.git
+
+      - name: Fetch upstream
+        run: git fetch upstream gh-pages
+
+      - name: Check for new commits
+        id: check
+        run: |
+          UPSTREAM_HEAD=$(git rev-parse upstream/gh-pages)
+          if git merge-base --is-ancestor $UPSTREAM_HEAD HEAD; then
+            echo "up_to_date=true" >> $GITHUB_OUTPUT
+            echo "Already up to date with upstream."
+          else
+            echo "up_to_date=false" >> $GITHUB_OUTPUT
+            echo "New upstream commits detected."
+          fi
+
+      - name: Attempt merge
+        if: steps.check.outputs.up_to_date == 'false'
+        id: merge
+        run: |
+          if git merge upstream/gh-pages --no-edit; then
+            echo "conflict=false" >> $GITHUB_OUTPUT
+            echo "Merge successful."
+          else
+            git merge --abort
+            echo "conflict=true" >> $GITHUB_OUTPUT
+            echo "Merge conflict detected."
+          fi
+
+      - name: Create issue on conflict
+        if: steps.merge.outputs.conflict == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'upstream-conflict'
+            });
+            if (existing.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: 'Upstream sync: merge conflict detected',
+                body: 'The automated upstream sync from `source-chunk/chunk-picker-v2` `gh-pages` encountered merge conflicts.\n\nManual resolution required:\n```\ngit remote add upstream https://github.com/source-chunk/chunk-picker-v2.git\ngit fetch upstream gh-pages\ngit merge upstream/gh-pages\n# resolve conflicts\ngit commit\n```\n\nAfter resolving, run `node scripts/enrichSpawnCoordinates.js` if `chunkpicker-chunkinfo-export.json` was modified.',
+                labels: ['upstream-conflict']
+              });
+            }
+
+      - name: Check if chunk data changed
+        if: steps.merge.outputs.conflict == 'false' && steps.check.outputs.up_to_date == 'false'
+        id: chunkdata
+        run: |
+          if git diff HEAD~1 --name-only | grep -q 'chunkpicker-chunkinfo-export.json'; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Chunk data was modified."
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Chunk data unchanged."
+          fi
+
+      - name: Enrich spawn coordinates
+        if: steps.chunkdata.outputs.changed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Run enrichment script
+        if: steps.chunkdata.outputs.changed == 'true'
+        run: |
+          node scripts/enrichSpawnCoordinates.js
+          git add chunkpicker-chunkinfo-export.json
+          if git diff --cached --quiet; then
+            echo "No enrichment changes to commit."
+          else
+            git commit -m "chore: re-enrich spawn coordinates after upstream update"
+          fi
+
+      - name: Push changes
+        if: steps.check.outputs.up_to_date == 'false' && steps.merge.outputs.conflict == 'false'
+        run: git push origin master
