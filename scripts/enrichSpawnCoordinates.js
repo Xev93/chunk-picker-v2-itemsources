@@ -36,7 +36,7 @@ let collectSpawnItems = function(chunkInfo) {
 
 let parseSpawnLines = function(wikitext, itemName) {
     let spawns = [];
-    let regex = /\{\{ItemSpawnLine\|([^}]+)\}\}/g;
+    let regex = /\{\{ItemSpawnLine\|((?:[^{}]|\{\{[^}]*\}\})*)\}\}/g;
     let match;
     while ((match = regex.exec(wikitext)) !== null) {
         let params = match[1];

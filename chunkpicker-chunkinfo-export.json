@@ -404730,6 +404730,11 @@
 				"x": 3111,
 				"y": 3657,
 				"location": "Wilderness"
+			},
+			{
+				"x": 1385,
+				"y": 2868,
+				"location": "Shields of Mistrock"
 			}
 		],
 		"Iron dagger": [
@@ -404744,14 +404749,34 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 3242,
+				"y": 3383,
+				"location": "Varrock"
+			},
+			{
 				"x": 3156,
 				"y": 3683,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3279,
+				"y": 3938,
 				"location": "Wilderness"
 			},
 			{
 				"x": 3192,
 				"y": 2838,
 				"location": "Ruins of Unkah"
+			},
+			{
+				"x": 1573,
+				"y": 3140,
+				"location": "Ortus Farm"
+			},
+			{
+				"x": 1519,
+				"y": 3225,
+				"location": "Quetzacalli Gorge"
 			},
 			{
 				"x": 1385,
@@ -404781,6 +404806,11 @@
 				"location": "West of Ortus Farm"
 			},
 			{
+				"x": 1398,
+				"y": 2977,
+				"location": "Northern most villa in Aldarin - {{FloorNumber"
+			},
+			{
 				"x": 2065,
 				"y": 3692,
 				"location": "Buccaneers' Haven"
@@ -404791,6 +404821,11 @@
 				"x": 2821,
 				"y": 3086,
 				"location": "Tai Bwo Wannai"
+			},
+			{
+				"x": 1717,
+				"y": 3119,
+				"location": "Civitas illa Fortis"
 			},
 			{
 				"x": 1399,
@@ -404843,6 +404878,16 @@
 				"x": 1262,
 				"y": 3742,
 				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 3205,
+				"y": 3224,
+				"location": "Lumbridge Castle"
+			},
+			{
+				"x": 3208,
+				"y": 3225,
+				"location": "Lumbridge Castle"
 			},
 			{
 				"x": 1746,
@@ -404900,6 +404945,16 @@
 				"location": "Varrock Sawmill"
 			},
 			{
+				"x": 3105,
+				"y": 3159,
+				"location": "Wizards' Tower"
+			},
+			{
+				"x": 3106,
+				"y": 3160,
+				"location": "Wizards' Tower"
+			},
+			{
 				"x": 1619,
 				"y": 3292,
 				"location": "Salius' Armour Shop"
@@ -404908,6 +404963,11 @@
 				"x": 1533,
 				"y": 3293,
 				"location": "The Darkfrost"
+			},
+			{
+				"x": 1388,
+				"y": 2869,
+				"location": "Shields of Mistrock"
 			}
 		],
 		"Knife": [
@@ -404967,6 +405027,11 @@
 				"location": "Lumbridge Castle"
 			},
 			{
+				"x": 3626,
+				"y": 3248,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 2903,
 				"y": 3148,
 				"location": "Musa Point"
@@ -404985,6 +405050,16 @@
 				"x": 3717,
 				"y": 3358,
 				"location": "Slepe"
+			},
+			{
+				"x": 2700,
+				"y": 3407,
+				"location": "Sorcerer's Tower"
+			},
+			{
+				"x": 3218,
+				"y": 3418,
+				"location": "Varrock General Store"
 			},
 			{
 				"x": 2543,
@@ -405022,6 +405097,11 @@
 				"location": "Auburnvale"
 			},
 			{
+				"x": 1381,
+				"y": 3350,
+				"location": "Auburnvale"
+			},
+			{
 				"x": 1371,
 				"y": 3316,
 				"location": "Nemus Retreat"
@@ -405047,6 +405127,11 @@
 				"x": 1381,
 				"y": 3370,
 				"location": "Auburnvale"
+			},
+			{
+				"x": 2091,
+				"y": 3681,
+				"location": "Buccaneers' Haven"
 			},
 			{
 				"x": 3492,
@@ -405193,6 +405278,21 @@
 				"location": "South of Mount Quidamortem"
 			},
 			{
+				"x": 1521,
+				"y": 2987,
+				"location": "Sunset Coast"
+			},
+			{
+				"x": 1672,
+				"y": 3159,
+				"location": "Sunrise Palace"
+			},
+			{
+				"x": 1770,
+				"y": 3072,
+				"location": "Outer Fortis"
+			},
+			{
 				"x": 1669,
 				"y": 3250,
 				"location": "Varlamore"
@@ -405205,8 +405305,18 @@
 				"location": "Castle Wars"
 			},
 			{
+				"x": 2423,
+				"y": 3080,
+				"location": "Castle Wars"
+			},
+			{
 				"x": 2368,
 				"y": 3135,
+				"location": "Castle Wars"
+			},
+			{
+				"x": 2376,
+				"y": 3127,
 				"location": "Castle Wars"
 			},
 			{
@@ -405218,6 +405328,11 @@
 				"x": 3362,
 				"y": 3167,
 				"location": "Giants' Plateau"
+			},
+			{
+				"x": 3112,
+				"y": 3369,
+				"location": "Draynor Manor"
 			},
 			{
 				"x": 1742,
@@ -405233,6 +405348,16 @@
 				"x": 1521,
 				"y": 3591,
 				"location": "Shayzien"
+			},
+			{
+				"x": 1737,
+				"y": 3169,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1520,
+				"y": 2982,
+				"location": "Sunset Coast"
 			},
 			{
 				"x": 1625,
@@ -405330,6 +405455,16 @@
 				"x": 1765,
 				"y": 3103,
 				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1769,
+				"y": 3100,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1518,
+				"y": 2996,
+				"location": "Sunset Coast"
 			},
 			{
 				"x": 1493,
@@ -405441,6 +405576,21 @@
 		],
 		"Bronze dagger": [
 			{
+				"x": 3140,
+				"y": 3622,
+				"location": "Ferox Enclave"
+			},
+			{
+				"x": 3213,
+				"y": 3216,
+				"location": "Lumbridge Castle"
+			},
+			{
+				"x": 1724,
+				"y": 3075,
+				"location": "Outer Fortis"
+			},
+			{
 				"x": 3730,
 				"y": 3356,
 				"location": "Slepe"
@@ -405492,6 +405642,11 @@
 			{
 				"x": 1711,
 				"y": 3114,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1673,
+				"y": 3155,
 				"location": "Civitas illa Fortis"
 			},
 			{
@@ -405567,6 +405722,11 @@
 		],
 		"Mind rune": [
 			{
+				"x": 3206,
+				"y": 3208,
+				"location": "Lumbridge Castle"
+			},
+			{
 				"x": 3023,
 				"y": 3640,
 				"location": "Wilderness"
@@ -405612,6 +405772,11 @@
 				"x": 3490,
 				"y": 3059,
 				"location": "Uzer Oasis"
+			},
+			{
+				"x": 1375,
+				"y": 3034,
+				"location": "Kastori"
 			}
 		],
 		"Feather": [
@@ -405624,6 +405789,11 @@
 				"x": 1253,
 				"y": 3692,
 				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1751,
+				"y": 3585,
+				"location": "Hosidius"
 			},
 			{
 				"x": 1506,
@@ -405890,8 +406060,18 @@
 				"location": "Death Plateau (location)"
 			},
 			{
+				"x": 3221,
+				"y": 3497,
+				"location": "Varrock Palace"
+			},
+			{
 				"x": 1705,
 				"y": 3530,
+				"location": "Hosidius"
+			},
+			{
+				"x": 1784,
+				"y": 3590,
 				"location": "Hosidius"
 			},
 			{
@@ -406002,6 +406182,16 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1244,
+				"y": 3680,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1239,
+				"y": 3682,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 3148,
 				"y": 3211,
 				"location": "Lumbridge Swamp"
@@ -406012,6 +406202,21 @@
 				"location": "Iorwerth Camp"
 			},
 			{
+				"x": 3144,
+				"y": 3449,
+				"location": "Cooks' Guild"
+			},
+			{
+				"x": 1658,
+				"y": 3044,
+				"location": "Outer Fortis"
+			},
+			{
+				"x": 1705,
+				"y": 3070,
+				"location": "Outer Fortis"
+			},
+			{
 				"x": 1583,
 				"y": 3130,
 				"location": "Ortus Farm"
@@ -406020,6 +406225,21 @@
 				"x": 1666,
 				"y": 3124,
 				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1395,
+				"y": 2895,
+				"location": "Aldarin"
+			},
+			{
+				"x": 1391,
+				"y": 2859,
+				"location": "Stick Your Ore Inn"
+			},
+			{
+				"x": 1243,
+				"y": 3111,
+				"location": "Tal Teklan"
 			},
 			{
 				"x": 3141,
@@ -406071,13 +406291,28 @@
 				"location": "Uzer Oasis"
 			},
 			{
+				"x": 1737,
+				"y": 3168,
+				"location": "Civitas illa Fortis"
+			},
+			{
 				"x": 1669,
 				"y": 2982,
 				"location": "Locus Oasis"
 			},
 			{
+				"x": 1358,
+				"y": 2920,
+				"location": "Moonrise Brewery and Winery"
+			},
+			{
 				"x": 1439,
 				"y": 3324,
+				"location": "Auburn Valley"
+			},
+			{
+				"x": 1394,
+				"y": 3352,
 				"location": "Auburn Valley"
 			}
 		],
@@ -406160,6 +406395,11 @@
 				"location": "Shayzien Encampment"
 			},
 			{
+				"x": 3218,
+				"y": 3412,
+				"location": "Varrock General Store"
+			},
+			{
 				"x": 1405,
 				"y": 2938,
 				"location": "Aldarin"
@@ -406170,6 +406410,16 @@
 				"x": 3143,
 				"y": 3453,
 				"location": "Cooks' Guild"
+			},
+			{
+				"x": 1364,
+				"y": 3040,
+				"location": "Kastori"
+			},
+			{
+				"x": 1378,
+				"y": 3051,
+				"location": "Kastori"
 			}
 		],
 		"Bucket of water": [
@@ -406269,6 +406519,11 @@
 				"location": "Outer Fortis"
 			},
 			{
+				"x": 1764,
+				"y": 3095,
+				"location": "Civitas illa Fortis"
+			},
+			{
 				"x": 1545,
 				"y": 3037,
 				"location": "Hunter Guild"
@@ -406282,6 +406537,11 @@
 				"x": 1352,
 				"y": 2946,
 				"location": "Aldarin"
+			},
+			{
+				"x": 1388,
+				"y": 2866,
+				"location": "Shields of Mistrock"
 			}
 		],
 		"Earth rune": [
@@ -406308,6 +406568,11 @@
 				"location": "Darkmeyer Seamstress"
 			},
 			{
+				"x": 1244,
+				"y": 3685,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1529,
 				"y": 3645,
 				"location": "Shayzien Encampment"
@@ -406316,6 +406581,16 @@
 				"x": 1566,
 				"y": 3035,
 				"location": "Hunter Guild"
+			},
+			{
+				"x": 1448,
+				"y": 3195,
+				"location": "Ralos' Rise"
+			},
+			{
+				"x": 1765,
+				"y": 3103,
+				"location": "Civitas illa Fortis"
 			},
 			{
 				"x": 1368,
@@ -406416,6 +406691,11 @@
 		],
 		"Onion": [
 			{
+				"x": 3211,
+				"y": 3247,
+				"location": "Lumbridge General Store"
+			},
+			{
 				"x": 1376,
 				"y": 2865,
 				"location": "Mistrock"
@@ -406426,6 +406706,16 @@
 				"x": 3208,
 				"y": 3214,
 				"location": "Lumbridge Castle"
+			},
+			{
+				"x": 2816,
+				"y": 3351,
+				"location": "Entrana"
+			},
+			{
+				"x": 3141,
+				"y": 3450,
+				"location": "Cooks' Guild"
 			},
 			{
 				"x": 2667,
@@ -406441,6 +406731,16 @@
 				"x": 1768,
 				"y": 3103,
 				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1764,
+				"y": 3100,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1431,
+				"y": 2962,
+				"location": "Aldarin"
 			},
 			{
 				"x": 1208,
@@ -406473,6 +406773,21 @@
 				"x": 1532,
 				"y": 3578,
 				"location": "Shayzien"
+			},
+			{
+				"x": 3242,
+				"y": 3385,
+				"location": "Varrock"
+			},
+			{
+				"x": 1718,
+				"y": 3115,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1354,
+				"y": 2965,
+				"location": "Aldarin"
 			}
 		],
 		"Egg": [
@@ -406549,6 +406864,11 @@
 				"location": "Darkmeyer Seamstress"
 			},
 			{
+				"x": 1244,
+				"y": 3684,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1511,
 				"y": 3591,
 				"location": "Shayzien Styles"
@@ -406584,6 +406904,21 @@
 				"x": 1300,
 				"y": 3718,
 				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1682,
+				"y": 3677,
+				"location": "Kingstown"
+			},
+			{
+				"x": 1561,
+				"y": 3045,
+				"location": "Hunter Guild"
+			},
+			{
+				"x": 1512,
+				"y": 2996,
+				"location": "Sunset Coast"
 			}
 		],
 		"Vial": [
@@ -406601,6 +406936,11 @@
 				"x": 3188,
 				"y": 3839,
 				"location": "Wilderness"
+			},
+			{
+				"x": 2587,
+				"y": 3090,
+				"location": "Wizards' Guild"
 			},
 			{
 				"x": 2808,
@@ -407045,6 +407385,21 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1628,
+				"y": 3313,
+				"location": "Around Salvager Overlook{{Refn"
+			},
+			{
+				"x": 1646,
+				"y": 3302,
+				"location": "Around Salvager Overlook{{Refn"
+			},
+			{
+				"x": 1663,
+				"y": 3305,
+				"location": "Around Salvager Overlook{{Refn"
+			},
+			{
 				"x": 1308,
 				"y": 2934,
 				"location": "North of Darkmoon Ravine (1 telegrabbable, rest inaccessible)"
@@ -407192,6 +407547,13 @@
 				"x": 1392,
 				"y": 3351,
 				"location": "Auburnvale"
+			}
+		],
+		"Cooked sweetcorn": [
+			{
+				"x": 1356,
+				"y": 3040,
+				"location": "Kastori"
 			}
 		],
 		"Burnt bones": [
@@ -407351,6 +407713,13 @@
 				"location": "Shayzien"
 			}
 		],
+		"Grey toy horsey": [
+			{
+				"x": 1243,
+				"y": 3678,
+				"location": "Kebos Lowlands"
+			}
+		],
 		"Sunbeam ale": [
 			{
 				"x": 1716,
@@ -407360,6 +407729,11 @@
 			{
 				"x": 1378,
 				"y": 2934,
+				"location": "Aldarin"
+			},
+			{
+				"x": 1376,
+				"y": 2960,
 				"location": "Aldarin"
 			}
 		],
@@ -407435,6 +407809,16 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1635,
+				"y": 3621,
+				"location": "Hosidius"
+			},
+			{
+				"x": 1644,
+				"y": 3284,
+				"location": "Salvager Overlook"
+			},
+			{
 				"x": 1680,
 				"y": 3232,
 				"location": "South of Twilight Temple"
@@ -407460,9 +407844,24 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 3750,
+				"y": 3339,
+				"location": "Slepe"
+			},
+			{
+				"x": 3698,
+				"y": 3339,
+				"location": "Slepe"
+			},
+			{
 				"x": 1451,
 				"y": 3193,
 				"location": "The Teomat"
+			},
+			{
+				"x": 3208,
+				"y": 3395,
+				"location": "Varrock Swordshop"
 			},
 			{
 				"x": 2547,
@@ -407601,6 +408000,11 @@
 				"location": "Necropolis"
 			},
 			{
+				"x": 3229,
+				"y": 3215,
+				"location": "Lumbridge Castle"
+			},
+			{
 				"x": 3009,
 				"y": 3342,
 				"location": "Mining Guild"
@@ -407650,9 +408054,34 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 3244,
+				"y": 3386,
+				"location": "Varrock"
+			},
+			{
+				"x": 3111,
+				"y": 3159,
+				"location": "Wizards' Tower"
+			},
+			{
+				"x": 3112,
+				"y": 3155,
+				"location": "Wizards' Tower"
+			},
+			{
+				"x": 1590,
+				"y": 3128,
+				"location": "Ortus Farm"
+			},
+			{
 				"x": 1701,
 				"y": 3186,
 				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1629,
+				"y": 3302,
+				"location": "Salvager Overlook"
 			}
 		],
 		"Bones": [
@@ -408182,6 +408611,11 @@
 				"location": "Digsite"
 			},
 			{
+				"x": 2925,
+				"y": 3251,
+				"location": "Melzar's Maze"
+			},
+			{
 				"x": 3718,
 				"y": 3349,
 				"location": "Slepe"
@@ -408370,6 +408804,11 @@
 				"x": 3304,
 				"y": 3311,
 				"location": "Al Kharid mine"
+			},
+			{
+				"x": 2768,
+				"y": 3500,
+				"location": "Camelot"
 			}
 		],
 		"Chisel": [
@@ -408434,6 +408873,11 @@
 				"x": 1384,
 				"y": 3764,
 				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 2558,
+				"y": 2856,
+				"location": "Corsair Cove"
 			}
 		],
 		"Jug of water": [
@@ -408463,6 +408907,11 @@
 				"location": "Colossal Wyrm Agility Course"
 			},
 			{
+				"x": 1414,
+				"y": 2973,
+				"location": "Aldarin"
+			},
+			{
 				"x": 1667,
 				"y": 3249,
 				"location": "Varlamore"
@@ -408478,6 +408927,16 @@
 				"x": 1659,
 				"y": 3121,
 				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1645,
+				"y": 3284,
+				"location": "Salvager Overlook"
+			},
+			{
+				"x": 1440,
+				"y": 3354,
+				"location": "Auburnvale"
 			}
 		],
 		"Big bones": [
@@ -408565,8 +409024,18 @@
 		],
 		"Papyrus": [
 			{
+				"x": 1672,
+				"y": 3159,
+				"location": "Civitas illa Fortis"
+			},
+			{
 				"x": 1794,
 				"y": 3612,
+				"location": "Hosidius"
+			},
+			{
+				"x": 1750,
+				"y": 3585,
 				"location": "Hosidius"
 			},
 			{
@@ -408580,9 +409049,19 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 3290,
+				"y": 3033,
+				"location": "Desert Mining Camp"
+			},
+			{
 				"x": 1542,
 				"y": 3544,
 				"location": "Shayzien"
+			},
+			{
+				"x": 3698,
+				"y": 3338,
+				"location": "Slepe"
 			},
 			{
 				"x": 1452,
@@ -408607,6 +409086,11 @@
 				"x": 1376,
 				"y": 3750,
 				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1645,
+				"y": 3285,
+				"location": "Salvager Overlook"
 			}
 		],
 		"Big fishing net": [
@@ -408637,6 +409121,11 @@
 			}
 		],
 		"Cocktail glass": [
+			{
+				"x": 2483,
+				"y": 3482,
+				"location": "Grand Tree"
+			},
 			{
 				"x": 1374,
 				"y": 3502,
@@ -408672,6 +409161,16 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 3715,
+				"y": 3356,
+				"location": "Slepe"
+			},
+			{
+				"x": 3721,
+				"y": 3358,
+				"location": "Slepe"
+			},
+			{
 				"x": 3152,
 				"y": 3638,
 				"location": "Ferox Enclave"
@@ -408687,8 +409186,23 @@
 				"location": "Fishing Platform"
 			},
 			{
+				"x": 1680,
+				"y": 3680,
+				"location": "Kingstown"
+			},
+			{
+				"x": 1591,
+				"y": 3528,
+				"location": "Xeric's Lookout"
+			},
+			{
 				"x": 1725,
 				"y": 3079,
+				"location": "Outer Fortis"
+			},
+			{
+				"x": 1726,
+				"y": 3076,
 				"location": "Outer Fortis"
 			}
 		],
@@ -408753,6 +409267,11 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 3129,
+				"y": 3621,
+				"location": "Ferox Enclave"
+			},
+			{
 				"x": 2657,
 				"y": 3424,
 				"location": "Ranging Guild"
@@ -408808,6 +409327,16 @@
 				"x": 2658,
 				"y": 3676,
 				"location": "Rellekka"
+			},
+			{
+				"x": 1519,
+				"y": 2989,
+				"location": "Sunset Coast"
+			},
+			{
+				"x": 1522,
+				"y": 2986,
+				"location": "Sunset Coast"
 			}
 		],
 		"King worm": [
@@ -408889,6 +409418,13 @@
 				"location": "Lovakengj"
 			}
 		],
+		"Sweetcorn (bowl)": [
+			{
+				"x": 1574,
+				"y": 3139,
+				"location": "Ortus Farm"
+			}
+		],
 		"Eclipse red": [
 			{
 				"x": 1555,
@@ -408939,6 +409475,13 @@
 				"location": "North-east of Twilight Temple"
 			}
 		],
+		"Iron dart": [
+			{
+				"x": 1614,
+				"y": 3176,
+				"location": "Civitas illa Fortis"
+			}
+		],
 		"Iron mace": [
 			{
 				"x": 2675,
@@ -408965,6 +409508,11 @@
 		],
 		"Pestle and mortar": [
 			{
+				"x": 2132,
+				"y": 2998,
+				"location": "Isle of Souls"
+			},
+			{
 				"x": 1667,
 				"y": 3068,
 				"location": "Outer Fortis"
@@ -408974,6 +409522,11 @@
 			{
 				"x": 2820,
 				"y": 3455,
+				"location": "Catherby"
+			},
+			{
+				"x": 2813,
+				"y": 3449,
 				"location": "Catherby"
 			},
 			{
@@ -408988,6 +409541,11 @@
 			}
 		],
 		"Silk": [
+			{
+				"x": 1662,
+				"y": 3103,
+				"location": "Civitas illa Fortis"
+			},
 			{
 				"x": 3602,
 				"y": 3378,
@@ -409013,6 +409571,11 @@
 				"x": 1646,
 				"y": 3094,
 				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 3390,
+				"y": 3268,
+				"location": "Emir's Arena"
 			},
 			{
 				"x": 3018,
@@ -409074,6 +409637,13 @@
 				"location": "Outer Fortis"
 			}
 		],
+		"Gold bar": [
+			{
+				"x": 1743,
+				"y": 3176,
+				"location": "Civitas illa Fortis"
+			}
+		],
 		"Bowl of water": [
 			{
 				"x": 1639,
@@ -409091,6 +409661,11 @@
 				"location": "Desert Mining Camp"
 			},
 			{
+				"x": 3703,
+				"y": 3331,
+				"location": "Slepe"
+			},
+			{
 				"x": 1665,
 				"y": 3120,
 				"location": "Civitas illa Fortis"
@@ -409101,6 +409676,13 @@
 				"x": 3324,
 				"y": 2742,
 				"location": "Necropolis"
+			}
+		],
+		"Soft clay": [
+			{
+				"x": 1765,
+				"y": 3095,
+				"location": "Civitas illa Fortis"
 			}
 		],
 		"Snape grass": [
@@ -409208,6 +409790,11 @@
 				"x": 2917,
 				"y": 3274,
 				"location": "Hobgoblin Peninsula"
+			},
+			{
+				"x": 1736,
+				"y": 3168,
+				"location": "Civitas illa Fortis"
 			}
 		],
 		"Bucket of sand": [
@@ -409215,6 +409802,13 @@
 				"x": 1804,
 				"y": 3628,
 				"location": "Hosidius"
+			}
+		],
+		"Oak shortbow": [
+			{
+				"x": 1711,
+				"y": 3112,
+				"location": "Civitas illa Fortis"
 			}
 		],
 		"Rotten tomato": [
@@ -409246,6 +409840,11 @@
 				"x": 2563,
 				"y": 3261,
 				"location": "East Ardougne"
+			},
+			{
+				"x": 1731,
+				"y": 3578,
+				"location": "Hosidius"
 			}
 		],
 		"Box trap": [
@@ -409260,6 +409859,13 @@
 				"location": "Civitas illa Fortis"
 			}
 		],
+		"Oil lantern": [
+			{
+				"x": 1645,
+				"y": 3285,
+				"location": "Salvager Overlook"
+			}
+		],
 		"Jug of wine": [
 			{
 				"x": 3721,
@@ -409267,9 +409873,19 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 2806,
+				"y": 3449,
+				"location": "Catherby"
+			},
+			{
 				"x": 3663,
 				"y": 3380,
 				"location": "Darkmeyer"
+			},
+			{
+				"x": 3291,
+				"y": 3033,
+				"location": "Desert Mining Camp"
 			},
 			{
 				"x": 3511,
@@ -409280,6 +409896,16 @@
 				"x": 1718,
 				"y": 3065,
 				"location": "Outer Fortis"
+			},
+			{
+				"x": 1712,
+				"y": 3115,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1376,
+				"y": 2925,
+				"location": "Aldarin"
 			},
 			{
 				"x": 1315,
@@ -409307,6 +409933,11 @@
 				"x": 3126,
 				"y": 3356,
 				"location": "Draynor Manor"
+			},
+			{
+				"x": 2930,
+				"y": 3285,
+				"location": "Crafting Guild"
 			}
 		],
 		"Empty sack": [
@@ -409314,6 +409945,20 @@
 				"x": 1744,
 				"y": 3172,
 				"location": "Civitas illa Fortis"
+			}
+		],
+		"Black robe": [
+			{
+				"x": 1718,
+				"y": 3120,
+				"location": "Civitas illa Fortis"
+			}
+		],
+		"Facemask": [
+			{
+				"x": 1617,
+				"y": 3680,
+				"location": "Kourend Castle"
 			}
 		],
 		"Red spiders' eggs": [
@@ -409338,6 +409983,18 @@
 				"x": 1746,
 				"y": 3489,
 				"location": "Hosidius"
+			},
+			{
+				"x": 2931,
+				"y": 3287,
+				"location": "Crafting Guild"
+			}
+		],
+		"Ball of wool": [
+			{
+				"x": 1662,
+				"y": 3100,
+				"location": "Civitas illa Fortis"
 			}
 		],
 		"Candle lantern": [
@@ -409375,6 +410032,20 @@
 				"location": "Slepe"
 			}
 		],
+		"Sun-shine": [
+			{
+				"x": 1646,
+				"y": 3283,
+				"location": "Salvager Overlook"
+			}
+		],
+		"Black scimitar": [
+			{
+				"x": 2572,
+				"y": 3284,
+				"location": "Ardougne Castle"
+			}
+		],
 		"Astronomy book": [
 			{
 				"x": 2438,
@@ -409398,9 +410069,19 @@
 		],
 		"Bronze scimitar": [
 			{
+				"x": 2557,
+				"y": 2855,
+				"location": "Corsair Cove"
+			},
+			{
 				"x": 3362,
 				"y": 3154,
 				"location": "Giants' Plateau"
+			},
+			{
+				"x": 2965,
+				"y": 3211,
+				"location": "Rimmington"
 			}
 		],
 		"Bronze sword": [
@@ -409695,6 +410376,13 @@
 				"location": "Iorwerth Camp"
 			}
 		],
+		"Cocktail shaker": [
+			{
+				"x": 2449,
+				"y": 3510,
+				"location": "Grand Tree"
+			}
+		],
 		"Rotten apple": [
 			{
 				"x": 2535,
@@ -409721,6 +410409,13 @@
 				"x": 2438,
 				"y": 3185,
 				"location": "Observatory"
+			}
+		],
+		"Burnt fish (anchovies)": [
+			{
+				"x": 2477,
+				"y": 2860,
+				"location": "Feldip Hills"
 			}
 		],
 		"Oak shield": [
@@ -409778,6 +410473,18 @@
 				"location": "Trollweiss Mountain"
 			}
 		],
+		"Nature rune": [
+			{
+				"x": 2671,
+				"y": 3737,
+				"location": "Rellekka"
+			},
+			{
+				"x": 3311,
+				"y": 3853,
+				"location": "Wilderness"
+			}
+		],
 		"Chaos rune": [
 			{
 				"x": 2806,
@@ -409800,6 +410507,21 @@
 				"x": 3165,
 				"y": 3739,
 				"location": "Ruins (east)"
+			},
+			{
+				"x": 3283,
+				"y": 3936,
+				"location": "Rogues' Castle"
+			},
+			{
+				"x": 3292,
+				"y": 3933,
+				"location": "Rogues' Castle"
+			},
+			{
+				"x": 3289,
+				"y": 3926,
+				"location": "Rogues' Castle"
 			}
 		],
 		"Uncut sapphire": [
@@ -409844,6 +410566,23 @@
 				"location": "Sinclair Mansion"
 			}
 		],
+		"Wolf bones": [
+			{
+				"x": 2848,
+				"y": 3921,
+				"location": "Weiss"
+			},
+			{
+				"x": 2852,
+				"y": 3919,
+				"location": "Weiss"
+			},
+			{
+				"x": 2857,
+				"y": 3945,
+				"location": "Weiss"
+			}
+		],
 		"Bracelet mould": [
 			{
 				"x": 2928,
@@ -409861,6 +410600,13 @@
 				"x": 3009,
 				"y": 3207,
 				"location": "Port Sarim"
+			}
+		],
+		"Necklace mould": [
+			{
+				"x": 2932,
+				"y": 3287,
+				"location": "Crafting Guild"
 			}
 		],
 		"Iron spit": [
@@ -409938,7 +410684,19 @@
 				"location": "Catherby"
 			}
 		],
+		"Bronze med helm": [
+			{
+				"x": 3122,
+				"y": 3360,
+				"location": "Draynor Manor"
+			}
+		],
 		"Bronze bolts": [
+			{
+				"x": 3016,
+				"y": 3244,
+				"location": "Port Sarim"
+			},
 			{
 				"x": 3097,
 				"y": 3695,
@@ -410010,6 +410768,11 @@
 				"x": 3389,
 				"y": 3123,
 				"location": "Kharidian Desert"
+			},
+			{
+				"x": 2914,
+				"y": 3439,
+				"location": "Taverley"
 			}
 		],
 		"Staff of earth": [
@@ -410024,6 +410787,20 @@
 				"x": 2903,
 				"y": 3471,
 				"location": "Taverley"
+			}
+		],
+		"Cooked chicken": [
+			{
+				"x": 2971,
+				"y": 3382,
+				"location": "Falador"
+			}
+		],
+		"Tiara mould": [
+			{
+				"x": 2935,
+				"y": 3282,
+				"location": "Crafting Guild"
 			}
 		],
 		"Water rune": [
@@ -410041,6 +410818,13 @@
 				"x": 2960,
 				"y": 3899,
 				"location": "Wilderness"
+			}
+		],
+		"Grapes": [
+			{
+				"x": 3144,
+				"y": 3450,
+				"location": "Cooks' Guild"
 			}
 		],
 		"White apron": [
@@ -410281,11 +411065,51 @@
 				"location": "Mort Myre Swamp"
 			}
 		],
+		"Monk's robe top": [
+			{
+				"x": 3059,
+				"y": 3487,
+				"location": "Edgeville Monastery"
+			}
+		],
+		"Monk's robe": [
+			{
+				"x": 3059,
+				"y": 3488,
+				"location": "Edgeville Monastery"
+			}
+		],
+		"Uncut ruby": [
+			{
+				"x": 3185,
+				"y": 2420,
+				"location": "The Great Conch"
+			}
+		],
 		"Cake tin": [
 			{
 				"x": 2987,
 				"y": 3686,
 				"location": "Wilderness"
+			},
+			{
+				"x": 3141,
+				"y": 3452,
+				"location": "Cooks' Guild"
+			}
+		],
+		"Ring mould": [
+			{
+				"x": 2935,
+				"y": 3283,
+				"location": "Crafting Guild"
+			}
+		],
+		"Fish food": [
+			{
+				"x": 3109,
+				"y": 3357,
+				"location": "Draynor Manor"
 			}
 		],
 		"Wine of zamorak": [
@@ -410546,6 +411370,13 @@
 				"location": "Cape Conch"
 			}
 		],
+		"Bronze sq shield": [
+			{
+				"x": 3294,
+				"y": 3935,
+				"location": "Wilderness"
+			}
+		],
 		"Iron kiteshield": [
 			{
 				"x": 3247,
@@ -410621,6 +411452,13 @@
 			{
 				"x": 3647,
 				"y": 3370,
+				"location": "Darkmeyer"
+			}
+		],
+		"Bullseye lantern": [
+			{
+				"x": 3613,
+				"y": 3337,
 				"location": "Darkmeyer"
 			}
 		],
@@ -410807,6 +411645,20 @@
 				"location": "Slepe"
 			}
 		],
+		"The turncloak": [
+			{
+				"x": 3730,
+				"y": 3354,
+				"location": "Slepe"
+			}
+		],
+		"Explosive discovery": [
+			{
+				"x": 3734,
+				"y": 3318,
+				"location": "Slepe"
+			}
+		],
 		"Deed": [
 			{
 				"x": 3732,
@@ -410825,6 +411677,11 @@
 			{
 				"x": 3596,
 				"y": 3388,
+				"location": "Darkmeyer"
+			},
+			{
+				"x": 3607,
+				"y": 3337,
 				"location": "Darkmeyer"
 			},
 			{
