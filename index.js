@@ -10428,23 +10428,20 @@ let showSpawnPins = function(encodedItemName, chunkId) {
 let buildChunkLinksHtml = function(chunks, itemName, sourceType) {
     if (chunks.length === 0) return '';
     let isSpawn = !!sourceType && sourceType.includes('spawn');
-    let encodedItem = isSpawn ? encodeRFC5987ValueChars(itemName) : '';
     if (chunks.length === 1) {
         let id = chunks[0].split('-')[0];
-        let onclick = isSpawn
-            ? `closeHighest3(); showSpawnPins('${encodedItem}', '${id}'); scrollToChunkCanvas(${id})`
-            : `closeHighest3(); scrollToChunkCanvas(${id})`;
-        return ` <span class='noscroll link highest3-chunk-link' onclick='${onclick}'>${getChunkLabel(chunks[0])}</span>`;
+        return isSpawn
+            ? ` <span class='noscroll link highest3-chunk-link highest3-spawn-link' data-item='${encodeRFC5987ValueChars(itemName)}' data-chunk='${id}'>${getChunkLabel(chunks[0])}</span>`
+            : ` <span class='noscroll link highest3-chunk-link' onclick='closeHighest3(); scrollToChunkCanvas(${id})'>${getChunkLabel(chunks[0])}</span>`;
     }
     let uid = h3ChunkUid++;
     let html = ` <span class='noscroll highest3-chunk-toggle link' onclick='$(".h3-chunks-${uid}").toggle()'>${chunks.length} chunks ▾</span>`;
     html += `<div class='noscroll highest3-chunk-list h3-chunks-${uid}' style='display:none'>`;
     chunks.forEach((chunk) => {
         let id = chunk.split('-')[0];
-        let onclick = isSpawn
-            ? `closeHighest3(); showSpawnPins('${encodedItem}', '${id}'); scrollToChunkCanvas(${id})`
-            : `closeHighest3(); scrollToChunkCanvas(${id})`;
-        html += `<div class='noscroll highest3-chunk-entry'><span class='noscroll link' onclick='${onclick}'>${getChunkLabel(chunk)}</span></div>`;
+        html += isSpawn
+            ? `<div class='noscroll highest3-chunk-entry'><span class='noscroll link highest3-spawn-link' data-item='${encodeRFC5987ValueChars(itemName)}' data-chunk='${id}'>${getChunkLabel(chunk)}</span></div>`
+            : `<div class='noscroll highest3-chunk-entry'><span class='noscroll link' onclick='closeHighest3(); scrollToChunkCanvas(${id})'>${getChunkLabel(chunk)}</span></div>`;
     });
     html += `</div>`;
     return html;
@@ -10523,6 +10520,14 @@ let openHighest3 = function() {
         }
 
         loadItemIcons();
+
+        $('#highest3Modal').on('click', '.highest3-spawn-link', function() {
+            let item = $(this).attr('data-item');
+            let chunk = $(this).attr('data-chunk');
+            closeHighest3();
+            showSpawnPins(item, chunk);
+            scrollToChunkCanvas(parseInt(chunk));
+        });
 
         if (highestTab3 === undefined) {
             highestTab3 = 'All';
