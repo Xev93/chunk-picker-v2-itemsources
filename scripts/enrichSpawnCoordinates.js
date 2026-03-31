@@ -48,7 +48,7 @@ let parseSpawnLines = function(wikitext, itemName) {
             let locationMatch2 = params.match(/location=([^|]+)/);
             if (locationMatch2) { location = locationMatch2[1].replace(/\[\[/g, '').replace(/\]\]/g, ''); }
         }
-        let coordRegex = /\|(\d{3,4}),(\d{3,5})(?:,qty:\d+)?\|/g;
+        let coordRegex = /\|(\d{3,4}),(\d{3,5})(?:,qty:\d+)?(?=\|)/g;
         let allParams = '|' + params + '|';
         let coordMatch;
         while ((coordMatch = coordRegex.exec(allParams)) !== null) {

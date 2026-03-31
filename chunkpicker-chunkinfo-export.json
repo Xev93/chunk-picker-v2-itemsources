@@ -404571,7 +404571,17 @@
 			},
 			{
 				"x": 2767,
+				"y": 3197,
+				"location": "Brimhaven"
+			},
+			{
+				"x": 2767,
 				"y": 3199,
+				"location": "Brimhaven"
+			},
+			{
+				"x": 2768,
+				"y": 3198,
 				"location": "Brimhaven"
 			},
 			{
@@ -404585,6 +404595,11 @@
 				"location": "Cam Torum"
 			},
 			{
+				"x": 1471,
+				"y": 3055,
+				"location": "Cam Torum"
+			},
+			{
 				"x": 1468,
 				"y": 3054,
 				"location": "Cam Torum"
@@ -404595,8 +404610,18 @@
 				"location": "Dognose Island"
 			},
 			{
+				"x": 3053,
+				"y": 2654,
+				"location": "Dognose Island"
+			},
+			{
 				"x": 3049,
 				"y": 2656,
+				"location": "Dognose Island"
+			},
+			{
+				"x": 3047,
+				"y": 2652,
 				"location": "Dognose Island"
 			},
 			{
@@ -404610,8 +404635,18 @@
 				"location": "Giants' Plateau"
 			},
 			{
+				"x": 3375,
+				"y": 3153,
+				"location": "Giants' Plateau"
+			},
+			{
 				"x": 3386,
 				"y": 3151,
+				"location": "Giants' Plateau"
+			},
+			{
+				"x": 3371,
+				"y": 3149,
 				"location": "Giants' Plateau"
 			},
 			{
@@ -404620,8 +404655,18 @@
 				"location": "Giants' Plateau"
 			},
 			{
+				"x": 3383,
+				"y": 3147,
+				"location": "Giants' Plateau"
+			},
+			{
 				"x": 3338,
 				"y": 3234,
+				"location": "Emir's Arena"
+			},
+			{
+				"x": 3347,
+				"y": 3231,
 				"location": "Emir's Arena"
 			},
 			{
@@ -404630,8 +404675,18 @@
 				"location": "Emir's Arena"
 			},
 			{
+				"x": 3365,
+				"y": 3228,
+				"location": "Emir's Arena"
+			},
+			{
 				"x": 3370,
 				"y": 3231,
+				"location": "Emir's Arena"
+			},
+			{
+				"x": 3368,
+				"y": 3238,
 				"location": "Emir's Arena"
 			},
 			{
@@ -404642,6 +404697,11 @@
 			{
 				"x": 1395,
 				"y": 3118,
+				"location": "Moss giant"
+			},
+			{
+				"x": 1391,
+				"y": 3116,
 				"location": "Moss giant"
 			},
 			{
@@ -404660,6 +404720,11 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1580,
+				"y": 3313,
+				"location": "Shipwreck Cove"
+			},
+			{
 				"x": 1586,
 				"y": 3297,
 				"location": "Shipwreck Cove"
@@ -404675,8 +404740,18 @@
 				"location": "Varrock Palace"
 			},
 			{
+				"x": 3232,
+				"y": 3500,
+				"location": "Varrock Palace"
+			},
+			{
 				"x": 3221,
 				"y": 3829,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3220,
+				"y": 3826,
 				"location": "Wilderness"
 			},
 			{
@@ -404686,7 +404761,17 @@
 			},
 			{
 				"x": 3108,
+				"y": 3859,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3108,
 				"y": 3534,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3103,
+				"y": 3548,
 				"location": "Wilderness"
 			},
 			{
@@ -404695,8 +404780,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3098,
+				"y": 3564,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3099,
 				"y": 3572,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3099,
+				"y": 3557,
 				"location": "Wilderness"
 			},
 			{
@@ -404706,6 +404801,11 @@
 			},
 			{
 				"x": 2990,
+				"y": 3675,
+				"location": "Wilderness"
+			},
+			{
+				"x": 2979,
 				"y": 3675,
 				"location": "Wilderness"
 			},
@@ -404850,6 +404950,11 @@
 				"location": "Civitas illa Fortis"
 			},
 			{
+				"x": 1744,
+				"y": 3166,
+				"location": "Civitas illa Fortis"
+			},
+			{
 				"x": 1742,
 				"y": 3166,
 				"location": "Civitas illa Fortis"
@@ -404860,8 +404965,18 @@
 				"location": "Draynor Village"
 			},
 			{
+				"x": 3089,
+				"y": 3266,
+				"location": "Draynor Village"
+			},
+			{
 				"x": 1541,
 				"y": 3678,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1538,
+				"y": 3677,
 				"location": "Great Kourend"
 			},
 			{
@@ -404870,8 +404985,18 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1540,
+				"y": 3673,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1256,
 				"y": 3741,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1261,
+				"y": 3740,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -404885,12 +405010,27 @@
 				"location": "Lumbridge Castle"
 			},
 			{
+				"x": 3205,
+				"y": 3226,
+				"location": "Lumbridge Castle"
+			},
+			{
 				"x": 3208,
 				"y": 3225,
 				"location": "Lumbridge Castle"
 			},
 			{
+				"x": 3209,
+				"y": 3224,
+				"location": "Lumbridge Castle"
+			},
+			{
 				"x": 1746,
+				"y": 3079,
+				"location": "Outer Fortis"
+			},
+			{
+				"x": 1742,
 				"y": 3079,
 				"location": "Outer Fortis"
 			},
@@ -404900,12 +405040,27 @@
 				"location": "Outer Fortis"
 			},
 			{
+				"x": 1687,
+				"y": 3067,
+				"location": "Outer Fortis"
+			},
+			{
 				"x": 1678,
 				"y": 3062,
 				"location": "Outer Fortis"
 			},
 			{
+				"x": 1678,
+				"y": 3066,
+				"location": "Outer Fortis"
+			},
+			{
 				"x": 2958,
+				"y": 3205,
+				"location": "Rimmington"
+			},
+			{
+				"x": 2959,
 				"y": 3205,
 				"location": "Rimmington"
 			},
@@ -404915,7 +405070,17 @@
 				"location": "Tutorial Island"
 			},
 			{
+				"x": 3101,
+				"y": 3096,
+				"location": "Tutorial Island"
+			},
+			{
 				"x": 3244,
+				"y": 3398,
+				"location": "Varrock"
+			},
+			{
+				"x": 3245,
 				"y": 3398,
 				"location": "Varrock"
 			},
@@ -404925,8 +405090,18 @@
 				"location": "Varrock Sawmill"
 			},
 			{
+				"x": 3303,
+				"y": 3503,
+				"location": "Varrock Sawmill"
+			},
+			{
 				"x": 3310,
 				"y": 3504,
+				"location": "Varrock Sawmill"
+			},
+			{
+				"x": 3298,
+				"y": 3512,
 				"location": "Varrock Sawmill"
 			},
 			{
@@ -404935,8 +405110,18 @@
 				"location": "Varrock Sawmill"
 			},
 			{
+				"x": 3301,
+				"y": 3507,
+				"location": "Varrock Sawmill"
+			},
+			{
 				"x": 3302,
 				"y": 3507,
+				"location": "Varrock Sawmill"
+			},
+			{
+				"x": 3302,
+				"y": 3510,
 				"location": "Varrock Sawmill"
 			},
 			{
@@ -404946,6 +405131,11 @@
 			},
 			{
 				"x": 3105,
+				"y": 3159,
+				"location": "Wizards' Tower"
+			},
+			{
+				"x": 3106,
 				"y": 3159,
 				"location": "Wizards' Tower"
 			},
@@ -404962,6 +405152,11 @@
 			{
 				"x": 1533,
 				"y": 3293,
+				"location": "The Darkfrost"
+			},
+			{
+				"x": 1525,
+				"y": 3289,
 				"location": "The Darkfrost"
 			},
 			{
@@ -404984,6 +405179,11 @@
 			{
 				"x": 3618,
 				"y": 3387,
+				"location": "Darkmeyer"
+			},
+			{
+				"x": 3610,
+				"y": 3324,
 				"location": "Darkmeyer"
 			},
 			{
@@ -405072,6 +405272,11 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3096,
+				"y": 3856,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3106,
 				"y": 3956,
 				"location": "Wilderness"
@@ -405126,6 +405331,11 @@
 			{
 				"x": 1381,
 				"y": 3370,
+				"location": "Auburnvale"
+			},
+			{
+				"x": 1399,
+				"y": 3341,
 				"location": "Auburnvale"
 			},
 			{
@@ -405189,8 +405399,18 @@
 				"location": "Karamja"
 			},
 			{
+				"x": 2963,
+				"y": 3058,
+				"location": "Karamja"
+			},
+			{
 				"x": 2986,
 				"y": 3048,
+				"location": "Karamja"
+			},
+			{
+				"x": 2989,
+				"y": 3061,
 				"location": "Karamja"
 			},
 			{
@@ -405206,6 +405426,11 @@
 			{
 				"x": 1773,
 				"y": 3060,
+				"location": "Outer Fortis"
+			},
+			{
+				"x": 1696,
+				"y": 3070,
 				"location": "Outer Fortis"
 			},
 			{
@@ -405393,6 +405618,11 @@
 			},
 			{
 				"x": 2786,
+				"y": 3286,
+				"location": "Fishing Platform"
+			},
+			{
+				"x": 2786,
 				"y": 3287,
 				"location": "Fishing Platform"
 			},
@@ -405404,6 +405634,11 @@
 			{
 				"x": 1297,
 				"y": 3720,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1285,
+				"y": 3763,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -405432,13 +405667,28 @@
 				"location": "Ruins of Ullek"
 			},
 			{
+				"x": 3397,
+				"y": 2802,
+				"location": "Ruins of Ullek"
+			},
+			{
 				"x": 1771,
 				"y": 3039,
 				"location": "Outer Fortis"
 			},
 			{
+				"x": 1776,
+				"y": 3049,
+				"location": "Outer Fortis"
+			},
+			{
 				"x": 1742,
 				"y": 3076,
+				"location": "Outer Fortis"
+			},
+			{
+				"x": 1737,
+				"y": 3064,
 				"location": "Outer Fortis"
 			},
 			{
@@ -405457,8 +405707,18 @@
 				"location": "Civitas illa Fortis"
 			},
 			{
+				"x": 1768,
+				"y": 3156,
+				"location": "Civitas illa Fortis"
+			},
+			{
 				"x": 1769,
 				"y": 3100,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1628,
+				"y": 3092,
 				"location": "Civitas illa Fortis"
 			},
 			{
@@ -405484,6 +405744,11 @@
 			{
 				"x": 1574,
 				"y": 3312,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1568,
+				"y": 3317,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -405551,6 +405816,11 @@
 			{
 				"x": 2825,
 				"y": 3088,
+				"location": "Tai Bwo Wannai"
+			},
+			{
+				"x": 2826,
+				"y": 3083,
 				"location": "Tai Bwo Wannai"
 			},
 			{
@@ -405671,12 +405941,27 @@
 			},
 			{
 				"x": 2795,
+				"y": 3160,
+				"location": "Brimhaven"
+			},
+			{
+				"x": 2795,
 				"y": 3165,
 				"location": "Brimhaven"
 			},
 			{
 				"x": 2798,
+				"y": 3156,
+				"location": "Brimhaven"
+			},
+			{
+				"x": 2798,
 				"y": 3160,
+				"location": "Brimhaven"
+			},
+			{
+				"x": 2798,
+				"y": 3161,
 				"location": "Brimhaven"
 			},
 			{
@@ -405710,6 +405995,11 @@
 				"location": "Auburnvale"
 			},
 			{
+				"x": 1399,
+				"y": 3357,
+				"location": "Auburnvale"
+			},
+			{
 				"x": 2097,
 				"y": 3689,
 				"location": "Buccaneers' Haven"
@@ -405739,6 +406029,11 @@
 			{
 				"x": 1392,
 				"y": 3118,
+				"location": "Moss giant"
+			},
+			{
+				"x": 1399,
+				"y": 3123,
 				"location": "Moss giant"
 			},
 			{
@@ -405786,8 +406081,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1250,
+				"y": 3693,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1253,
 				"y": 3692,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1254,
+				"y": 3688,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -405801,8 +406106,18 @@
 				"location": "Sunset Coast"
 			},
 			{
+				"x": 1561,
+				"y": 2962,
+				"location": "Sunset Coast"
+			},
+			{
 				"x": 3182,
 				"y": 2421,
+				"location": "The Summer Shore"
+			},
+			{
+				"x": 3163,
+				"y": 2422,
 				"location": "The Summer Shore"
 			}
 		],
@@ -405813,8 +406128,18 @@
 				"location": "Port Khazard"
 			},
 			{
+				"x": 2651,
+				"y": 3155,
+				"location": "Port Khazard"
+			},
+			{
 				"x": 2550,
 				"y": 3575,
+				"location": "Barbarian Outpost"
+			},
+			{
+				"x": 2553,
+				"y": 3576,
 				"location": "Barbarian Outpost"
 			},
 			{
@@ -405823,13 +406148,28 @@
 				"location": "Barbarian Outpost"
 			},
 			{
+				"x": 2556,
+				"y": 3573,
+				"location": "Barbarian Outpost"
+			},
+			{
 				"x": 1203,
 				"y": 3652,
 				"location": "Kebos Lowlands mine"
 			},
 			{
+				"x": 1202,
+				"y": 3649,
+				"location": "Kebos Lowlands mine"
+			},
+			{
 				"x": 2701,
 				"y": 2717,
+				"location": "Ape Atoll"
+			},
+			{
+				"x": 2704,
+				"y": 2718,
 				"location": "Ape Atoll"
 			},
 			{
@@ -405839,7 +406179,17 @@
 			},
 			{
 				"x": 3154,
+				"y": 3659,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3154,
 				"y": 3670,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3171,
+				"y": 3680,
 				"location": "Wilderness"
 			},
 			{
@@ -405853,8 +406203,18 @@
 				"location": "Fossil Island"
 			},
 			{
+				"x": 3730,
+				"y": 3817,
+				"location": "Fossil Island"
+			},
+			{
 				"x": 2846,
 				"y": 3384,
+				"location": "Entrana"
+			},
+			{
+				"x": 2848,
+				"y": 3383,
 				"location": "Entrana"
 			},
 			{
@@ -405863,8 +406223,18 @@
 				"location": "Crandor"
 			},
 			{
+				"x": 2847,
+				"y": 3238,
+				"location": "Crandor"
+			},
+			{
 				"x": 2851,
 				"y": 3239,
+				"location": "Crandor"
+			},
+			{
+				"x": 2856,
+				"y": 3231,
 				"location": "Crandor"
 			},
 			{
@@ -405878,6 +406248,11 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3291,
+				"y": 3652,
+				"location": "Wilderness"
+			},
+			{
 				"x": 2265,
 				"y": 2888,
 				"location": "Isle of Souls"
@@ -405885,6 +406260,11 @@
 			{
 				"x": 3323,
 				"y": 2733,
+				"location": "Necropolis"
+			},
+			{
+				"x": 3312,
+				"y": 2724,
 				"location": "Necropolis"
 			},
 			{
@@ -405898,6 +406278,11 @@
 				"location": "Colossal Wyrm Remains"
 			},
 			{
+				"x": 1640,
+				"y": 2927,
+				"location": "Colossal Wyrm Remains"
+			},
+			{
 				"x": 1745,
 				"y": 3181,
 				"location": "Civitas illa Fortis"
@@ -405908,8 +406293,18 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1572,
+				"y": 3321,
+				"location": "Shipwreck Cove"
+			},
+			{
 				"x": 1574,
 				"y": 3317,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1583,
+				"y": 3315,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -405918,8 +406313,18 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1567,
+				"y": 3309,
+				"location": "Shipwreck Cove"
+			},
+			{
 				"x": 1235,
 				"y": 3074,
+				"location": "Tlati Rainforest"
+			},
+			{
+				"x": 1238,
+				"y": 3076,
 				"location": "Tlati Rainforest"
 			}
 		],
@@ -405935,6 +406340,11 @@
 				"location": "Falador farm"
 			},
 			{
+				"x": 3020,
+				"y": 3291,
+				"location": "Falador farm"
+			},
+			{
 				"x": 3408,
 				"y": 3176,
 				"location": "Citharede Abbey"
@@ -405942,6 +406352,11 @@
 			{
 				"x": 3624,
 				"y": 3345,
+				"location": "Darkmeyer"
+			},
+			{
+				"x": 3617,
+				"y": 3377,
 				"location": "Darkmeyer"
 			},
 			{
@@ -405970,6 +406385,11 @@
 				"location": "Pollnivneach"
 			},
 			{
+				"x": 3351,
+				"y": 2966,
+				"location": "Pollnivneach"
+			},
+			{
 				"x": 2564,
 				"y": 3332,
 				"location": "East Ardougne"
@@ -405986,7 +406406,17 @@
 			},
 			{
 				"x": 3626,
+				"y": 3254,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3626,
 				"y": 3259,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3627,
+				"y": 3291,
 				"location": "Meiyerditch"
 			},
 			{
@@ -405995,8 +406425,18 @@
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3629,
+				"y": 3198,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3635,
 				"y": 3276,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3638,
+				"y": 3243,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406006,7 +406446,17 @@
 			},
 			{
 				"x": 3597,
+				"y": 3190,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3597,
 				"y": 3301,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3604,
+				"y": 3219,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406015,13 +406465,28 @@
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3621,
+				"y": 3282,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3605,
 				"y": 3251,
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3611,
+				"y": 3246,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3622,
 				"y": 3243,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3624,
+				"y": 3236,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406060,8 +406525,18 @@
 				"location": "Death Plateau (location)"
 			},
 			{
+				"x": 2864,
+				"y": 3585,
+				"location": "Death Plateau (location)"
+			},
+			{
 				"x": 3221,
 				"y": 3497,
+				"location": "Varrock Palace"
+			},
+			{
+				"x": 3222,
+				"y": 3491,
 				"location": "Varrock Palace"
 			},
 			{
@@ -406092,6 +406567,11 @@
 			{
 				"x": 1667,
 				"y": 3124,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1644,
+				"y": 3093,
 				"location": "Civitas illa Fortis"
 			},
 			{
@@ -406159,6 +406639,11 @@
 			{
 				"x": 3646,
 				"y": 3369,
+				"location": "Darkmeyer"
+			},
+			{
+				"x": 3642,
+				"y": 3387,
 				"location": "Darkmeyer"
 			},
 			{
@@ -406350,6 +406835,11 @@
 				"location": "Barrows"
 			},
 			{
+				"x": 3571,
+				"y": 3310,
+				"location": "Barrows"
+			},
+			{
 				"x": 3120,
 				"y": 3359,
 				"location": "Draynor Manor"
@@ -406380,8 +406870,18 @@
 				"location": "Necropolis"
 			},
 			{
+				"x": 3338,
+				"y": 2751,
+				"location": "Necropolis"
+			},
+			{
 				"x": 3334,
 				"y": 2719,
+				"location": "Necropolis"
+			},
+			{
+				"x": 3333,
+				"y": 2702,
 				"location": "Necropolis"
 			},
 			{
@@ -406392,6 +406892,11 @@
 			{
 				"x": 1500,
 				"y": 3655,
+				"location": "Shayzien Encampment"
+			},
+			{
+				"x": 1514,
+				"y": 3613,
 				"location": "Shayzien Encampment"
 			},
 			{
@@ -406414,6 +406919,11 @@
 			{
 				"x": 1364,
 				"y": 3040,
+				"location": "Kastori"
+			},
+			{
+				"x": 1377,
+				"y": 3034,
 				"location": "Kastori"
 			},
 			{
@@ -406444,8 +406954,18 @@
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3627,
+				"y": 3323,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3633,
 				"y": 3322,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3627,
+				"y": 3273,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406454,8 +406974,18 @@
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3628,
+				"y": 3260,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3633,
 				"y": 3264,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3634,
+				"y": 3282,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406464,8 +406994,18 @@
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3596,
+				"y": 3210,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3598,
 				"y": 3190,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3601,
+				"y": 3303,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406475,7 +407015,17 @@
 			},
 			{
 				"x": 3612,
+				"y": 3214,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3612,
 				"y": 3224,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3615,
+				"y": 3230,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406484,8 +407034,18 @@
 				"location": "Meiyerditch"
 			},
 			{
+				"x": 3620,
+				"y": 3282,
+				"location": "Meiyerditch"
+			},
+			{
 				"x": 3604,
 				"y": 3252,
+				"location": "Meiyerditch"
+			},
+			{
+				"x": 3639,
+				"y": 3258,
 				"location": "Meiyerditch"
 			},
 			{
@@ -406501,6 +407061,11 @@
 			{
 				"x": 2885,
 				"y": 3945,
+				"location": "Weiss"
+			},
+			{
+				"x": 2888,
+				"y": 3943,
 				"location": "Weiss"
 			},
 			{
@@ -406558,6 +407123,11 @@
 			{
 				"x": 1394,
 				"y": 3116,
+				"location": "West of Ralos' Rise"
+			},
+			{
+				"x": 1385,
+				"y": 3119,
 				"location": "West of Ralos' Rise"
 			}
 		],
@@ -406624,6 +407194,11 @@
 				"location": "Barbarian Village"
 			},
 			{
+				"x": 3077,
+				"y": 3439,
+				"location": "Barbarian Village"
+			},
+			{
 				"x": 3080,
 				"y": 3441,
 				"location": "Barbarian Village"
@@ -406634,6 +407209,11 @@
 				"location": "Combat Training Camp"
 			},
 			{
+				"x": 2521,
+				"y": 3379,
+				"location": "Combat Training Camp"
+			},
+			{
 				"x": 2525,
 				"y": 3365,
 				"location": "Combat Training Camp"
@@ -406641,6 +407221,11 @@
 			{
 				"x": 2796,
 				"y": 3165,
+				"location": "Brimhaven"
+			},
+			{
+				"x": 2799,
+				"y": 3156,
 				"location": "Brimhaven"
 			},
 			{
@@ -406664,8 +407249,18 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1730,
+				"y": 3614,
+				"location": "Hosidius"
+			},
+			{
 				"x": 1775,
 				"y": 3679,
+				"location": "Port Piscarilius"
+			},
+			{
+				"x": 1773,
+				"y": 3683,
 				"location": "Port Piscarilius"
 			},
 			{
@@ -406734,6 +407329,11 @@
 			},
 			{
 				"x": 1764,
+				"y": 3102,
+				"location": "Civitas illa Fortis"
+			},
+			{
+				"x": 1764,
 				"y": 3100,
 				"location": "Civitas illa Fortis"
 			},
@@ -406745,6 +407345,11 @@
 			{
 				"x": 1208,
 				"y": 3093,
+				"location": "Tal Teklan"
+			},
+			{
+				"x": 1230,
+				"y": 3120,
 				"location": "Tal Teklan"
 			},
 			{
@@ -406797,8 +407402,18 @@
 				"location": "Falador farm"
 			},
 			{
+				"x": 3017,
+				"y": 3295,
+				"location": "Falador farm"
+			},
+			{
 				"x": 3169,
 				"y": 3291,
+				"location": "Lumbridge"
+			},
+			{
+				"x": 3172,
+				"y": 3301,
 				"location": "Lumbridge"
 			},
 			{
@@ -406807,13 +407422,28 @@
 				"location": "Lumbridge"
 			},
 			{
+				"x": 3185,
+				"y": 3297,
+				"location": "Lumbridge"
+			},
+			{
 				"x": 3226,
 				"y": 3301,
 				"location": "Lumbridge"
 			},
 			{
+				"x": 3229,
+				"y": 3299,
+				"location": "Lumbridge"
+			},
+			{
 				"x": 2851,
 				"y": 3372,
+				"location": "Entrana"
+			},
+			{
+				"x": 2852,
+				"y": 3369,
 				"location": "Entrana"
 			},
 			{
@@ -406827,8 +407457,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1252,
+				"y": 3691,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1238,
 				"y": 3136,
+				"location": "Tal Teklan"
+			},
+			{
+				"x": 1242,
+				"y": 3139,
 				"location": "Tal Teklan"
 			},
 			{
@@ -406842,8 +407482,18 @@
 				"location": "Ortus Farm"
 			},
 			{
+				"x": 1550,
+				"y": 3127,
+				"location": "Ortus Farm"
+			},
+			{
 				"x": 1556,
 				"y": 3130,
+				"location": "Ortus Farm"
+			},
+			{
+				"x": 1548,
+				"y": 3133,
 				"location": "Ortus Farm"
 			},
 			{
@@ -406891,13 +407541,28 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1774,
+				"y": 3601,
+				"location": "Hosidius"
+			},
+			{
 				"x": 1773,
 				"y": 3605,
 				"location": "Hosidius"
 			},
 			{
+				"x": 1775,
+				"y": 3604,
+				"location": "Hosidius"
+			},
+			{
 				"x": 1296,
 				"y": 3717,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1296,
+				"y": 3719,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -406911,8 +407576,18 @@
 				"location": "Kingstown"
 			},
 			{
+				"x": 1683,
+				"y": 3678,
+				"location": "Kingstown"
+			},
+			{
 				"x": 1561,
 				"y": 3045,
+				"location": "Hunter Guild"
+			},
+			{
+				"x": 1560,
+				"y": 3047,
 				"location": "Hunter Guild"
 			},
 			{
@@ -406928,6 +407603,11 @@
 				"location": "Mort'ton"
 			},
 			{
+				"x": 3481,
+				"y": 3279,
+				"location": "Mort'ton"
+			},
+			{
 				"x": 3716,
 				"y": 3358,
 				"location": "Slepe"
@@ -406938,13 +407618,28 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3196,
+				"y": 3849,
+				"location": "Wilderness"
+			},
+			{
 				"x": 2587,
+				"y": 3090,
+				"location": "Wizards' Guild"
+			},
+			{
+				"x": 2588,
 				"y": 3090,
 				"location": "Wizards' Guild"
 			},
 			{
 				"x": 2808,
 				"y": 3343,
+				"location": "Entrana"
+			},
+			{
+				"x": 2809,
+				"y": 3342,
 				"location": "Entrana"
 			},
 			{
@@ -406971,7 +407666,17 @@
 			},
 			{
 				"x": 2755,
+				"y": 2952,
+				"location": "Karamja"
+			},
+			{
+				"x": 2755,
 				"y": 3017,
+				"location": "Karamja"
+			},
+			{
+				"x": 2755,
+				"y": 3049,
 				"location": "Karamja"
 			},
 			{
@@ -406981,7 +407686,17 @@
 			},
 			{
 				"x": 2756,
+				"y": 3008,
+				"location": "Karamja"
+			},
+			{
+				"x": 2756,
 				"y": 3075,
+				"location": "Karamja"
+			},
+			{
+				"x": 2756,
+				"y": 3125,
 				"location": "Karamja"
 			},
 			{
@@ -406990,8 +407705,18 @@
 				"location": "Karamja"
 			},
 			{
+				"x": 2757,
+				"y": 3109,
+				"location": "Karamja"
+			},
+			{
 				"x": 2762,
 				"y": 3001,
+				"location": "Karamja"
+			},
+			{
+				"x": 2771,
+				"y": 2995,
 				"location": "Karamja"
 			},
 			{
@@ -407000,8 +407725,18 @@
 				"location": "Karamja"
 			},
 			{
+				"x": 2786,
+				"y": 2960,
+				"location": "Karamja"
+			},
+			{
 				"x": 2807,
 				"y": 3129,
+				"location": "Karamja"
+			},
+			{
+				"x": 2840,
+				"y": 2974,
 				"location": "Karamja"
 			},
 			{
@@ -407010,8 +407745,18 @@
 				"location": "Karamja"
 			},
 			{
+				"x": 2864,
+				"y": 3195,
+				"location": "Karamja"
+			},
+			{
 				"x": 2866,
 				"y": 2976,
+				"location": "Karamja"
+			},
+			{
+				"x": 2896,
+				"y": 3119,
 				"location": "Karamja"
 			},
 			{
@@ -407020,8 +407765,18 @@
 				"location": "Karamja"
 			},
 			{
+				"x": 2926,
+				"y": 3110,
+				"location": "Karamja"
+			},
+			{
 				"x": 2939,
 				"y": 3073,
+				"location": "Karamja"
+			},
+			{
+				"x": 2940,
+				"y": 3102,
 				"location": "Karamja"
 			},
 			{
@@ -407030,8 +407785,18 @@
 				"location": "Karamja"
 			},
 			{
+				"x": 2952,
+				"y": 2951,
+				"location": "Karamja"
+			},
+			{
 				"x": 2955,
 				"y": 3010,
+				"location": "Karamja"
+			},
+			{
+				"x": 2960,
+				"y": 2959,
 				"location": "Karamja"
 			},
 			{
@@ -407045,8 +407810,18 @@
 				"location": "Mos Le'Harmless"
 			},
 			{
+				"x": 3814,
+				"y": 3065,
+				"location": "Mos Le'Harmless"
+			},
+			{
 				"x": 3815,
 				"y": 3064,
+				"location": "Mos Le'Harmless"
+			},
+			{
+				"x": 3829,
+				"y": 3052,
 				"location": "Mos Le'Harmless"
 			},
 			{
@@ -407056,11 +407831,26 @@
 			},
 			{
 				"x": 2804,
+				"y": 3380,
+				"location": "Entrana"
+			},
+			{
+				"x": 2804,
 				"y": 3385,
 				"location": "Entrana"
 			},
 			{
 				"x": 2805,
+				"y": 3381,
+				"location": "Entrana"
+			},
+			{
+				"x": 2805,
+				"y": 3384,
+				"location": "Entrana"
+			},
+			{
+				"x": 2807,
 				"y": 3384,
 				"location": "Entrana"
 			},
@@ -407071,11 +407861,26 @@
 			},
 			{
 				"x": 2809,
+				"y": 3385,
+				"location": "Entrana"
+			},
+			{
+				"x": 2809,
 				"y": 3388,
 				"location": "Entrana"
 			},
 			{
+				"x": 2810,
+				"y": 3387,
+				"location": "Entrana"
+			},
+			{
 				"x": 1686,
+				"y": 3459,
+				"location": "Kourend"
+			},
+			{
+				"x": 1687,
 				"y": 3459,
 				"location": "Kourend"
 			},
@@ -407085,8 +407890,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1689,
+				"y": 3459,
+				"location": "Kourend"
+			},
+			{
 				"x": 1690,
 				"y": 3458,
+				"location": "Kourend"
+			},
+			{
+				"x": 1731,
+				"y": 3461,
 				"location": "Kourend"
 			},
 			{
@@ -407095,7 +407910,17 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1749,
+				"y": 3463,
+				"location": "Kourend"
+			},
+			{
 				"x": 1773,
+				"y": 3459,
+				"location": "Kourend"
+			},
+			{
+				"x": 1779,
 				"y": 3459,
 				"location": "Kourend"
 			},
@@ -407105,8 +407930,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1788,
+				"y": 3695,
+				"location": "Kourend"
+			},
+			{
 				"x": 1789,
 				"y": 3460,
+				"location": "Kourend"
+			},
+			{
+				"x": 1789,
+				"y": 3687,
 				"location": "Kourend"
 			},
 			{
@@ -407115,8 +407950,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1790,
+				"y": 3703,
+				"location": "Kourend"
+			},
+			{
 				"x": 1791,
 				"y": 3678,
+				"location": "Kourend"
+			},
+			{
+				"x": 1798,
+				"y": 3460,
 				"location": "Kourend"
 			},
 			{
@@ -407125,8 +407970,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1800,
+				"y": 3457,
+				"location": "Kourend"
+			},
+			{
 				"x": 1801,
 				"y": 3453,
+				"location": "Kourend"
+			},
+			{
+				"x": 1810,
+				"y": 3438,
 				"location": "Kourend"
 			},
 			{
@@ -407135,8 +407990,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1814,
+				"y": 3438,
+				"location": "Kourend"
+			},
+			{
 				"x": 1816,
 				"y": 3446,
+				"location": "Kourend"
+			},
+			{
+				"x": 1818,
+				"y": 3602,
 				"location": "Kourend"
 			},
 			{
@@ -407145,8 +408010,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1821,
+				"y": 3589,
+				"location": "Kourend"
+			},
+			{
 				"x": 1823,
 				"y": 3448,
+				"location": "Kourend"
+			},
+			{
+				"x": 1826,
+				"y": 3593,
 				"location": "Kourend"
 			},
 			{
@@ -407155,8 +408030,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1831,
+				"y": 3621,
+				"location": "Kourend"
+			},
+			{
 				"x": 1833,
 				"y": 3633,
+				"location": "Kourend"
+			},
+			{
+				"x": 1840,
+				"y": 3614,
 				"location": "Kourend"
 			},
 			{
@@ -407165,8 +408050,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1841,
+				"y": 3620,
+				"location": "Kourend"
+			},
+			{
 				"x": 1842,
 				"y": 3452,
+				"location": "Kourend"
+			},
+			{
+				"x": 1843,
+				"y": 3454,
 				"location": "Kourend"
 			},
 			{
@@ -407176,12 +408071,27 @@
 			},
 			{
 				"x": 1845,
+				"y": 3521,
+				"location": "Kourend"
+			},
+			{
+				"x": 1845,
 				"y": 3534,
 				"location": "Kourend"
 			},
 			{
 				"x": 1846,
+				"y": 3456,
+				"location": "Kourend"
+			},
+			{
+				"x": 1846,
 				"y": 3466,
+				"location": "Kourend"
+			},
+			{
+				"x": 1848,
+				"y": 3469,
 				"location": "Kourend"
 			},
 			{
@@ -407191,7 +408101,17 @@
 			},
 			{
 				"x": 1851,
+				"y": 3545,
+				"location": "Kourend"
+			},
+			{
+				"x": 1851,
 				"y": 3574,
+				"location": "Kourend"
+			},
+			{
+				"x": 1853,
+				"y": 3544,
 				"location": "Kourend"
 			},
 			{
@@ -407200,8 +408120,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1853,
+				"y": 3580,
+				"location": "Kourend"
+			},
+			{
 				"x": 1854,
 				"y": 3467,
+				"location": "Kourend"
+			},
+			{
+				"x": 1858,
+				"y": 3566,
 				"location": "Kourend"
 			},
 			{
@@ -407210,8 +408140,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1864,
+				"y": 3565,
+				"location": "Kourend"
+			},
+			{
 				"x": 1875,
 				"y": 3562,
+				"location": "Kourend"
+			},
+			{
+				"x": 1875,
+				"y": 3564,
 				"location": "Kourend"
 			},
 			{
@@ -407220,8 +408160,18 @@
 				"location": "Kourend"
 			},
 			{
+				"x": 1877,
+				"y": 3561,
+				"location": "Kourend"
+			},
+			{
 				"x": 1878,
 				"y": 3547,
+				"location": "Kourend"
+			},
+			{
+				"x": 1881,
+				"y": 3548,
 				"location": "Kourend"
 			},
 			{
@@ -407230,8 +408180,18 @@
 				"location": "Fremennik Province"
 			},
 			{
+				"x": 2699,
+				"y": 3729,
+				"location": "Fremennik Province"
+			},
+			{
 				"x": 2701,
 				"y": 3731,
+				"location": "Fremennik Province"
+			},
+			{
+				"x": 2708,
+				"y": 3728,
 				"location": "Fremennik Province"
 			},
 			{
@@ -407240,8 +408200,18 @@
 				"location": "Fremennik Province"
 			},
 			{
+				"x": 2714,
+				"y": 3733,
+				"location": "Fremennik Province"
+			},
+			{
 				"x": 2719,
 				"y": 3733,
+				"location": "Fremennik Province"
+			},
+			{
+				"x": 2721,
+				"y": 3731,
 				"location": "Fremennik Province"
 			},
 			{
@@ -407255,8 +408225,18 @@
 				"location": "Isle of Souls"
 			},
 			{
+				"x": 2257,
+				"y": 2787,
+				"location": "Isle of Souls"
+			},
+			{
 				"x": 2259,
 				"y": 2790,
+				"location": "Isle of Souls"
+			},
+			{
+				"x": 2267,
+				"y": 2787,
 				"location": "Isle of Souls"
 			},
 			{
@@ -407265,8 +408245,18 @@
 				"location": "Isle of Souls"
 			},
 			{
+				"x": 2280,
+				"y": 2787,
+				"location": "Isle of Souls"
+			},
+			{
 				"x": 2279,
 				"y": 2794,
+				"location": "Isle of Souls"
+			},
+			{
+				"x": 2291,
+				"y": 2783,
 				"location": "Isle of Souls"
 			},
 			{
@@ -407275,8 +408265,18 @@
 				"location": "Isle of Souls"
 			},
 			{
+				"x": 2297,
+				"y": 2787,
+				"location": "Isle of Souls"
+			},
+			{
 				"x": 2293,
 				"y": 2787,
+				"location": "Isle of Souls"
+			},
+			{
+				"x": 2285,
+				"y": 2797,
 				"location": "Isle of Souls"
 			},
 			{
@@ -407285,8 +408285,18 @@
 				"location": "Isle of Souls"
 			},
 			{
+				"x": 2287,
+				"y": 2802,
+				"location": "Isle of Souls"
+			},
+			{
 				"x": 2289,
 				"y": 2804,
+				"location": "Isle of Souls"
+			},
+			{
+				"x": 2282,
+				"y": 2808,
 				"location": "Isle of Souls"
 			},
 			{
@@ -407300,8 +408310,18 @@
 				"location": "Varlamore"
 			},
 			{
+				"x": 1787,
+				"y": 3028,
+				"location": "Varlamore"
+			},
+			{
 				"x": 1788,
 				"y": 3024,
+				"location": "Varlamore"
+			},
+			{
+				"x": 1789,
+				"y": 3019,
 				"location": "Varlamore"
 			},
 			{
@@ -407310,8 +408330,18 @@
 				"location": "Varlamore"
 			},
 			{
+				"x": 1784,
+				"y": 3048,
+				"location": "Varlamore"
+			},
+			{
 				"x": 1786,
 				"y": 3047,
+				"location": "Varlamore"
+			},
+			{
+				"x": 1788,
+				"y": 3051,
 				"location": "Varlamore"
 			},
 			{
@@ -407320,8 +408350,18 @@
 				"location": "Varlamore"
 			},
 			{
+				"x": 1793,
+				"y": 3049,
+				"location": "Varlamore"
+			},
+			{
 				"x": 1795,
 				"y": 3050,
+				"location": "Varlamore"
+			},
+			{
+				"x": 1796,
+				"y": 3048,
 				"location": "Varlamore"
 			},
 			{
@@ -407330,8 +408370,18 @@
 				"location": "Varlamore"
 			},
 			{
+				"x": 1802,
+				"y": 3051,
+				"location": "Varlamore"
+			},
+			{
 				"x": 1805,
 				"y": 3052,
+				"location": "Varlamore"
+			},
+			{
+				"x": 1806,
+				"y": 3054,
 				"location": "Varlamore"
 			},
 			{
@@ -407340,8 +408390,18 @@
 				"location": "Varlamore"
 			},
 			{
+				"x": 1567,
+				"y": 2952,
+				"location": "Varlamore"
+			},
+			{
 				"x": 1563,
 				"y": 2950,
+				"location": "Varlamore"
+			},
+			{
+				"x": 1559,
+				"y": 2951,
 				"location": "Varlamore"
 			},
 			{
@@ -407350,8 +408410,18 @@
 				"location": "Varlamore"
 			},
 			{
+				"x": 1553,
+				"y": 2954,
+				"location": "Varlamore"
+			},
+			{
 				"x": 1557,
 				"y": 3324,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1560,
+				"y": 3327,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -407360,8 +408430,18 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1565,
+				"y": 3318,
+				"location": "Shipwreck Cove"
+			},
+			{
 				"x": 1570,
 				"y": 3323,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1575,
+				"y": 3316,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -407370,8 +408450,18 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1579,
+				"y": 3315,
+				"location": "Shipwreck Cove"
+			},
+			{
 				"x": 1582,
 				"y": 3311,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1581,
+				"y": 3305,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -407380,8 +408470,18 @@
 				"location": "Shipwreck Cove"
 			},
 			{
+				"x": 1592,
+				"y": 3294,
+				"location": "Shipwreck Cove"
+			},
+			{
 				"x": 1597,
 				"y": 3293,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1588,
+				"y": 3316,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -407390,8 +408490,18 @@
 				"location": "Around Salvager Overlook{{Refn"
 			},
 			{
+				"x": 1637,
+				"y": 3305,
+				"location": "Around Salvager Overlook{{Refn"
+			},
+			{
 				"x": 1646,
 				"y": 3302,
+				"location": "Around Salvager Overlook{{Refn"
+			},
+			{
+				"x": 1655,
+				"y": 3304,
 				"location": "Around Salvager Overlook{{Refn"
 			},
 			{
@@ -407400,8 +408510,18 @@
 				"location": "Around Salvager Overlook{{Refn"
 			},
 			{
+				"x": 1648,
+				"y": 3311,
+				"location": "Around Salvager Overlook{{Refn"
+			},
+			{
 				"x": 1308,
 				"y": 2934,
+				"location": "North of Darkmoon Ravine (1 telegrabbable, rest inaccessible)"
+			},
+			{
+				"x": 1303,
+				"y": 2940,
 				"location": "North of Darkmoon Ravine (1 telegrabbable, rest inaccessible)"
 			},
 			{
@@ -407412,6 +408532,11 @@
 			{
 				"x": 1315,
 				"y": 2885,
+				"location": "South of Darkmoon Ravine (inaccessible)"
+			},
+			{
+				"x": 1306,
+				"y": 2884,
 				"location": "South of Darkmoon Ravine (inaccessible)"
 			},
 			{
@@ -407426,7 +408551,17 @@
 			},
 			{
 				"x": 2321,
+				"y": 2779,
+				"location": "Tear of the Soul"
+			},
+			{
+				"x": 2321,
 				"y": 2776,
+				"location": "Tear of the Soul"
+			},
+			{
+				"x": 2326,
+				"y": 2777,
 				"location": "Tear of the Soul"
 			},
 			{
@@ -407440,8 +408575,18 @@
 				"location": "Cape Conch"
 			},
 			{
+				"x": 3317,
+				"y": 2333,
+				"location": "Cape Conch"
+			},
+			{
 				"x": 3312,
 				"y": 2337,
+				"location": "Cape Conch"
+			},
+			{
+				"x": 3301,
+				"y": 2347,
 				"location": "Cape Conch"
 			},
 			{
@@ -407450,8 +408595,18 @@
 				"location": "Cape Conch"
 			},
 			{
+				"x": 3294,
+				"y": 2356,
+				"location": "Cape Conch"
+			},
+			{
 				"x": 3290,
 				"y": 2364,
+				"location": "Cape Conch"
+			},
+			{
+				"x": 3288,
+				"y": 2366,
 				"location": "Cape Conch"
 			},
 			{
@@ -407460,8 +408615,18 @@
 				"location": "Cape Conch"
 			},
 			{
+				"x": 3282,
+				"y": 2375,
+				"location": "Cape Conch"
+			},
+			{
 				"x": 3279,
 				"y": 2379,
+				"location": "Cape Conch"
+			},
+			{
+				"x": 3277,
+				"y": 2385,
 				"location": "Cape Conch"
 			},
 			{
@@ -407476,7 +408641,17 @@
 			},
 			{
 				"x": 2651,
+				"y": 2408,
+				"location": "Charred Island"
+			},
+			{
+				"x": 2651,
 				"y": 2404,
+				"location": "Charred Island"
+			},
+			{
+				"x": 2652,
+				"y": 2400,
 				"location": "Charred Island"
 			},
 			{
@@ -407485,8 +408660,18 @@
 				"location": "Charred Island"
 			},
 			{
+				"x": 2657,
+				"y": 2396,
+				"location": "Charred Island"
+			},
+			{
 				"x": 2660,
 				"y": 2392,
+				"location": "Charred Island"
+			},
+			{
+				"x": 2655,
+				"y": 2384,
 				"location": "Charred Island"
 			},
 			{
@@ -407495,8 +408680,18 @@
 				"location": "Charred Island"
 			},
 			{
+				"x": 2649,
+				"y": 2386,
+				"location": "Charred Island"
+			},
+			{
 				"x": 2968,
 				"y": 2607,
+				"location": "Remote Island"
+			},
+			{
+				"x": 2971,
+				"y": 2605,
 				"location": "Remote Island"
 			},
 			{
@@ -407505,8 +408700,18 @@
 				"location": "Remote Island"
 			},
 			{
+				"x": 2966,
+				"y": 2602,
+				"location": "Remote Island"
+			},
+			{
 				"x": 2962,
 				"y": 2600,
+				"location": "Remote Island"
+			},
+			{
+				"x": 2958,
+				"y": 2603,
 				"location": "Remote Island"
 			}
 		],
@@ -407563,8 +408768,18 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1484,
+				"y": 3708,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1491,
 				"y": 3707,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1497,
+				"y": 3702,
 				"location": "Great Kourend"
 			},
 			{
@@ -407573,8 +408788,18 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1480,
+				"y": 3714,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1481,
 				"y": 3718,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1484,
+				"y": 3721,
 				"location": "Great Kourend"
 			},
 			{
@@ -407583,8 +408808,18 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1489,
+				"y": 3720,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1490,
 				"y": 3717,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1491,
+				"y": 3719,
 				"location": "Great Kourend"
 			},
 			{
@@ -407593,13 +408828,28 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1492,
+				"y": 3714,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1493,
 				"y": 3710,
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1500,
+				"y": 3717,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1504,
 				"y": 3714,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1505,
+				"y": 3718,
 				"location": "Great Kourend"
 			},
 			{
@@ -407609,7 +408859,17 @@
 			},
 			{
 				"x": 1510,
+				"y": 3716,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1510,
 				"y": 3713,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1513,
+				"y": 3714,
 				"location": "Great Kourend"
 			},
 			{
@@ -407618,8 +408878,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3316,
+				"y": 3888,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3321,
 				"y": 3892,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3287,
+				"y": 3887,
 				"location": "Wilderness"
 			},
 			{
@@ -407628,8 +408898,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3290,
+				"y": 3890,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3291,
 				"y": 3888,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3292,
+				"y": 3887,
 				"location": "Wilderness"
 			},
 			{
@@ -407638,8 +408918,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1403,
+				"y": 3694,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1394,
 				"y": 3715,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1395,
+				"y": 3709,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -407649,7 +408939,17 @@
 			},
 			{
 				"x": 1403,
+				"y": 3706,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1403,
 				"y": 3717,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1406,
+				"y": 3715,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -407658,8 +408958,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1344,
+				"y": 3697,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1347,
 				"y": 3703,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1352,
+				"y": 3706,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -407668,13 +408978,28 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1370,
+				"y": 3727,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1372,
 				"y": 3717,
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1372,
+				"y": 3724,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1380,
 				"y": 3722,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1380,
+				"y": 3713,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -407688,8 +409013,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3214,
+				"y": 3820,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3218,
 				"y": 3818,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3219,
+				"y": 3816,
 				"location": "Wilderness"
 			},
 			{
@@ -407699,12 +409034,27 @@
 			},
 			{
 				"x": 3179,
+				"y": 3850,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3179,
 				"y": 3853,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3184,
+				"y": 3856,
 				"location": "Wilderness"
 			},
 			{
 				"x": 3185,
 				"y": 3850,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3187,
+				"y": 3856,
 				"location": "Wilderness"
 			},
 			{
@@ -407778,6 +409128,11 @@
 				"location": "Blast mine"
 			},
 			{
+				"x": 1481,
+				"y": 3868,
+				"location": "Blast mine"
+			},
+			{
 				"x": 1945,
 				"y": 2758,
 				"location": "Deepfin Point"
@@ -407814,8 +409169,18 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1639,
+				"y": 3622,
+				"location": "Hosidius"
+			},
+			{
 				"x": 1644,
 				"y": 3284,
+				"location": "Salvager Overlook"
+			},
+			{
+				"x": 1630,
+				"y": 3298,
 				"location": "Salvager Overlook"
 			},
 			{
@@ -407888,8 +409253,18 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1536,
+				"y": 3698,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1540,
 				"y": 3695,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1537,
+				"y": 3692,
 				"location": "Great Kourend"
 			},
 			{
@@ -407898,8 +409273,18 @@
 				"location": "Great Kourend"
 			},
 			{
+				"x": 1539,
+				"y": 3685,
+				"location": "Great Kourend"
+			},
+			{
 				"x": 1536,
 				"y": 3686,
+				"location": "Great Kourend"
+			},
+			{
+				"x": 1536,
+				"y": 3682,
 				"location": "Great Kourend"
 			},
 			{
@@ -407910,6 +409295,11 @@
 			{
 				"x": 3391,
 				"y": 3087,
+				"location": "Kharidian Desert"
+			},
+			{
+				"x": 3389,
+				"y": 3088,
 				"location": "Kharidian Desert"
 			},
 			{
@@ -407928,6 +409318,11 @@
 				"location": "Ranging Guild"
 			},
 			{
+				"x": 2678,
+				"y": 3426,
+				"location": "Ranging Guild"
+			},
+			{
 				"x": 2957,
 				"y": 3205,
 				"location": "Rimmington"
@@ -407938,8 +409333,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3098,
+				"y": 3600,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3101,
 				"y": 3592,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3101,
+				"y": 3606,
 				"location": "Wilderness"
 			},
 			{
@@ -407948,8 +409353,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3103,
+				"y": 3600,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3105,
 				"y": 3607,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3109,
+				"y": 3604,
 				"location": "Wilderness"
 			},
 			{
@@ -407990,8 +409405,18 @@
 				"location": "Necropolis"
 			},
 			{
+				"x": 3312,
+				"y": 2726,
+				"location": "Necropolis"
+			},
+			{
 				"x": 3295,
 				"y": 2736,
+				"location": "Necropolis"
+			},
+			{
+				"x": 3339,
+				"y": 2760,
 				"location": "Necropolis"
 			},
 			{
@@ -408000,8 +409425,18 @@
 				"location": "Necropolis"
 			},
 			{
+				"x": 3339,
+				"y": 2712,
+				"location": "Necropolis"
+			},
+			{
 				"x": 3229,
 				"y": 3215,
+				"location": "Lumbridge Castle"
+			},
+			{
+				"x": 3229,
+				"y": 3223,
 				"location": "Lumbridge Castle"
 			},
 			{
@@ -408091,7 +409526,17 @@
 				"location": "Wilderness Agility Course"
 			},
 			{
+				"x": 2994,
+				"y": 3924,
+				"location": "Wilderness Agility Course"
+			},
+			{
 				"x": 2995,
+				"y": 3922,
+				"location": "Wilderness Agility Course"
+			},
+			{
+				"x": 3002,
 				"y": 3922,
 				"location": "Wilderness Agility Course"
 			},
@@ -408106,8 +409551,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3209,
+				"y": 3740,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3216,
 				"y": 3748,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3218,
+				"y": 3739,
 				"location": "Wilderness"
 			},
 			{
@@ -408116,8 +409571,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3220,
+				"y": 3741,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3222,
 				"y": 3744,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3224,
+				"y": 3746,
 				"location": "Wilderness"
 			},
 			{
@@ -408126,8 +409591,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3227,
+				"y": 3742,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3229,
 				"y": 3747,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3236,
+				"y": 3749,
 				"location": "Wilderness"
 			},
 			{
@@ -408137,7 +409612,17 @@
 			},
 			{
 				"x": 3247,
+				"y": 3740,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3247,
 				"y": 3743,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3249,
+				"y": 3744,
 				"location": "Wilderness"
 			},
 			{
@@ -408146,13 +409631,28 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3251,
+				"y": 3749,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3252,
 				"y": 3738,
 				"location": "Wilderness"
 			},
 			{
+				"x": 3257,
+				"y": 3743,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3259,
 				"y": 3735,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3264,
+				"y": 3728,
 				"location": "Wilderness"
 			},
 			{
@@ -408162,7 +409662,17 @@
 			},
 			{
 				"x": 3268,
+				"y": 3730,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3268,
 				"y": 3736,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3269,
+				"y": 3728,
 				"location": "Wilderness"
 			},
 			{
@@ -408171,8 +409681,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3272,
+				"y": 3730,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3275,
 				"y": 3727,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3275,
+				"y": 3729,
 				"location": "Wilderness"
 			},
 			{
@@ -408181,8 +409701,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3278,
+				"y": 3725,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3280,
 				"y": 3724,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3280,
+				"y": 3726,
 				"location": "Wilderness"
 			},
 			{
@@ -408191,8 +409721,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3271,
+				"y": 3658,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3273,
 				"y": 3660,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3273,
+				"y": 3664,
 				"location": "Wilderness"
 			},
 			{
@@ -408201,8 +409741,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3279,
+				"y": 3659,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3280,
 				"y": 3657,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3280,
+				"y": 3658,
 				"location": "Wilderness"
 			},
 			{
@@ -408216,13 +409766,28 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3233,
+				"y": 3605,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3234,
 				"y": 3608,
 				"location": "Wilderness"
 			},
 			{
 				"x": 3235,
+				"y": 3603,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3235,
 				"y": 3605,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3235,
+				"y": 3607,
 				"location": "Wilderness"
 			},
 			{
@@ -408232,7 +409797,17 @@
 			},
 			{
 				"x": 3237,
+				"y": 3603,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3237,
 				"y": 3604,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3237,
+				"y": 3611,
 				"location": "Wilderness"
 			},
 			{
@@ -408242,7 +409817,17 @@
 			},
 			{
 				"x": 3239,
+				"y": 3604,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3239,
 				"y": 3606,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3244,
+				"y": 3611,
 				"location": "Wilderness"
 			},
 			{
@@ -408256,8 +409841,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3103,
+				"y": 3688,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3112,
 				"y": 3686,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3112,
+				"y": 3695,
 				"location": "Wilderness"
 			},
 			{
@@ -408271,13 +409866,28 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 2980,
+				"y": 3764,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3182,
 				"y": 3722,
 				"location": "Wilderness"
 			},
 			{
+				"x": 3184,
+				"y": 3728,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3232,
 				"y": 3948,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3237,
+				"y": 3938,
 				"location": "Wilderness"
 			},
 			{
@@ -408291,8 +409901,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 2999,
+				"y": 3702,
+				"location": "Wilderness"
+			},
+			{
 				"x": 2962,
 				"y": 3697,
+				"location": "Wilderness"
+			},
+			{
+				"x": 2969,
+				"y": 3689,
 				"location": "Wilderness"
 			},
 			{
@@ -408301,8 +409921,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3118,
+				"y": 3644,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3113,
 				"y": 3647,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3112,
+				"y": 3642,
 				"location": "Wilderness"
 			},
 			{
@@ -408311,8 +409941,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3168,
+				"y": 3602,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3167,
 				"y": 3599,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3174,
+				"y": 3598,
 				"location": "Wilderness"
 			},
 			{
@@ -408321,8 +409961,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3177,
+				"y": 3590,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3172,
 				"y": 3593,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3170,
+				"y": 3587,
 				"location": "Wilderness"
 			},
 			{
@@ -408331,8 +409981,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3163,
+				"y": 3592,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3160,
 				"y": 3587,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3158,
+				"y": 3593,
 				"location": "Wilderness"
 			},
 			{
@@ -408341,12 +410001,27 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1347,
+				"y": 3787,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1353,
 				"y": 3781,
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1353,
+				"y": 3787,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1420,
+				"y": 3589,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1417,
 				"y": 3589,
 				"location": "Shayzien"
 			},
@@ -408361,8 +410036,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1439,
+				"y": 3615,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1442,
 				"y": 3617,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1447,
+				"y": 3608,
 				"location": "Shayzien"
 			},
 			{
@@ -408371,8 +410056,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1444,
+				"y": 3605,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1440,
 				"y": 3604,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1442,
+				"y": 3601,
 				"location": "Shayzien"
 			},
 			{
@@ -408381,8 +410076,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1481,
+				"y": 3530,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1482,
 				"y": 3536,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1483,
+				"y": 3532,
 				"location": "Shayzien"
 			},
 			{
@@ -408391,8 +410096,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1439,
+				"y": 3578,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1440,
 				"y": 3577,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1436,
+				"y": 3576,
 				"location": "Shayzien"
 			},
 			{
@@ -408401,8 +410116,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1432,
+				"y": 3576,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1426,
 				"y": 3575,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1427,
+				"y": 3574,
 				"location": "Shayzien"
 			},
 			{
@@ -408411,8 +410136,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1441,
+				"y": 3572,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1435,
 				"y": 3567,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1436,
+				"y": 3566,
 				"location": "Shayzien"
 			},
 			{
@@ -408421,8 +410156,18 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1427,
+				"y": 3569,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1430,
 				"y": 3569,
+				"location": "Shayzien"
+			},
+			{
+				"x": 1429,
+				"y": 3568,
 				"location": "Shayzien"
 			},
 			{
@@ -408436,8 +410181,18 @@
 				"location": "Inside Gu'Tanoth"
 			},
 			{
+				"x": 2542,
+				"y": 3027,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
 				"x": 2545,
 				"y": 3031,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
+				"x": 2512,
+				"y": 3021,
 				"location": "Inside Gu'Tanoth"
 			},
 			{
@@ -408447,7 +410202,17 @@
 			},
 			{
 				"x": 2513,
+				"y": 3020,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
+				"x": 2513,
 				"y": 3021,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
+				"x": 2514,
+				"y": 3020,
 				"location": "Inside Gu'Tanoth"
 			},
 			{
@@ -408456,8 +410221,18 @@
 				"location": "Inside Gu'Tanoth"
 			},
 			{
+				"x": 2512,
+				"y": 3023,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
 				"x": 2571,
 				"y": 3030,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
+				"x": 2571,
+				"y": 3036,
 				"location": "Inside Gu'Tanoth"
 			},
 			{
@@ -408466,8 +410241,18 @@
 				"location": "Inside Gu'Tanoth"
 			},
 			{
+				"x": 2548,
+				"y": 3044,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
 				"x": 2549,
 				"y": 3043,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
+				"x": 2551,
+				"y": 3042,
 				"location": "Inside Gu'Tanoth"
 			},
 			{
@@ -408476,8 +410261,18 @@
 				"location": "Inside Gu'Tanoth"
 			},
 			{
+				"x": 2552,
+				"y": 2986,
+				"location": "Inside Gu'Tanoth"
+			},
+			{
 				"x": 2508,
 				"y": 3086,
+				"location": "Kandarin"
+			},
+			{
+				"x": 2516,
+				"y": 3084,
 				"location": "Kandarin"
 			},
 			{
@@ -408486,8 +410281,18 @@
 				"location": "Kandarin"
 			},
 			{
+				"x": 2510,
+				"y": 3088,
+				"location": "Kandarin"
+			},
+			{
 				"x": 2511,
 				"y": 3114,
+				"location": "Kandarin"
+			},
+			{
+				"x": 2510,
+				"y": 3080,
 				"location": "Kandarin"
 			},
 			{
@@ -408501,6 +410306,11 @@
 				"location": "Kandarin"
 			},
 			{
+				"x": 2505,
+				"y": 3114,
+				"location": "Kandarin"
+			},
+			{
 				"x": 2507,
 				"y": 3116,
 				"location": "Kandarin"
@@ -408511,8 +410321,18 @@
 				"location": "Feldip Hills"
 			},
 			{
+				"x": 2489,
+				"y": 2922,
+				"location": "Feldip Hills"
+			},
+			{
 				"x": 2490,
 				"y": 2929,
+				"location": "Feldip Hills"
+			},
+			{
+				"x": 2493,
+				"y": 2926,
 				"location": "Feldip Hills"
 			},
 			{
@@ -408521,8 +410341,18 @@
 				"location": "Feldip Hills"
 			},
 			{
+				"x": 2499,
+				"y": 2958,
+				"location": "Feldip Hills"
+			},
+			{
 				"x": 2506,
 				"y": 2952,
+				"location": "Feldip Hills"
+			},
+			{
+				"x": 2508,
+				"y": 2982,
 				"location": "Feldip Hills"
 			},
 			{
@@ -408531,13 +410361,28 @@
 				"location": "Feldip Hills"
 			},
 			{
+				"x": 2522,
+				"y": 2983,
+				"location": "Feldip Hills"
+			},
+			{
 				"x": 2542,
 				"y": 2983,
 				"location": "Feldip Hills"
 			},
 			{
+				"x": 2601,
+				"y": 2959,
+				"location": "Feldip Hills"
+			},
+			{
 				"x": 2603,
 				"y": 2964,
+				"location": "Feldip Hills"
+			},
+			{
+				"x": 2603,
+				"y": 2968,
 				"location": "Feldip Hills"
 			},
 			{
@@ -408551,8 +410396,18 @@
 				"location": "Giants' Plateau"
 			},
 			{
+				"x": 3368,
+				"y": 3152,
+				"location": "Giants' Plateau"
+			},
+			{
 				"x": 3376,
 				"y": 3152,
+				"location": "Giants' Plateau"
+			},
+			{
+				"x": 3380,
+				"y": 3148,
 				"location": "Giants' Plateau"
 			},
 			{
@@ -408566,8 +410421,18 @@
 				"location": "Rellekka"
 			},
 			{
+				"x": 2682,
+				"y": 3729,
+				"location": "Rellekka"
+			},
+			{
 				"x": 2453,
 				"y": 3230,
+				"location": "Ourania Cave"
+			},
+			{
+				"x": 2455,
+				"y": 3220,
 				"location": "Ourania Cave"
 			},
 			{
@@ -408576,8 +410441,18 @@
 				"location": "Ourania Cave"
 			},
 			{
+				"x": 2456,
+				"y": 3234,
+				"location": "Ourania Cave"
+			},
+			{
 				"x": 2457,
 				"y": 3224,
+				"location": "Ourania Cave"
+			},
+			{
+				"x": 2459,
+				"y": 3222,
 				"location": "Ourania Cave"
 			},
 			{
@@ -408586,8 +410461,18 @@
 				"location": "Ourania Cave"
 			},
 			{
+				"x": 2466,
+				"y": 3226,
+				"location": "Ourania Cave"
+			},
+			{
 				"x": 2470,
 				"y": 3217,
+				"location": "Ourania Cave"
+			},
+			{
+				"x": 2470,
+				"y": 3223,
 				"location": "Ourania Cave"
 			},
 			{
@@ -408596,13 +410481,28 @@
 				"location": "Ourania Cave"
 			},
 			{
+				"x": 2480,
+				"y": 3219,
+				"location": "Ourania Cave"
+			},
+			{
 				"x": 3354,
 				"y": 3426,
 				"location": "Digsite"
 			},
 			{
+				"x": 3357,
+				"y": 3428,
+				"location": "Digsite"
+			},
+			{
 				"x": 3368,
 				"y": 3411,
+				"location": "Digsite"
+			},
+			{
+				"x": 3369,
+				"y": 3412,
 				"location": "Digsite"
 			},
 			{
@@ -408621,8 +410521,18 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 3720,
+				"y": 3373,
+				"location": "Slepe"
+			},
+			{
 				"x": 3723,
 				"y": 3344,
+				"location": "Slepe"
+			},
+			{
+				"x": 3731,
+				"y": 3347,
 				"location": "Slepe"
 			},
 			{
@@ -408636,13 +410546,28 @@
 				"location": "Ruins of Ullek"
 			},
 			{
+				"x": 3398,
+				"y": 2805,
+				"location": "Ruins of Ullek"
+			},
+			{
 				"x": 1720,
 				"y": 2935,
 				"location": "South-west of Stonecutter Outpost"
 			},
 			{
+				"x": 1717,
+				"y": 2938,
+				"location": "South-west of Stonecutter Outpost"
+			},
+			{
 				"x": 1713,
 				"y": 2934,
+				"location": "South-west of Stonecutter Outpost"
+			},
+			{
+				"x": 1708,
+				"y": 2939,
 				"location": "South-west of Stonecutter Outpost"
 			},
 			{
@@ -408661,6 +410586,11 @@
 				"location": "Lovakengj"
 			},
 			{
+				"x": 1593,
+				"y": 3767,
+				"location": "Lovakengj"
+			},
+			{
 				"x": 1594,
 				"y": 3764,
 				"location": "Lovakengj"
@@ -408668,6 +410598,11 @@
 			{
 				"x": 1545,
 				"y": 3327,
+				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1556,
+				"y": 3311,
 				"location": "Shipwreck Cove"
 			},
 			{
@@ -408681,8 +410616,18 @@
 				"location": "East of Mistrock"
 			},
 			{
+				"x": 1418,
+				"y": 2861,
+				"location": "East of Mistrock"
+			},
+			{
 				"x": 1421,
 				"y": 2857,
+				"location": "East of Mistrock"
+			},
+			{
+				"x": 1421,
+				"y": 2852,
 				"location": "East of Mistrock"
 			},
 			{
@@ -408691,8 +410636,18 @@
 				"location": "Colossal Wyrm"
 			},
 			{
+				"x": 1625,
+				"y": 2924,
+				"location": "Colossal Wyrm"
+			},
+			{
 				"x": 1643,
 				"y": 2905,
+				"location": "Colossal Wyrm"
+			},
+			{
+				"x": 1653,
+				"y": 2910,
 				"location": "Colossal Wyrm"
 			},
 			{
@@ -408701,8 +410656,18 @@
 				"location": "Colossal Wyrm"
 			},
 			{
+				"x": 1655,
+				"y": 2923,
+				"location": "Colossal Wyrm"
+			},
+			{
 				"x": 1657,
 				"y": 2925,
+				"location": "Colossal Wyrm"
+			},
+			{
+				"x": 1627,
+				"y": 2912,
 				"location": "Colossal Wyrm"
 			},
 			{
@@ -408716,13 +410681,28 @@
 				"location": "Isle of Bones"
 			},
 			{
+				"x": 2533,
+				"y": 2539,
+				"location": "Isle of Bones"
+			},
+			{
 				"x": 2531,
 				"y": 2533,
 				"location": "Isle of Bones"
 			},
 			{
+				"x": 2525,
+				"y": 2528,
+				"location": "Isle of Bones"
+			},
+			{
 				"x": 2527,
 				"y": 2527,
+				"location": "Isle of Bones"
+			},
+			{
+				"x": 2529,
+				"y": 2522,
 				"location": "Isle of Bones"
 			},
 			{
@@ -408735,6 +410715,11 @@
 			{
 				"x": 2170,
 				"y": 3432,
+				"location": "Mynydd"
+			},
+			{
+				"x": 2170,
+				"y": 3430,
 				"location": "Mynydd"
 			},
 			{
@@ -408865,6 +410850,11 @@
 				"location": "Barbarian Village"
 			},
 			{
+				"x": 3080,
+				"y": 3443,
+				"location": "Barbarian Village"
+			},
+			{
 				"x": 1367,
 				"y": 3575,
 				"location": "Shayziens' Wall"
@@ -408946,6 +410936,11 @@
 				"location": "Shayzien"
 			},
 			{
+				"x": 1446,
+				"y": 3604,
+				"location": "Shayzien"
+			},
+			{
 				"x": 1448,
 				"y": 3602,
 				"location": "Shayzien"
@@ -408961,8 +410956,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3220,
+				"y": 3746,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3226,
 				"y": 3745,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3243,
+				"y": 3742,
 				"location": "Wilderness"
 			},
 			{
@@ -408971,13 +410976,28 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3263,
+				"y": 3735,
+				"location": "Wilderness"
+			},
+			{
 				"x": 1626,
 				"y": 2930,
 				"location": "Colossal Wyrm Remains"
 			},
 			{
+				"x": 1631,
+				"y": 2908,
+				"location": "Colossal Wyrm Remains"
+			},
+			{
 				"x": 1657,
 				"y": 2914,
+				"location": "Colossal Wyrm Remains"
+			},
+			{
+				"x": 1658,
+				"y": 2922,
 				"location": "Colossal Wyrm Remains"
 			},
 			{
@@ -408991,8 +411011,18 @@
 				"location": "Isle of Bones"
 			},
 			{
+				"x": 2528,
+				"y": 2531,
+				"location": "Isle of Bones"
+			},
+			{
 				"x": 2529,
 				"y": 2526,
+				"location": "Isle of Bones"
+			},
+			{
+				"x": 2527,
+				"y": 2524,
 				"location": "Isle of Bones"
 			},
 			{
@@ -409064,6 +411094,11 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 3749,
+				"y": 3339,
+				"location": "Slepe"
+			},
+			{
 				"x": 1452,
 				"y": 3193,
 				"location": "The Teomat"
@@ -409118,12 +411153,22 @@
 				"x": 1578,
 				"y": 3307,
 				"location": "Shipwreck Cove"
+			},
+			{
+				"x": 1565,
+				"y": 3324,
+				"location": "Shipwreck Cove"
 			}
 		],
 		"Cocktail glass": [
 			{
 				"x": 2483,
 				"y": 3482,
+				"location": "Grand Tree"
+			},
+			{
+				"x": 2489,
+				"y": 3489,
 				"location": "Grand Tree"
 			},
 			{
@@ -409166,6 +411211,11 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 3717,
+				"y": 3360,
+				"location": "Slepe"
+			},
+			{
 				"x": 3721,
 				"y": 3358,
 				"location": "Slepe"
@@ -409176,13 +411226,28 @@
 				"location": "Ferox Enclave"
 			},
 			{
+				"x": 3150,
+				"y": 3640,
+				"location": "Ferox Enclave"
+			},
+			{
 				"x": 3151,
 				"y": 3644,
 				"location": "Ferox Enclave"
 			},
 			{
+				"x": 3154,
+				"y": 3646,
+				"location": "Ferox Enclave"
+			},
+			{
 				"x": 2766,
 				"y": 3277,
+				"location": "Fishing Platform"
+			},
+			{
+				"x": 2766,
+				"y": 3289,
 				"location": "Fishing Platform"
 			},
 			{
@@ -409193,6 +411258,11 @@
 			{
 				"x": 1591,
 				"y": 3528,
+				"location": "Xeric's Lookout"
+			},
+			{
+				"x": 1594,
+				"y": 3530,
 				"location": "Xeric's Lookout"
 			},
 			{
@@ -409225,6 +411295,11 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1392,
+				"y": 3717,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1376,
 				"y": 3714,
 				"location": "Kebos Lowlands"
@@ -409237,8 +411312,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1396,
+				"y": 3718,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1397,
 				"y": 3708,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1358,
+				"y": 3699,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -409247,8 +411332,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1349,
+				"y": 3694,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1356,
 				"y": 3710,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1362,
+				"y": 3725,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -409257,8 +411352,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1373,
+				"y": 3726,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1375,
 				"y": 3718,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1385,
+				"y": 3725,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -409277,8 +411382,18 @@
 				"location": "Ranging Guild"
 			},
 			{
+				"x": 2665,
+				"y": 3424,
+				"location": "Ranging Guild"
+			},
+			{
 				"x": 2668,
 				"y": 3419,
+				"location": "Ranging Guild"
+			},
+			{
+				"x": 2670,
+				"y": 3424,
 				"location": "Ranging Guild"
 			},
 			{
@@ -409287,8 +411402,18 @@
 				"location": "Ranging Guild"
 			},
 			{
+				"x": 2672,
+				"y": 3421,
+				"location": "Ranging Guild"
+			},
+			{
 				"x": 2673,
 				"y": 3428,
+				"location": "Ranging Guild"
+			},
+			{
+				"x": 2676,
+				"y": 3431,
 				"location": "Ranging Guild"
 			},
 			{
@@ -409297,8 +411422,18 @@
 				"location": "Ranging Guild"
 			},
 			{
+				"x": 2677,
+				"y": 3425,
+				"location": "Ranging Guild"
+			},
+			{
 				"x": 2667,
 				"y": 3425,
+				"location": "Ranging Guild"
+			},
+			{
+				"x": 2667,
+				"y": 3427,
 				"location": "Ranging Guild"
 			},
 			{
@@ -409312,8 +411447,18 @@
 				"location": "Kandarin"
 			},
 			{
+				"x": 2576,
+				"y": 3051,
+				"location": "Kandarin"
+			},
+			{
 				"x": 1522,
 				"y": 3247,
+				"location": " North-east of Quetzacalli Gorge"
+			},
+			{
+				"x": 1522,
+				"y": 3253,
 				"location": " North-east of Quetzacalli Gorge"
 			},
 			{
@@ -409347,7 +411492,17 @@
 			},
 			{
 				"x": 2408,
+				"y": 3515,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2408,
 				"y": 3518,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2414,
+				"y": 3510,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -409357,12 +411512,27 @@
 			},
 			{
 				"x": 2415,
+				"y": 3511,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2415,
 				"y": 3517,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2426,
+				"y": 3507,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
 				"x": 2427,
 				"y": 3508,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2419,
+				"y": 3511,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -409376,8 +411546,18 @@
 				"location": "Kebos Lowlands"
 			},
 			{
+				"x": 1364,
+				"y": 3635,
+				"location": "Kebos Lowlands"
+			},
+			{
 				"x": 1371,
 				"y": 3633,
+				"location": "Kebos Lowlands"
+			},
+			{
+				"x": 1372,
+				"y": 3635,
 				"location": "Kebos Lowlands"
 			},
 			{
@@ -409393,13 +411573,28 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 2978,
+				"y": 3531,
+				"location": "Wilderness"
+			},
+			{
 				"x": 1469,
 				"y": 3570,
 				"location": "Shayzien"
 			},
 			{
+				"x": 1481,
+				"y": 3533,
+				"location": "Shayzien"
+			},
+			{
 				"x": 3217,
 				"y": 3745,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3233,
+				"y": 3740,
 				"location": "Wilderness"
 			},
 			{
@@ -409600,6 +411795,11 @@
 				"location": "Lumbridge Swamp"
 			},
 			{
+				"x": 3245,
+				"y": 3156,
+				"location": "Lumbridge Swamp"
+			},
+			{
 				"x": 3000,
 				"y": 3699,
 				"location": "Wilderness"
@@ -409666,6 +411866,11 @@
 				"location": "Slepe"
 			},
 			{
+				"x": 3742,
+				"y": 3334,
+				"location": "Slepe"
+			},
+			{
 				"x": 1665,
 				"y": 3120,
 				"location": "Civitas illa Fortis"
@@ -409692,13 +411897,28 @@
 				"location": "Waterbirth Island"
 			},
 			{
+				"x": 2500,
+				"y": 3731,
+				"location": "Waterbirth Island"
+			},
+			{
 				"x": 2501,
 				"y": 3727,
 				"location": "Waterbirth Island"
 			},
 			{
 				"x": 2501,
+				"y": 3729,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2501,
 				"y": 3732,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2502,
+				"y": 3726,
 				"location": "Waterbirth Island"
 			},
 			{
@@ -409708,7 +411928,17 @@
 			},
 			{
 				"x": 2502,
+				"y": 3756,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2502,
 				"y": 3757,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2503,
+				"y": 3733,
 				"location": "Waterbirth Island"
 			},
 			{
@@ -409717,8 +411947,18 @@
 				"location": "Waterbirth Island"
 			},
 			{
+				"x": 2503,
+				"y": 3759,
+				"location": "Waterbirth Island"
+			},
+			{
 				"x": 2504,
 				"y": 3732,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2504,
+				"y": 3753,
 				"location": "Waterbirth Island"
 			},
 			{
@@ -409727,12 +411967,27 @@
 				"location": "Waterbirth Island"
 			},
 			{
+				"x": 2525,
+				"y": 3751,
+				"location": "Waterbirth Island"
+			},
+			{
 				"x": 2527,
 				"y": 3746,
 				"location": "Waterbirth Island"
 			},
 			{
+				"x": 2528,
+				"y": 3716,
+				"location": "Waterbirth Island"
+			},
+			{
 				"x": 2529,
+				"y": 3735,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2531,
 				"y": 3735,
 				"location": "Waterbirth Island"
 			},
@@ -409742,13 +411997,28 @@
 				"location": "Waterbirth Island"
 			},
 			{
+				"x": 2540,
+				"y": 3765,
+				"location": "Waterbirth Island"
+			},
+			{
 				"x": 2542,
 				"y": 3765,
 				"location": "Waterbirth Island"
 			},
 			{
+				"x": 2546,
+				"y": 3763,
+				"location": "Waterbirth Island"
+			},
+			{
 				"x": 2552,
 				"y": 3757,
+				"location": "Waterbirth Island"
+			},
+			{
+				"x": 2553,
+				"y": 3751,
 				"location": "Waterbirth Island"
 			},
 			{
@@ -409762,8 +412032,18 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1843,
+				"y": 3643,
+				"location": "Hosidius"
+			},
+			{
 				"x": 1840,
 				"y": 3644,
+				"location": "Hosidius"
+			},
+			{
+				"x": 1840,
+				"y": 3645,
 				"location": "Hosidius"
 			},
 			{
@@ -409772,8 +412052,18 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1835,
+				"y": 3638,
+				"location": "Hosidius"
+			},
+			{
 				"x": 1836,
 				"y": 3638,
+				"location": "Hosidius"
+			},
+			{
+				"x": 1836,
+				"y": 3643,
 				"location": "Hosidius"
 			},
 			{
@@ -409782,8 +412072,18 @@
 				"location": "Hosidius"
 			},
 			{
+				"x": 1838,
+				"y": 3644,
+				"location": "Hosidius"
+			},
+			{
 				"x": 2906,
 				"y": 3297,
+				"location": "Hobgoblin Peninsula"
+			},
+			{
+				"x": 2907,
+				"y": 3295,
 				"location": "Hobgoblin Peninsula"
 			},
 			{
@@ -409920,6 +412220,11 @@
 				"location": "Lumbridge"
 			},
 			{
+				"x": 3152,
+				"y": 3306,
+				"location": "Lumbridge"
+			},
+			{
 				"x": 1653,
 				"y": 3571,
 				"location": "Hosidius"
@@ -409968,13 +412273,28 @@
 				"location": "Arandar"
 			},
 			{
+				"x": 2339,
+				"y": 3309,
+				"location": "Arandar"
+			},
+			{
 				"x": 2340,
 				"y": 3312,
 				"location": "Arandar"
 			},
 			{
+				"x": 2338,
+				"y": 3313,
+				"location": "Arandar"
+			},
+			{
 				"x": 2343,
 				"y": 3313,
+				"location": "Arandar"
+			},
+			{
+				"x": 2346,
+				"y": 3310,
 				"location": "Arandar"
 			}
 		],
@@ -410105,8 +412425,18 @@
 				"location": "McGrubor's Wood"
 			},
 			{
+				"x": 2664,
+				"y": 3476,
+				"location": "McGrubor's Wood"
+			},
+			{
 				"x": 2633,
 				"y": 3496,
+				"location": "McGrubor's Wood"
+			},
+			{
+				"x": 2645,
+				"y": 3498,
 				"location": "McGrubor's Wood"
 			},
 			{
@@ -410135,6 +412465,16 @@
 			},
 			{
 				"x": 3152,
+				"y": 3399,
+				"location": "Varrock"
+			},
+			{
+				"x": 3152,
+				"y": 3401,
+				"location": "Varrock"
+			},
+			{
+				"x": 3156,
 				"y": 3401,
 				"location": "Varrock"
 			},
@@ -410149,8 +412489,18 @@
 				"location": "Fremennik Province"
 			},
 			{
+				"x": 2736,
+				"y": 3642,
+				"location": "Fremennik Province"
+			},
+			{
 				"x": 2734,
 				"y": 3638,
+				"location": "Fremennik Province"
+			},
+			{
+				"x": 2735,
+				"y": 3636,
 				"location": "Fremennik Province"
 			},
 			{
@@ -410159,8 +412509,18 @@
 				"location": "Fremennik Province"
 			},
 			{
+				"x": 2738,
+				"y": 3642,
+				"location": "Fremennik Province"
+			},
+			{
 				"x": 2739,
 				"y": 3634,
+				"location": "Fremennik Province"
+			},
+			{
+				"x": 2741,
+				"y": 3639,
 				"location": "Fremennik Province"
 			},
 			{
@@ -410170,7 +412530,17 @@
 			},
 			{
 				"x": 2742,
+				"y": 3638,
+				"location": "Fremennik Province"
+			},
+			{
+				"x": 2742,
 				"y": 3641,
+				"location": "Fremennik Province"
+			},
+			{
+				"x": 2742,
+				"y": 3643,
 				"location": "Fremennik Province"
 			},
 			{
@@ -410184,8 +412554,18 @@
 				"location": "Feldip Hills"
 			},
 			{
+				"x": 2562,
+				"y": 2973,
+				"location": "Feldip Hills"
+			},
+			{
 				"x": 2563,
 				"y": 2971,
+				"location": "Feldip Hills"
+			},
+			{
+				"x": 2565,
+				"y": 2972,
 				"location": "Feldip Hills"
 			}
 		],
@@ -410225,12 +412605,22 @@
 				"x": 3214,
 				"y": 3809,
 				"location": "Wilderness"
+			},
+			{
+				"x": 3218,
+				"y": 3812,
+				"location": "Wilderness"
 			}
 		],
 		"Equa leaves": [
 			{
 				"x": 2639,
 				"y": 2952,
+				"location": "Feldip Hills"
+			},
+			{
+				"x": 2648,
+				"y": 2963,
 				"location": "Feldip Hills"
 			},
 			{
@@ -410246,8 +412636,18 @@
 				"location": "Kandarin"
 			},
 			{
+				"x": 2510,
+				"y": 3090,
+				"location": "Kandarin"
+			},
+			{
 				"x": 2512,
 				"y": 3080,
+				"location": "Kandarin"
+			},
+			{
+				"x": 2517,
+				"y": 3082,
 				"location": "Kandarin"
 			}
 		],
@@ -410272,8 +412672,18 @@
 				"location": "Tree Gnome Stronghold"
 			},
 			{
+				"x": 2424,
+				"y": 3514,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
 				"x": 2409,
 				"y": 3514,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2411,
+				"y": 3512,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -410282,13 +412692,28 @@
 				"location": "Tree Gnome Stronghold"
 			},
 			{
+				"x": 2413,
+				"y": 3511,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
 				"x": 2415,
 				"y": 3518,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
+				"x": 2417,
+				"y": 3508,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
 				"x": 2421,
 				"y": 3509,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2428,
+				"y": 3510,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -410298,7 +412723,17 @@
 			},
 			{
 				"x": 2417,
+				"y": 3512,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2417,
 				"y": 3515,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2417,
+				"y": 3516,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -410307,8 +412742,18 @@
 				"location": "Tree Gnome Stronghold"
 			},
 			{
+				"x": 2418,
+				"y": 3517,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
 				"x": 2421,
 				"y": 3519,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2424,
+				"y": 3517,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -410317,13 +412762,28 @@
 				"location": "Tree Gnome Stronghold"
 			},
 			{
+				"x": 2408,
+				"y": 3408,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
 				"x": 2381,
 				"y": 3414,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
+				"x": 2382,
+				"y": 3412,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
 				"x": 2388,
 				"y": 3410,
+				"location": "Tree Gnome Stronghold"
+			},
+			{
+				"x": 2399,
+				"y": 3406,
 				"location": "Tree Gnome Stronghold"
 			},
 			{
@@ -410337,6 +412797,11 @@
 				"location": "Taverley"
 			},
 			{
+				"x": 2908,
+				"y": 3410,
+				"location": "Taverley"
+			},
+			{
 				"x": 2907,
 				"y": 3394,
 				"location": "Taverley"
@@ -410346,6 +412811,11 @@
 			{
 				"x": 2618,
 				"y": 3323,
+				"location": "East Ardougne"
+			},
+			{
+				"x": 2618,
+				"y": 3324,
 				"location": "East Ardougne"
 			},
 			{
@@ -410366,6 +412836,11 @@
 				"location": "Tyras Camp"
 			},
 			{
+				"x": 2189,
+				"y": 3140,
+				"location": "Tyras Camp"
+			},
+			{
 				"x": 2190,
 				"y": 3144,
 				"location": "Tyras Camp"
@@ -410373,6 +412848,11 @@
 			{
 				"x": 2208,
 				"y": 3259,
+				"location": "Iorwerth Camp"
+			},
+			{
+				"x": 2205,
+				"y": 3257,
 				"location": "Iorwerth Camp"
 			}
 		],
@@ -410387,6 +412867,11 @@
 			{
 				"x": 2535,
 				"y": 3333,
+				"location": "West Ardougne"
+			},
+			{
+				"x": 2549,
+				"y": 3332,
 				"location": "West Ardougne"
 			}
 		],
@@ -410446,8 +412931,18 @@
 				"location": "Weiss"
 			},
 			{
+				"x": 2860,
+				"y": 3923,
+				"location": "Weiss"
+			},
+			{
 				"x": 2872,
 				"y": 3921,
+				"location": "Weiss"
+			},
+			{
+				"x": 2876,
+				"y": 3920,
 				"location": "Weiss"
 			},
 			{
@@ -410480,8 +412975,18 @@
 				"location": "Rellekka"
 			},
 			{
+				"x": 2672,
+				"y": 3738,
+				"location": "Rellekka"
+			},
+			{
 				"x": 3311,
 				"y": 3853,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3307,
+				"y": 3859,
 				"location": "Wilderness"
 			}
 		],
@@ -410489,6 +412994,11 @@
 			{
 				"x": 2806,
 				"y": 3770,
+				"location": "Trollweiss Mountain"
+			},
+			{
+				"x": 2761,
+				"y": 3845,
 				"location": "Trollweiss Mountain"
 			},
 			{
@@ -410519,6 +413029,11 @@
 				"location": "Rogues' Castle"
 			},
 			{
+				"x": 3290,
+				"y": 3928,
+				"location": "Rogues' Castle"
+			},
+			{
 				"x": 3289,
 				"y": 3926,
 				"location": "Rogues' Castle"
@@ -410542,6 +413057,11 @@
 			{
 				"x": 2876,
 				"y": 3921,
+				"location": "Weiss"
+			},
+			{
+				"x": 2877,
+				"y": 3923,
 				"location": "Weiss"
 			}
 		],
@@ -410573,13 +413093,28 @@
 				"location": "Weiss"
 			},
 			{
+				"x": 2851,
+				"y": 3927,
+				"location": "Weiss"
+			},
+			{
 				"x": 2852,
 				"y": 3919,
 				"location": "Weiss"
 			},
 			{
+				"x": 2853,
+				"y": 3924,
+				"location": "Weiss"
+			},
+			{
 				"x": 2857,
 				"y": 3945,
+				"location": "Weiss"
+			},
+			{
+				"x": 2858,
+				"y": 3944,
 				"location": "Weiss"
 			}
 		],
@@ -410644,8 +413179,18 @@
 				"location": "Mountain Camp"
 			},
 			{
+				"x": 2812,
+				"y": 3687,
+				"location": "Mountain Camp"
+			},
+			{
 				"x": 2809,
 				"y": 3679,
+				"location": "Mountain Camp"
+			},
+			{
+				"x": 2804,
+				"y": 3660,
 				"location": "Mountain Camp"
 			}
 		],
@@ -410698,8 +413243,18 @@
 				"location": "Port Sarim"
 			},
 			{
+				"x": 3028,
+				"y": 3259,
+				"location": "Port Sarim"
+			},
+			{
 				"x": 3097,
 				"y": 3695,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3099,
+				"y": 3684,
 				"location": "Wilderness"
 			},
 			{
@@ -410708,8 +413263,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3101,
+				"y": 3702,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3105,
 				"y": 3679,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3105,
+				"y": 3694,
 				"location": "Wilderness"
 			},
 			{
@@ -410718,8 +413283,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3109,
+				"y": 3697,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3112,
 				"y": 3682,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3114,
+				"y": 3690,
 				"location": "Wilderness"
 			},
 			{
@@ -410854,7 +413429,17 @@
 			},
 			{
 				"x": 2893,
+				"y": 3562,
+				"location": "Burthorpe Castle"
+			},
+			{
+				"x": 2893,
 				"y": 3563,
+				"location": "Burthorpe Castle"
+			},
+			{
+				"x": 2893,
+				"y": 3564,
 				"location": "Burthorpe Castle"
 			},
 			{
@@ -410870,8 +413455,18 @@
 				"location": "Lumbridge Swamp"
 			},
 			{
+				"x": 3193,
+				"y": 3181,
+				"location": "Lumbridge Swamp"
+			},
+			{
 				"x": 3179,
 				"y": 3190,
+				"location": "Lumbridge Swamp"
+			},
+			{
+				"x": 3164,
+				"y": 3187,
 				"location": "Lumbridge Swamp"
 			},
 			{
@@ -410881,7 +413476,17 @@
 			},
 			{
 				"x": 3164,
+				"y": 3169,
+				"location": "Lumbridge Swamp"
+			},
+			{
+				"x": 3164,
 				"y": 3180,
+				"location": "Lumbridge Swamp"
+			},
+			{
+				"x": 3170,
+				"y": 3167,
 				"location": "Lumbridge Swamp"
 			},
 			{
@@ -410891,7 +413496,17 @@
 			},
 			{
 				"x": 3173,
+				"y": 3166,
+				"location": "Lumbridge Swamp"
+			},
+			{
+				"x": 3173,
 				"y": 3178,
+				"location": "Lumbridge Swamp"
+			},
+			{
+				"x": 3182,
+				"y": 3165,
 				"location": "Lumbridge Swamp"
 			},
 			{
@@ -410900,8 +413515,18 @@
 				"location": "Lumbridge Swamp"
 			},
 			{
+				"x": 3185,
+				"y": 3161,
+				"location": "Lumbridge Swamp"
+			},
+			{
 				"x": 3189,
 				"y": 3163,
+				"location": "Lumbridge Swamp"
+			},
+			{
+				"x": 3191,
+				"y": 3162,
 				"location": "Lumbridge Swamp"
 			},
 			{
@@ -410915,8 +413540,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3409,
+				"y": 3363,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3412,
 				"y": 3366,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3446,
+				"y": 3279,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410925,8 +413560,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3470,
+				"y": 3429,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3473,
 				"y": 3435,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3494,
+				"y": 3395,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410935,8 +413580,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3435,
+				"y": 3311,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3436,
 				"y": 3298,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3451,
+				"y": 3320,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410945,8 +413600,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3471,
+				"y": 3343,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3441,
 				"y": 3413,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3441,
+				"y": 3438,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410955,8 +413620,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3442,
+				"y": 3412,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3445,
 				"y": 3404,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3445,
+				"y": 3435,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410965,13 +413640,28 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3449,
+				"y": 3434,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3450,
 				"y": 3358,
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3450,
+				"y": 3416,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3451,
 				"y": 3358,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3451,
+				"y": 3402,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410981,7 +413671,17 @@
 			},
 			{
 				"x": 3452,
+				"y": 3378,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3452,
 				"y": 3388,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3452,
+				"y": 3389,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -410990,8 +413690,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3459,
+				"y": 3419,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3460,
 				"y": 3354,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3465,
+				"y": 3432,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -411000,13 +413710,28 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3469,
+				"y": 3433,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3477,
 				"y": 3443,
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3478,
+				"y": 3438,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3480,
 				"y": 3419,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3483,
+				"y": 3426,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -411016,7 +413741,17 @@
 			},
 			{
 				"x": 3428,
+				"y": 3292,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3428,
 				"y": 3436,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3432,
+				"y": 3401,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -411025,8 +413760,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3434,
+				"y": 3432,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3435,
 				"y": 3402,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3435,
+				"y": 3426,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -411035,8 +413780,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3440,
+				"y": 3375,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3447,
 				"y": 3268,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3458,
+				"y": 3367,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -411045,8 +413800,18 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3461,
+				"y": 3413,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3466,
 				"y": 3416,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3469,
+				"y": 3361,
 				"location": "Mort Myre Swamp"
 			},
 			{
@@ -411055,12 +413820,27 @@
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3472,
+				"y": 3403,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3474,
 				"y": 3414,
 				"location": "Mort Myre Swamp"
 			},
 			{
+				"x": 3476,
+				"y": 3364,
+				"location": "Mort Myre Swamp"
+			},
+			{
 				"x": 3494,
+				"y": 3401,
+				"location": "Mort Myre Swamp"
+			},
+			{
+				"x": 3502,
 				"y": 3401,
 				"location": "Mort Myre Swamp"
 			}
@@ -411152,8 +413932,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3278,
+				"y": 3664,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3281,
 				"y": 3663,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3289,
+				"y": 3651,
 				"location": "Wilderness"
 			},
 			{
@@ -411162,8 +413952,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3165,
+				"y": 3660,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3174,
 				"y": 3688,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3184,
+				"y": 3672,
 				"location": "Wilderness"
 			},
 			{
@@ -411172,12 +413972,27 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 2987,
+				"y": 3684,
+				"location": "Wilderness"
+			},
+			{
 				"x": 2955,
 				"y": 3700,
 				"location": "Wilderness"
 			},
 			{
+				"x": 2956,
+				"y": 3702,
+				"location": "Wilderness"
+			},
+			{
 				"x": 2957,
+				"y": 3697,
+				"location": "Wilderness"
+			},
+			{
+				"x": 2959,
 				"y": 3697,
 				"location": "Wilderness"
 			},
@@ -411187,8 +414002,18 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 2976,
+				"y": 3682,
+				"location": "Wilderness"
+			},
+			{
 				"x": 2978,
 				"y": 3704,
+				"location": "Wilderness"
+			},
+			{
+				"x": 2983,
+				"y": 3697,
 				"location": "Wilderness"
 			},
 			{
@@ -411218,8 +414043,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3227,
+				"y": 2415,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3271,
 				"y": 2361,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3284,
+				"y": 2339,
 				"location": "The Great Conch"
 			},
 			{
@@ -411228,8 +414063,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3182,
+				"y": 2399,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3194,
 				"y": 2413,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3181,
+				"y": 2428,
 				"location": "The Great Conch"
 			},
 			{
@@ -411238,8 +414083,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3147,
+				"y": 2418,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3131,
 				"y": 2427,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3129,
+				"y": 2415,
 				"location": "The Great Conch"
 			},
 			{
@@ -411248,8 +414103,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3141,
+				"y": 2392,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3115,
 				"y": 2407,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3118,
+				"y": 2419,
 				"location": "The Great Conch"
 			},
 			{
@@ -411258,8 +414123,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3102,
+				"y": 2415,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3119,
 				"y": 2443,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3143,
+				"y": 2453,
 				"location": "The Great Conch"
 			},
 			{
@@ -411268,8 +414143,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3124,
+				"y": 2510,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3147,
 				"y": 2508,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3182,
+				"y": 2464,
 				"location": "The Great Conch"
 			},
 			{
@@ -411285,13 +414170,28 @@
 				"location": "The Summer Shore"
 			},
 			{
+				"x": 3168,
+				"y": 2388,
+				"location": "The Summer Shore"
+			},
+			{
 				"x": 3179,
 				"y": 2384,
 				"location": "The Summer Shore"
 			},
 			{
+				"x": 3191,
+				"y": 2383,
+				"location": "The Summer Shore"
+			},
+			{
 				"x": 3190,
 				"y": 2379,
+				"location": "The Summer Shore"
+			},
+			{
+				"x": 3197,
+				"y": 2376,
 				"location": "The Summer Shore"
 			},
 			{
@@ -411305,13 +414205,28 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3173,
+				"y": 3540,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3177,
 				"y": 2541,
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3181,
+				"y": 2535,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3183,
 				"y": 2539,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3185,
+				"y": 2541,
 				"location": "The Great Conch"
 			},
 			{
@@ -411325,8 +414240,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3257,
+				"y": 2477,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3259,
 				"y": 2469,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3261,
+				"y": 2458,
 				"location": "The Great Conch"
 			},
 			{
@@ -411335,8 +414260,18 @@
 				"location": "The Great Conch"
 			},
 			{
+				"x": 3256,
+				"y": 2449,
+				"location": "The Great Conch"
+			},
+			{
 				"x": 3261,
 				"y": 2444,
+				"location": "The Great Conch"
+			},
+			{
+				"x": 3258,
+				"y": 2437,
 				"location": "The Great Conch"
 			},
 			{
@@ -411350,8 +414285,18 @@
 				"location": "Cape Conch"
 			},
 			{
+				"x": 3294,
+				"y": 2315,
+				"location": "Cape Conch"
+			},
+			{
 				"x": 3291,
 				"y": 2314,
+				"location": "Cape Conch"
+			},
+			{
+				"x": 3287,
+				"y": 2313,
 				"location": "Cape Conch"
 			},
 			{
@@ -411360,8 +414305,18 @@
 				"location": "Cape Conch"
 			},
 			{
+				"x": 3270,
+				"y": 2310,
+				"location": "Cape Conch"
+			},
+			{
 				"x": 3266,
 				"y": 2311,
+				"location": "Cape Conch"
+			},
+			{
+				"x": 3265,
+				"y": 2317,
 				"location": "Cape Conch"
 			},
 			{
@@ -411408,6 +414363,11 @@
 				"x": 3312,
 				"y": 3769,
 				"location": "Wilderness"
+			},
+			{
+				"x": 3292,
+				"y": 3762,
+				"location": "Wilderness"
 			}
 		],
 		"Leather body": [
@@ -411421,6 +414381,11 @@
 			{
 				"x": 3243,
 				"y": 3383,
+				"location": "Varrock"
+			},
+			{
+				"x": 3245,
+				"y": 3385,
 				"location": "Varrock"
 			}
 		],
@@ -411440,6 +414405,11 @@
 			{
 				"x": 3240,
 				"y": 3940,
+				"location": "Wilderness"
+			},
+			{
+				"x": 3235,
+				"y": 3950,
 				"location": "Wilderness"
 			},
 			{
@@ -411490,8 +414460,18 @@
 				"location": "Fossil Island"
 			},
 			{
+				"x": 3720,
+				"y": 3865,
+				"location": "Fossil Island"
+			},
+			{
 				"x": 3723,
 				"y": 3748,
+				"location": "Fossil Island"
+			},
+			{
+				"x": 3727,
+				"y": 3765,
 				"location": "Fossil Island"
 			},
 			{
@@ -411501,7 +414481,17 @@
 			},
 			{
 				"x": 3729,
+				"y": 3771,
+				"location": "Fossil Island"
+			},
+			{
+				"x": 3729,
 				"y": 3895,
+				"location": "Fossil Island"
+			},
+			{
+				"x": 3730,
+				"y": 3775,
 				"location": "Fossil Island"
 			},
 			{
@@ -411510,8 +414500,18 @@
 				"location": "Fossil Island"
 			},
 			{
+				"x": 3733,
+				"y": 3732,
+				"location": "Fossil Island"
+			},
+			{
 				"x": 3734,
 				"y": 3784,
+				"location": "Fossil Island"
+			},
+			{
+				"x": 3737,
+				"y": 3727,
 				"location": "Fossil Island"
 			},
 			{
@@ -411520,8 +414520,18 @@
 				"location": "Fossil Island"
 			},
 			{
+				"x": 3747,
+				"y": 3717,
+				"location": "Fossil Island"
+			},
+			{
 				"x": 3752,
 				"y": 3725,
+				"location": "Fossil Island"
+			},
+			{
+				"x": 3799,
+				"y": 3751,
 				"location": "Fossil Island"
 			},
 			{
@@ -411530,8 +414540,18 @@
 				"location": "Fossil Island"
 			},
 			{
+				"x": 3743,
+				"y": 3848,
+				"location": "Fossil Island"
+			},
+			{
 				"x": 3748,
 				"y": 3851,
+				"location": "Fossil Island"
+			},
+			{
+				"x": 3813,
+				"y": 3754,
 				"location": "Fossil Island"
 			},
 			{
@@ -411545,8 +414565,18 @@
 				"location": "Mos Le'Harmless"
 			},
 			{
+				"x": 3813,
+				"y": 3058,
+				"location": "Mos Le'Harmless"
+			},
+			{
 				"x": 3828,
 				"y": 3060,
+				"location": "Mos Le'Harmless"
+			},
+			{
+				"x": 3834,
+				"y": 3065,
 				"location": "Mos Le'Harmless"
 			},
 			{
@@ -411609,6 +414639,11 @@
 				"location": "Wilderness"
 			},
 			{
+				"x": 3290,
+				"y": 3806,
+				"location": "Wilderness"
+			},
+			{
 				"x": 3305,
 				"y": 3816,
 				"location": "Wilderness"
@@ -411625,6 +414660,11 @@
 			{
 				"x": 3481,
 				"y": 3277,
+				"location": "Mort'ton"
+			},
+			{
+				"x": 3482,
+				"y": 3276,
 				"location": "Mort'ton"
 			},
 			{
@@ -411711,13 +414751,28 @@
 				"location": "Trouble Brewing"
 			},
 			{
+				"x": 3812,
+				"y": 3017,
+				"location": "Trouble Brewing"
+			},
+			{
 				"x": 3818,
 				"y": 3010,
 				"location": "Trouble Brewing"
 			},
 			{
+				"x": 3813,
+				"y": 3014,
+				"location": "Trouble Brewing"
+			},
+			{
 				"x": 3823,
 				"y": 3001,
+				"location": "Trouble Brewing"
+			},
+			{
+				"x": 3818,
+				"y": 2998,
 				"location": "Trouble Brewing"
 			}
 		]
