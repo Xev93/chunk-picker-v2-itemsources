@@ -10411,6 +10411,19 @@ let getChunkLabel = function(chunkId) {
 
 let h3ChunkUid = 0;
 
+let getSpawnQty = function(itemName, chunkId) {
+    let total = 0;
+    if (!!chunkInfo && !!chunkInfo['spawnCoordinates'] && !!chunkInfo['spawnCoordinates'][itemName]) {
+        chunkInfo['spawnCoordinates'][itemName].forEach((coord) => {
+            let coordChunk = convertToChunkNum(Math.floor((coord.x - 960) / 64), (fullSize / rowSize) - Math.floor((coord.y - 2048) / 64) - 1);
+            if (coordChunk.toString() === chunkId.toString()) {
+                total += coord.qty || 1;
+            }
+        });
+    }
+    return total;
+}
+
 let showSpawnPins = function(encodedItemName, chunkId) {
     let itemName = decodeQueryParam(encodedItemName);
     spawnPins = [];
@@ -10499,11 +10512,17 @@ let openHighest3 = function() {
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks, itemName, sourceType);
                     let dropRate = sourceType.includes('drop') && !!dropRatesGlobal[sourceKey] && !!dropRatesGlobal[sourceKey][itemName] ? ' (' + dropRatesGlobal[sourceKey][itemName] + ')' : '';
+                    let spawnQty = '';
+                    if (sourceType.includes('spawn')) {
+                        let chunkId = sourceKey.split('-')[0];
+                        let qty = getSpawnQty(itemName, chunkId);
+                        spawnQty = qty > 1 ? ' (x' + qty + ')' : '';
+                    }
                     let allHtml = sourceType.includes('spawn')
-                        ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
+                        ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${spawnQty}${chunkLinksHtml}</div>`
                         : `<div class='noscroll highest3-item-source'>${sourceLink} — ${formatSourceType(sourceType)}${dropRate}${chunkLinksHtml}</div>`;
                     let filteredHtml = sourceType.includes('spawn')
-                        ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}</div>`
+                        ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}${spawnQty}</div>`
                         : `<div class='noscroll highest3-item-source'>${sourceLink}${dropRate}${chunkLinksHtml}</div>`;
                     sourceEntries.push({ type: sourceType, allHtml: allHtml, filteredHtml: filteredHtml });
                 });

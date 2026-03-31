@@ -48,14 +48,15 @@ let parseSpawnLines = function(wikitext, itemName) {
             let locationMatch2 = params.match(/location=([^|]+)/);
             if (locationMatch2) { location = locationMatch2[1].replace(/\[\[/g, '').replace(/\]\]/g, ''); }
         }
-        let coordRegex = /\|(\d{3,4}),(\d{3,5})(?:,qty:\d+)?(?=\|)/g;
+        let coordRegex = /\|(\d{3,4}),(\d{3,5})(?:,qty:(\d+))?(?=\|)/g;
         let allParams = '|' + params + '|';
         let coordMatch;
         while ((coordMatch = coordRegex.exec(allParams)) !== null) {
             let x = parseInt(coordMatch[1]);
             let y = parseInt(coordMatch[2]);
+            let qty = coordMatch[3] ? parseInt(coordMatch[3]) : 1;
             if (x >= 960 && x <= 4031 && y >= 2048 && y <= 4223) {
-                spawns.push({ x: x, y: y, location: location });
+                spawns.push({ x: x, y: y, location: location, qty: qty });
             }
         }
     }
