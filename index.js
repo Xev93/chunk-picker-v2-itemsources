@@ -10339,6 +10339,7 @@ let saveIconCache = function() {
 let cacheIconBlob = function(dataItem, url) {
     let img = new Image();
     img.crossOrigin = 'anonymous';
+    img.onerror = function() { itemIconCache[dataItem] = ''; saveIconCache(); };
     img.onload = function() {
         let canvas = document.createElement('canvas');
         canvas.width = img.width;
