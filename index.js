@@ -10435,11 +10435,21 @@ let openHighest3 = function() {
                     let chunks = getSourceChunks(sourceKey, sourceType);
                     let chunkLinksHtml = buildChunkLinksHtml(chunks);
                     let dropRate = sourceType.includes('drop') && !!dropRatesGlobal[sourceKey] && !!dropRatesGlobal[sourceKey][itemName] ? ' (' + dropRatesGlobal[sourceKey][itemName] + ')' : '';
+                    let spawnCount = '';
+                    if (sourceType.includes('spawn') && !!chunkInfo && !!chunkInfo['chunks']) {
+                        let ck = sourceKey.split('-')[0];
+                        let sec = sourceKey.includes('-') ? sourceKey.split('-')[1] : null;
+                        if (!!sec && !!chunkInfo['chunks'][ck] && !!chunkInfo['chunks'][ck]['Sections'] && !!chunkInfo['chunks'][ck]['Sections'][sec] && !!chunkInfo['chunks'][ck]['Sections'][sec]['Spawn'] && !!chunkInfo['chunks'][ck]['Sections'][sec]['Spawn'][itemName]) {
+                            spawnCount = ' (x' + chunkInfo['chunks'][ck]['Sections'][sec]['Spawn'][itemName] + ')';
+                        } else if (!!chunkInfo['chunks'][ck] && !!chunkInfo['chunks'][ck]['Spawn'] && !!chunkInfo['chunks'][ck]['Spawn'][itemName]) {
+                            spawnCount = ' (x' + chunkInfo['chunks'][ck]['Spawn'][itemName] + ')';
+                        }
+                    }
                     let allHtml = sourceType.includes('spawn')
-                        ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${chunkLinksHtml}</div>`
+                        ? `<div class='noscroll highest3-item-source'>${formatSourceType(sourceType)}${spawnCount}${chunkLinksHtml}</div>`
                         : `<div class='noscroll highest3-item-source'>${sourceLink} — ${formatSourceType(sourceType)}${dropRate}${chunkLinksHtml}</div>`;
                     let filteredHtml = sourceType.includes('spawn')
-                        ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}</div>`
+                        ? `<div class='noscroll highest3-item-source'>${chunkLinksHtml.trim() || formatSourceType(sourceType)}${spawnCount}</div>`
                         : `<div class='noscroll highest3-item-source'>${sourceLink}${dropRate}${chunkLinksHtml}</div>`;
                     sourceEntries.push({ type: sourceType, allHtml: allHtml, filteredHtml: filteredHtml });
                 });
